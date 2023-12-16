@@ -38,5 +38,7 @@ It provides:
 To sum it up - they use tf-idf with normalisation and popularity measure.
 During this paper they mentioned a popularity a lot of times - why is it important - look at [9] and [26] as mentioned in the paper.
 
-This paper also contains a lot of information on the entire architecture - but for my purpose I wrote down things only for the searching.
+This paper also contains a lot of information on the entire architecture - but for my purpose I wrote down things only for the searching. 
+
+Other search engines - swoogle, watson, falcons offer filtering based on ontology type (class, property) and ranking based on popularity but they dont look for ontology relations.
  
