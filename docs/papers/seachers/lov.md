@@ -2,7 +2,7 @@
 
 [link](https://www.researchgate.net/publication/312015882_Linked_Open_Vocabularies_LOV_A_gateway_to_reusable_semantic_vocabularies_on_the_Web)
 
-## Report
+### Intro
 
 The web needs a vocabulary management. A vocabulary defines the meaning of data.
 Some are not published or lost -> the data is loosing semantic meaning and interoperability.
@@ -11,6 +11,9 @@ It provides:
     - Ontology search - searching vocabulary terms based on domain (the vocabularies are cathegorized according to the domain they address)
     - Ontology assessment - a ranking or each term retrieved by a keyword search
     - Ontology mapping - 7 types of relationships between ontologies - metadata, import, specs, gens, extensions and equivaleence used for aligments
+
+
+### Extraction and building
 
 - At the vocabulary level it explicitely extracts
     - it extracts the metadata mentioned in the vocabulary (things from dublin core) 
@@ -22,7 +25,8 @@ It provides:
     - term type (class, property, datatype, instances) in the namespace of vocabulary
     - natural language annotations (rdf literals), later used for scoring
     - pupularity - info taken from LODStats project (not so mucj more info on this)
-- Search engine
+
+### Ranking and search 
 
 (The formulas are explained in nice detail on page 8 and 9)
 
@@ -34,6 +38,7 @@ It provides:
 - Everything is indexed and full text search is provided + users can add terms to narrow down the returned results.
 - The final score for a *t* for a query *Q* is combination of the tf-idf, the impotance of label properties on which query terms matched and the popularity of that term in the LOD dataset.  The popularity metric provides an indication on how widely a term is already used
 
+### Sum up
 
 To sum it up - they use tf-idf with normalisation and popularity measure.
 During this paper they mentioned a popularity a lot of times - why is it important - look at [9] and [26] as mentioned in the paper.
