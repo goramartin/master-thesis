@@ -1,5 +1,7 @@
 # Swoogle: A Search and Metadata Engine for the Semantic Web
 
+[Link](https://dl.acm.org/doi/10.1145/1031171.1031289)
+
 The Swoogle is a crawler based indexing and retrieval system. It extracts metadata for each discoreved document and computes relations between documents. 
 Documents are indexed and N-Gram or URIrefs as keywords are used to find relevant documents and compute relevance between documents. 
 

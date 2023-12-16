@@ -1,5 +1,7 @@
 # WATSON: a gateway for the semantic web
 
+[Link](https://www.researchgate.net/publication/48989644_WATSON_a_gateway_for_the_semantic_web)
+
 The paper seems like a list of ideas to implement but it does not describe the solutions. I picked only few ideas.
 
 

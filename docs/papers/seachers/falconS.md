@@ -1,5 +1,8 @@
 # Searching linked objects with falcons: approach, implementation and evaluation
 
+[Link](https://www.researchgate.net/publication/220123904_Searching_Linked_Objects_with_Falcons_Approach_Implementation_and_Evaluation)
+
+
 A keyword-based search engine for linked objects.
 
 - Scenarios:
