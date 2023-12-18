@@ -16,11 +16,11 @@ The phase tries to find a meaningful class from the chosen ontology that will se
 The goal of this thesis is to design, implement, integrate and evaluate multiple methods for the class search in the context of the root selection phase in the Dataspecer tool. 
 The chosen ontology is the large Wikidata ontology. 
 The root selection phase should disregard previously created data structures.
-The designed solutions should consider structural features of the ontology and embedding methods. 
+The designed solutions should consider structural features of the ontology and embedding methods.
 
 
 - Co tam pridat?
   - adamuv nastroj? nestaci jen ten jeden priklad - co kdyz ho nestihne dodelat?
   - jak rict ze ten vyber nema byt iterativni - tj. postupne zpresnujici jak uzivatel klika?
   -  rict ze tam je baseline method string matching?
-  -  rict neco o interfacu?
+  -  rict neco o interfacu - chci co nejjednodussi
