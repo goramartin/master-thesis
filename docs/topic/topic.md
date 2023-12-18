@@ -11,7 +11,7 @@ When a user wants to reuse an ontology containing millions of classes without an
 A one way to reuse a large ontology is a data structure creation process of the Dataspecer tool. 
 The tool enables users to create data structures with the help of classes from various ontologies. 
 The initial step of the creation process is a root selection phase. 
-The phase tries to find a meaningful class from the chosen ontology that will serve as a root of the data structure. 
+The phase aims to find a meaningful class from the chosen ontology that will serve as a root of the data structure. 
 
 The goal of this thesis is to design, implement, integrate and evaluate multiple methods for the class search in the context of the root selection phase in the Dataspecer tool. 
 The chosen ontology is the large Wikidata ontology. 
