@@ -12,6 +12,7 @@ A keyword-based search engine for linked objects.
 
 ### Keyword based search
 
+(in the background it uses swoogle to get the ontologies)
 For each object they construct virtual document that includes textual description that an inverted index from terms in vurtual documents to objects can be built.
 How? By using local name and literal valued properties and entity valued properties.
 They use the notion of rdf sentence to help formalize solution. Triples are b-connected if they contain common blank nodes. It is transitive. It is a minimal self-contained graph. So basically, the document contains local name, labels, predicates with they objects and literal values. All this can be put into a document vector. The assume that the terms in keyword query most likely indicate the name of the desired object directly. The document is then put into Lucene and searched using text.

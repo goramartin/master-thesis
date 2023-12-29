@@ -1,13 +1,11 @@
 
 ## Search frameworks and ontology ranking
 
-### ARRO 17
-
-[Link](https://www.semanticscholar.org/paper/2006-1-St-International-Symposium-on-Pervasive-and-Yu-Cao/dcb6af4aa7779db40a8bbc971cfdd86c1c6b7870)
-
-### OntologyRank 14
-
-[Link](https://dl.acm.org/doi/10.1016/j.eswa.2010.10.002)
+- Order
+  - swoogle, watson, falcons, aktiverank
+  - lov
+  - arro
+  - ontology rank
 
 ### OS-Rank 18
 
