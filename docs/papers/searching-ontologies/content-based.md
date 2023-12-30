@@ -27,7 +27,7 @@ And after that they used the google.
 
 ### Ontology score
 
-They use class match score (something similar was done in Aktive-rank).
-They also search comments and literal values in the ontology to see if they match the selected corpus terms.
+They use class match score - CMS (something similar was done in Aktive-rank).
+They also search comments and literal values (LMS) in the ontology to see if they match the selected corpus terms.
 
 > Note for experiment: in one experiment they used pages restricted to wikipedia pages

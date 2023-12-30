@@ -5,7 +5,7 @@
 ### Intro
 
 A prototype system for ranking ontologies based on a number of structural metrics.
-AKTiveRank is an experimental system for ranking ontologies based on a number of measures that assess the ontology in terms of how well it represents the concepts of interest. It queries the Swoogle service for the ontologies.
+AKTiveRank is an experimental system for ranking ontologies based on a number of measures that assess the ontology in terms of how well it represents the concepts of interest. It queries the Swoogle service for the ontologies. They show 4 feature measurement used for ranking.
 
 > Note: This paper is an improved one. In this one they use improved measurements. E.g. They used previously Centrality measure - the closer to the middle level of hiearchy the better - they found out that the CEM corresponds to the density measures.
 
