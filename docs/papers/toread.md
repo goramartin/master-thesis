@@ -11,11 +11,14 @@
 
 ## To read
 
+- [context-driven search](https://dl.acm.org/doi/10.1145/2815833.2816958)
+
 - [DWRank - Learning Concept Ranking for Ontology Search](https://www.semantic-web-journal.net/system/files/swj883.pdf)
 
-- [OntoQA](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4338348)
 
 ## To read but with less interest
+
+- [OntoQA](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4338348)
 
 - [A comparative application of multi criteria decision making in ontology ranking](https://link.springer.com/chapter/10.1007/978-3-030-20485-3_5)
 
@@ -23,8 +26,15 @@
 
 - OntoRank - page rank like algorithm, not good because links are not used often (similar to swoogle)
 
+# Class importance 
 
-## Ontology mapping
+## Finished
+
+## To read
+
+- [Approaches to measure class importance in KG](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862)
+
+# Ontology mapping
 
 ## Finished
 
