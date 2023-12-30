@@ -4,6 +4,8 @@
 
 The paper seems like a list of ideas to implement but it does not describe the solutions. I picked only few ideas.
 
+### Intro
+
 A tool and an infrastructure that automatically collects, analyses and indexes ontologies and semantic data available online. Unlike Swoogle it takes into account and exploits the particularities of Semantic Web. Such as:
 - considering only explicit relations - does not check for duplicities
 - weak notion of semantic quality - swoogle uses only popularity, but quality can be as important

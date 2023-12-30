@@ -2,6 +2,8 @@
 
 [Link](https://www.sciencedirect.com/science/article/pii/S0957417410011310)
 
+### Intro
+
 They provide a model for ontology selection and ranking.
 It enables semantic matching of taxonomy or relational linkage between concepts.
 It identifies what measures should be used to tank ontologies in the given context.
@@ -48,9 +50,9 @@ To solve these problems three methods are proposed:
   - special type of relation matching
     - is a, super-sub, part of, equivalent...
   - but we regard only is a hierarchy
-  - search for concepts matched by search terms and is a relation batched by is a relatoion between search terms
+  -  is a process to search for concepts matched by search terms and an IS-A relation matched by the IS-A relation between search terms
   - TAXO - taxonomy match measure
-    - looks for two classes matched by the search terms and that also have a is a relation ship
+    - looks for two classes matched by the search terms and that also have a "is a" relation ship
 
 ### Ranking
 

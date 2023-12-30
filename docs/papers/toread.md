@@ -1,35 +1,29 @@
+# Search frameworks and ontology ranking
 
-## Search frameworks and ontology ranking
-
-- Order
+## Finished
   - swoogle, watson, falcons, aktiverank
   - lov
   - arro
   - ontology rank
+  - os rank (incomplete)
+  - content-based
 
-### OS-Rank 18
+## To read
 
-[Link](https://ieeexplore.ieee.org/abstract/document/5369615)
+- [Content-OR](https://www.researchgate.net/publication/289725459_An_Integrated_Ontology_Ranking_Method_for_Enhancing_Knowledge_Reuse)
 
-### Content-based 19
+- [DWRank - Learning Concept Ranking for Ontology Search](https://www.semantic-web-journal.net/system/files/swj883.pdf)
 
-[Link](https://eprints.soton.ac.uk/262605/)
+## To read but with less interest
 
-### Content-OR 20
+- [A comparative application of multi criteria decision making in ontology ranking](https://link.springer.com/chapter/10.1007/978-3-030-20485-3_5)
 
-[Link](https://www.researchgate.net/publication/289725459_An_Integrated_Ontology_Ranking_Method_for_Enhancing_Knowledge_Reuse)
-
-### DWRank - Learning Concept Ranking for Ontology Search
-
-[Link](https://www.semantic-web-journal.net/system/files/swj883.pdf)
-
-
-### A comparative application of multi criteria decision making in ontology ranking
-
-[Link](https://link.springer.com/chapter/10.1007/978-3-030-20485-3_5)
+- [LOD search engine: A semantic search over linked data](https://link.springer.com/article/10.1007/s10844-021-00687-0)
 
 ## Ontology mapping
 
-### Background knowledge in ontology matching
+## Finished
 
-[Link](https://www.semantic-web-journal.net/content/background-knowledge-ontology-matching-survey)
+## To read
+
+- [Background knowledge in ontology matching](https://www.semantic-web-journal.net/content/background-knowledge-ontology-matching-survey)
