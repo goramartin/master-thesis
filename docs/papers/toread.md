@@ -2,6 +2,7 @@
 
 ### Finished
   - swoogle, watson, falcons, aktiverank
+  - onto-qa
   - lov
   - arro
   - ontology-rank (or)
@@ -17,12 +18,9 @@
 
 ### To read but with less interest
 
-- [OntoQA](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4338348)
-
 - [LOD search engine: A semantic search over linked data](https://link.springer.com/article/10.1007/s10844-021-00687-0)
 
 - [A comparative application of multi criteria decision making in ontology ranking](https://link.springer.com/chapter/10.1007/978-3-030-20485-3_5)
-
 
 - OntoRank - page rank like algorithm, not good because links are not used often (similar to swoogle)
 
