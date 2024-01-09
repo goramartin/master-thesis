@@ -10,11 +10,9 @@
   - content-based
   - content-or
   - context-driven
+  - dw-rank
 
 ### To read
-
-- [DWRank - Learning Concept Ranking for Ontology Search](https://www.semantic-web-journal.net/system/files/swj883.pdf)
-
 
 ### To read but with less interest
 
@@ -31,6 +29,8 @@
 ### To read
 
 - [Approaches to measure class importance in KG](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862)
+
+- [CARRank - Identifying Potentially Important Concepts and Relations in an Ontology](https://www.semanticscholar.org/paper/Identifying-Potentially-Important-Concepts-and-in-Wu-Li/4f713a8b72dafa9bfdb64bb967f1e96de5156775)
 
 # Ontology mapping
 
