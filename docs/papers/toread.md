@@ -1,7 +1,11 @@
 # Search frameworks and ontology ranking
 
 ### Finished
-  - swoogle, watson, falcons, aktiverank
+- Order as time went  
+  - swoogle 
+  - watson 
+  - falcons 
+  - aktiverank
   - onto-qa
   - lov
   - arro
@@ -16,21 +20,27 @@
 
 ### To read but with less interest
 
-- [LOD search engine: A semantic search over linked data](https://link.springer.com/article/10.1007/s10844-021-00687-0)
+- [Popularity driven Ontology ranking using Qualitative features](https://orbilu.uni.lu/bitstream/10993/40972/1/2019-07-02_iswc19-ranking-final.pdf) - CARRank, Termpicker, CBRBench, Word2Vec-> popularity based on citations per year and linear trend in citations history, not important to me, but it has a good introduction citating interesting papers and benchmarks
 
-- [A comparative application of multi criteria decision making in ontology ranking](https://link.springer.com/chapter/10.1007/978-3-030-20485-3_5)
+- [LOD search engine: A semantic search over linked data](https://link.springer.com/article/10.1007/s10844-021-00687-0) 
 
-- OntoRank - page rank like algorithm, not good because links are not used often (similar to swoogle)
+- [A comparative application of multi criteria decision making in ontology ranking](https://link.springer.com/chapter/10.1007/978-3-030-20485-3_5) (i used this to obtain the good searchers)
 
-# Class importance 
+# Class importance and/or summarization
 
 ### Finished
 
 ### To read
 
-- [Approaches to measure class importance in KG](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862)
+- [Approaches to measure class importance in KG](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862) (2022) more like a survey
 
-- [CARRank - Identifying Potentially Important Concepts and Relations in an Ontology](https://www.semanticscholar.org/paper/Identifying-Potentially-Important-Concepts-and-in-Wu-Li/4f713a8b72dafa9bfdb64bb967f1e96de5156775)
+- [A novel node importance measures to improve keyword search over rdf graphs](https://link.springer.com/chapter/10.1007/978-3-030-27618-8_11) (2021)
+
+- [CARRank - Identifying Potentially Important Concepts and Relations in an Ontology](https://www.semanticscholar.org/paper/Identifying-Potentially-Important-Concepts-and-in-Wu-Li/4f713a8b72dafa9bfdb64bb967f1e96de5156775) with connection to DW-rank (2009)
+
+- [Ontology understanding without tears: summarization approach](https://www.semantic-web-journal.net/system/files/swj1248.pdf)
+
+- [Ontology summarization: Graph based methods and byond](https://www.worldscientific.com/doi/abs/10.1142/S1793351X19300012)
 
 # Ontology mapping
 
