@@ -20,6 +20,8 @@
 
 ### To read but with less interest
 
+- OntoSelect, OntoKhoj -> popularity based the more references to other o. the better.
+
 - [Popularity driven Ontology ranking using Qualitative features](https://orbilu.uni.lu/bitstream/10993/40972/1/2019-07-02_iswc19-ranking-final.pdf) - CARRank, Termpicker, CBRBench, Word2Vec-> popularity based on citations per year and linear trend in citations history, not important to me, but it has a good introduction citating interesting papers and benchmarks
 
 - [LOD search engine: A semantic search over linked data](https://link.springer.com/article/10.1007/s10844-021-00687-0) 
@@ -47,6 +49,8 @@
 
 ### Finished
 
+- KNIT: Ontology reusability through knowledge graph exploration
+
 ### To read
 
 - [Background knowledge in ontology matching](https://www.semantic-web-journal.net/content/background-knowledge-ontology-matching-survey)
@@ -54,5 +58,3 @@
 # Necasky
 
 - [RAG](https://www.linkedin.com/posts/jbarrasa_advanded-rag-with-knowledge-graphs-ugcPost-7139723682007920640-q9cA)
-
-- [KNIT](https://www.sciencedirect.com/science/article/pii/S0957417423007418)
