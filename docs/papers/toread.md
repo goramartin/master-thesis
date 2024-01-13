@@ -36,12 +36,6 @@
 
 - [Approaches to measure class importance in KG](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862) (2022)  
 
-- [A novel node importance measures to improve keyword search over rdf graphs](https://link.springer.com/chapter/10.1007/978-3-030-27618-8_11) (2021)
-
-- [CARRank - Identifying Potentially Important Concepts and Relations in an Ontology](https://www.semanticscholar.org/paper/Identifying-Potentially-Important-Concepts-and-in-Wu-Li/4f713a8b72dafa9bfdb64bb967f1e96de5156775) with connection to DW-rank (2009)
-
-- [Ontology understanding without tears: summarization approach](https://www.semantic-web-journal.net/system/files/swj1248.pdf)
-
 - [Exploring Importance Measures for Summarizing RDF/S KBs](https://link.springer.com/chapter/10.1007/978-3-319-58068-5_24) + [Exploring RDFS KBs Using Summaries](https://trepo.tuni.fi/bitstream/handle/10024/105166/exploring_rdfs_2018.pdf?sequence=1) + [A comprehensive survey of ontology summarizatoin: methods and measures](https://arxiv.org/pdf/1801.01937.pdf) === [Graph based methods survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8527452) === [Ontology summarization: Graph based methods and byond](https://www.worldscientific.com/doi/abs/10.1142/S1793351X19300012)
 
 
