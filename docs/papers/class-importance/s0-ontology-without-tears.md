@@ -2,7 +2,6 @@
 
 [Link](https://www.researchgate.net/publication/309292439_Ontology_Understanding_without_Tears_The_summarization_approach)
 
-
 ### Intro
 
 Some Kb have a complex schemas, that hinders exploration and exploitation.
