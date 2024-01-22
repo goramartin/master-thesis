@@ -83,3 +83,6 @@ Then they find the Query interpretations but do not mention how it is used for t
 I think I get it now.
 The associations are done based on some training dataset statistics.
 The interpretations are direcly using the searh in match function, but I am not sure how there are searching it since they need to compare it to every thing.
+
+
+This paper has continuation in [Search and Diversification](https://link.springer.com/chapter/10.1007/978-3-319-46523-4_17)
