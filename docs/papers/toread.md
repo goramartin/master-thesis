@@ -7,7 +7,7 @@
   - falcons 
   - aktiverank
   - onto-qa
-  - lov
+  - lov 
   - arro
   - ontology-rank (or)
   - os-rank
@@ -105,6 +105,14 @@ I am trying to include some sort of preference...
   - [Generating Explainable Abstractions for Wikidata Entities](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf)
   - [Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_10)
   - [Wembedder: Wikidata entity embedding web service](https://www.semanticscholar.org/paper/Wembedder%3A-Wikidata-entity-embedding-web-service-Nielsen/d62c1d88d8ecf80e3e1efee1c659e21ea050202d)
+
+
+- General things
+  - [Explore Entity Embedding Effectiveness in Entity Retrieval](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9)
+  - [Entity Embeddings for Entity Ranking: A Replicability Study](https://link.springer.com/chapter/10.1007/978-3-031-28241-6_8)
+  - [Explore Entity Embedding Effectiveness in Entity Retrieval](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9)
+  - [Exploring Summary-Expanded Entity Embeddings for Entity Retrieval](https://ceur-ws.org/Vol-2482/paper7.pdf)
+  - [Graph-Embedding Empowered Entity Retrieval](https://arxiv.org/abs/2005.02843)
 
 - Od krystofa
   - [Word Embeddings for Wine Recommender Systems Using Vocabularies of Experts and Consumers](https://www.ronpub.com/ojwt/OJWT_2018v5i1n04_Cruz.html) 
