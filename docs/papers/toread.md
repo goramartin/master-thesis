@@ -89,12 +89,13 @@
 
 # Neuronky
 
+### Finished
+
+- Semantic Search for Large Scale Clinical Ontologies
+  - and it has complementary paper [Self-learning ontological concept representation for searching and matching](https://www.semanticscholar.org/paper/Self-learning-ontological-concept-representation-Ngo-Koopman/6985beaffc63602f8978e0c58cf7855c089adc9c)
 ### To read
 
-I am trying to include some sort of preference...
-
-- [Semantic Search for Large Scale Clinical Ontologies](https://arxiv.org/abs/2201.00118) 
-  - and it has complementary paper [Self-learning ontological concept representation for searching and matching](https://www.semanticscholar.org/paper/Self-learning-ontological-concept-representation-Ngo-Koopman/6985beaffc63602f8978e0c58cf7855c089adc9c)
+I am trying to include some sort of preference in those papers...
 
 - Importance 
   - [Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3292500.3330855)
