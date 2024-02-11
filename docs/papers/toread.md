@@ -92,7 +92,9 @@
 ### Finished
 
 - Semantic Search for Large Scale Clinical Ontologies
-  - and it has complementary paper [Self-learning ontological concept representation for searching and matching](https://www.semanticscholar.org/paper/Self-learning-ontological-concept-representation-Ngo-Koopman/6985beaffc63602f8978e0c58cf7855c089adc9c)
+- Wembedder: Wikidata entity embedding web service
+
+
 ### To read
 
 I am trying to include some sort of preference in those papers...
@@ -105,7 +107,6 @@ I am trying to include some sort of preference in those papers...
   - [A study of concept similarity in Wikidata](https://content.iospress.com/articles/semantic-web/sw233520)
   - [Generating Explainable Abstractions for Wikidata Entities](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf)
   - [Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_10)
-  - [Wembedder: Wikidata entity embedding web service](https://www.semanticscholar.org/paper/Wembedder%3A-Wikidata-entity-embedding-web-service-Nielsen/d62c1d88d8ecf80e3e1efee1c659e21ea050202d)
 
 
 - General things

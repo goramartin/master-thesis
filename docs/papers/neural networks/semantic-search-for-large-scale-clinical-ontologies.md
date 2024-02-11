@@ -88,3 +88,5 @@ Algorithm is straight forward in the paper page 4.
 
 Otherwise it is good.
 
+
+It has complementary paper [Self-learning ontological concept representation for searching and matching](https://www.semanticscholar.org/paper/Self-learning-ontological-concept-representation-Ngo-Koopman/6985beaffc63602f8978e0c58cf7855c089adc9c)
