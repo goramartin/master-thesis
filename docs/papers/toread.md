@@ -67,6 +67,8 @@
   - using weighted hits, pagerank and focused pagerank (similarty of a concept to the ontology) also includes reranking to obtain better coverage
 - maybe [Workload based summaries](https://dl.acm.org/doi/pdf/10.1145/3468791.3468815) 
   -  importance based on usage in queries, similar to the evaluation in the s0-3 series of papers
+- Importance 
+  - [Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3292500.3330855)
 
 # Ontology mapping
 
@@ -93,37 +95,45 @@
 
 - Semantic Search for Large Scale Clinical Ontologies
 - Wembedder: Wikidata entity embedding web service
-
+- A study of concept similarity in Wikidata 
+- Explore Entity Embedding Effectiveness in Entity Retrieval
 
 ### To read
 
 I am trying to include some sort of preference in those papers...
 
-- Importance 
-  - [Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3292500.3330855)
 
 
 - Regarding Wikidata
-  - [A study of concept similarity in Wikidata](https://content.iospress.com/articles/semantic-web/sw233520)
-  - [Generating Explainable Abstractions for Wikidata Entities](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf)
-  - [Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_10)
-
-
+  - Generating Explainable Abstractions for Wikidata Entities
+  
 - General things
-  - [Explore Entity Embedding Effectiveness in Entity Retrieval](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9)
   - [Entity Embeddings for Entity Ranking: A Replicability Study](https://link.springer.com/chapter/10.1007/978-3-031-28241-6_8)
-  - [Explore Entity Embedding Effectiveness in Entity Retrieval](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9)
-  - [Exploring Summary-Expanded Entity Embeddings for Entity Retrieval](https://ceur-ws.org/Vol-2482/paper7.pdf)
+  - [Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_10)
   - [Graph-Embedding Empowered Entity Retrieval](https://arxiv.org/abs/2005.02843)
+  - [Exploring Summary-Expanded Entity Embeddings for Entity Retrieval](https://ceur-ws.org/Vol-2482/paper7.pdf)
+  - maybe [Autoregressive Entity Retrieval](https://www.semanticscholar.org/paper/Autoregressive-Entity-Retrieval-Cao-Izacard/572c12e81319ccd47cc0c637c82efadd03fd05ab)
+  - maybe [Learning Dense Representations for Entity Retrieval](https://www.semanticscholar.org/paper/Learning-Dense-Representations-for-Entity-Retrieval-Gillick-Kulkarni/6b5cb3b85fb247256b264c2732916cf129015a92)
+  - maybe [Zero-shot Entity Linking with Dense Entity Retrieval](https://www.semanticscholar.org/paper/Zero-shot-Entity-Linking-with-Dense-Entity-Wu-Petroni/592a6691373f3936631bc4ac122f69df09c842bd)
+- Continuation
+  - [BERT-ER: Query-specific BERT Entity Representations for Entity Ranking](https://www.semanticscholar.org/paper/BERT-ER%3A-Query-specific-BERT-Entity-Representations-Chatterjee-Dietz/95786e847d7d73911f3718cf59408ad9a9d5beb8) - should be better then E-BERT
+  - [E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://www.semanticscholar.org/paper/E-BERT%3A-Efficient-Yet-Effective-Entity-Embeddings-Poerner-Waltinger/2bd5b4aed18400bf1a1cc866d9b8d931aa047290)
 
+
+
+### For reference
+
+- General
+  - [Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data](https://www.semanticscholar.org/paper/Fielded-Sequential-Dependence-Model-for-Ad-Hoc-in-Zhiltsov-Kotov/607a834558b16c318be9c735bea048ae6638841d)
+- Recommendations
+  - [A Comparative Study of Text Embedding Models for Semantic Text Similarity in Bug Reports](https://arxiv.org/abs/2308.09193)
+  - prompting fine tuned model [GenRec: Large Language Model for Generative Recommendation](https://arxiv.org/abs/2307.00457)
+  - [Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)](https://arxiv.org/pdf/2203.13366.pdf)
 - Od krystofa
   - [Word Embeddings for Wine Recommender Systems Using Vocabularies of Experts and Consumers](https://www.ronpub.com/ojwt/OJWT_2018v5i1n04_Cruz.html) 
   - [Learning Word Embeddings from Wikipedia for Content-Based Recommender Systems](https://link.springer.com/chapter/10.1007/978-3-319-30671-1_60)
 
-- Nauronky a recommendations
-  - for reference [A Comparative Study of Text Embedding Models for Semantic Text Similarity in Bug Reports](https://arxiv.org/abs/2308.09193)
-  - prompting fine tuned model [GenRec: Large Language Model for Generative Recommendation](https://arxiv.org/abs/2307.00457)
-  - [Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)](https://arxiv.org/pdf/2203.13366.pdf)
+
 
 
 # Keyword search over Knowledge graphs
