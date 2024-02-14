@@ -65,7 +65,7 @@
 - [Graph based methods survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8527452) === [Ontology summarization: Graph based methods and byond](https://www.worldscientific.com/doi/abs/10.1142/S1793351X19300012)
 - [Ontology summarization based on rdf sentence graph](https://dl.acm.org/doi/10.1145/1242572.1242668)
   - using weighted hits, pagerank and focused pagerank (similarty of a concept to the ontology) also includes reranking to obtain better coverage
-- maybe [Workload based summaries](https://dl.acm.org/doi/pdf/10.1145/3468791.3468815) 
+- [Workload based summaries](https://dl.acm.org/doi/pdf/10.1145/3468791.3468815) 
   -  importance based on usage in queries, similar to the evaluation in the s0-3 series of papers
 - Importance 
   - [Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3292500.3330855)
@@ -74,10 +74,17 @@
 
 ### Finished
 
-
 ### To read
 
 - [Background knowledge in ontology matching](https://www.semantic-web-journal.net/content/background-knowledge-ontology-matching-survey)
+
+### For reference
+
+- [OLaLa: Ontology Matching with Large Language Models](https://arxiv.org/abs/2311.03837)
+  - they create embeddings for all classes in the ontology via sentence bert and lexicalization of properties
+  - then they find candidates with sentence bert
+  - then they ask large language model whether the text are the same
+  - and they look for response in the model prompt
 
 # Necasky
 
@@ -108,19 +115,23 @@
   - [Entity Embeddings for Entity Ranking: A Replicability Study](https://link.springer.com/chapter/10.1007/978-3-031-28241-6_8)
   - [Graph-Embedding Empowered Entity Retrieval](https://arxiv.org/abs/2005.02843)
   - [Exploring Summary-Expanded Entity Embeddings for Entity Retrieval](https://ceur-ws.org/Vol-2482/paper7.pdf)
-  - maybe [Autoregressive Entity Retrieval](https://www.semanticscholar.org/paper/Autoregressive-Entity-Retrieval-Cao-Izacard/572c12e81319ccd47cc0c637c82efadd03fd05ab)
-  - maybe [Learning Dense Representations for Entity Retrieval](https://www.semanticscholar.org/paper/Learning-Dense-Representations-for-Entity-Retrieval-Gillick-Kulkarni/6b5cb3b85fb247256b264c2732916cf129015a92)
-  - maybe [Zero-shot Entity Linking with Dense Entity Retrieval](https://www.semanticscholar.org/paper/Zero-shot-Entity-Linking-with-Dense-Entity-Wu-Petroni/592a6691373f3936631bc4ac122f69df09c842bd)
-- Continuation
   - [BERT-ER: Query-specific BERT Entity Representations for Entity Ranking](https://www.semanticscholar.org/paper/BERT-ER%3A-Query-specific-BERT-Entity-Representations-Chatterjee-Dietz/95786e847d7d73911f3718cf59408ad9a9d5beb8) - should be better then E-BERT
   - [E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://www.semanticscholar.org/paper/E-BERT%3A-Efficient-Yet-Effective-Entity-Embeddings-Poerner-Waltinger/2bd5b4aed18400bf1a1cc866d9b8d931aa047290)
 
 
+  - maybe [Autoregressive Entity Retrieval](https://www.semanticscholar.org/paper/Autoregressive-Entity-Retrieval-Cao-Izacard/572c12e81319ccd47cc0c637c82efadd03fd05ab)
+  - maybe [Learning Dense Representations for Entity Retrieval](https://www.semanticscholar.org/paper/Learning-Dense-Representations-for-Entity-Retrieval-Gillick-Kulkarni/6b5cb3b85fb247256b264c2732916cf129015a92)
+  - maybe [Zero-shot Entity Linking with Dense Entity Retrieval](https://www.semanticscholar.org/paper/Zero-shot-Entity-Linking-with-Dense-Entity-Wu-Petroni/592a6691373f3936631bc4ac122f69df09c842bd)
+- Continuation
 
 ### For reference
 
 - General
   - [Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data](https://www.semanticscholar.org/paper/Fielded-Sequential-Dependence-Model-for-Ad-Hoc-in-Zhiltsov-Kotov/607a834558b16c318be9c735bea048ae6638841d)
+    - some older model rival of bm25
+    - there are few mentions how to construct a fielded entity that was used in other papers
+  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720)
+    - a new state of the art method for candidate generation using sparse vectors
 - Recommendations
   - [A Comparative Study of Text Embedding Models for Semantic Text Similarity in Bug Reports](https://arxiv.org/abs/2308.09193)
   - prompting fine tuned model [GenRec: Large Language Model for Generative Recommendation](https://arxiv.org/abs/2307.00457)
@@ -128,7 +139,6 @@
 - Od krystofa
   - [Word Embeddings for Wine Recommender Systems Using Vocabularies of Experts and Consumers](https://www.ronpub.com/ojwt/OJWT_2018v5i1n04_Cruz.html) 
   - [Learning Word Embeddings from Wikipedia for Content-Based Recommender Systems](https://link.springer.com/chapter/10.1007/978-3-319-30671-1_60)
-
 
 # Keyword search over Knowledge graphs
 
