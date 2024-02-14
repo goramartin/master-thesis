@@ -74,7 +74,7 @@ They use TransE.
 There are four types of queries:
 1. entity,
 2. type
-3. attribute
+3. attributed
 4. relation
 
 They evaluate models from different aspects:
@@ -85,7 +85,8 @@ They evaluate models from different aspects:
 
 Baselines use the previous learning to rank model.
 Then they also include entity mention match feature to the baselines.
-And also include TransE to the baselines
+And also include TransE to the baselines.
+So they have one set of features as baseline, then they add entity mention, also they add enetity embeddings.
 
 ### Implementation
 
@@ -96,6 +97,11 @@ TransE model is implmeented in c++.
 ### Evaluation
 
 Embeddings are great.
+The only thing is they first used FSDM to obtain the top 100 result and then used reranking.
+What I missed here is whether they could do only single embeddings and not a combination.
+The TransE does the best job in inmproving the retrieval.
+The most weight in the ranking was given to the transE and FSDM and the baselines too.
+The heighest weight is the transE and is more important than the ELR.
 
 
-The most important paper is [An empirical study of learning to rank for entity search](https://www.semanticscholar.org/paper/An-Empirical-Study-of-Learning-to-Rank-for-Entity-Chen-Xiong/11e1e395431c73a3a961b0c5f30b0227f98873b0)
+The most important paper is which is their previous work [An empirical study of learning to rank for entity search](https://www.semanticscholar.org/paper/An-Empirical-Study-of-Learning-to-Rank-for-Entity-Chen-Xiong/11e1e395431c73a3a961b0c5f30b0227f98873b0)

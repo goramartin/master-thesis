@@ -2,19 +2,19 @@
 
 ### Finished
 - Order as time went  
-  - swoogle 
-  - watson 
-  - falcons 
-  - aktiverank
-  - onto-qa
-  - lov 
-  - arro
-  - ontology-rank (or)
-  - os-rank
-  - content-based
-  - content-or
-  - context-driven
-  - dw-rank
+  1. swoogle 
+  2. watson 
+  3. falcons 
+  4. aktiverank
+  5. onto-qa
+  6. lov 
+  7. arro
+  8. ontology-rank (or)
+  9. os-rank
+  10. content-based
+  11. content-or
+  12. context-driven
+  13. dw-rank
 
 ### To read
 
@@ -45,13 +45,13 @@
 
 ### Finished
 
-- car-rank
-- info-rank
-- s0-ontology-without-tears
-- s1-exploring-importance-measures
-- s2-exploring-kbs-using-summaries
-- s3-summer
-- class-rank
+1. car-rank
+2. info-rank
+3. s0-ontology-without-tears
+4. s1-exploring-importance-measures
+5. s2-exploring-kbs-using-summaries
+6. s3-summer
+7. class-rank
   - additional papers inside my comments
 
 ### To read
@@ -83,7 +83,7 @@
 
 ### Finished
 
-- KNIT: Ontology reusability through knowledge graph exploration
+1. KNIT: Ontology reusability through knowledge graph exploration
 
 ### To read
 
@@ -93,23 +93,19 @@
 
 ### Finished
 
-- Semantic Search for Large Scale Clinical Ontologies
-- Wembedder: Wikidata entity embedding web service
-- A study of concept similarity in Wikidata 
-- Explore Entity Embedding Effectiveness in Entity Retrieval
+1. Semantic Search for Large Scale Clinical Ontologies
+2. Wembedder: Wikidata entity embedding web service
+3. A study of concept similarity in Wikidata 
+4. Explore Entity Embedding Effectiveness in Entity Retrieval
+5. Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph
 
 ### To read
 
-I am trying to include some sort of preference in those papers...
-
-
-
 - Regarding Wikidata
-  - Generating Explainable Abstractions for Wikidata Entities
+  - [Generating Explainable Abstractions for Wikidata Entities]((https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf))
   
 - General things
   - [Entity Embeddings for Entity Ranking: A Replicability Study](https://link.springer.com/chapter/10.1007/978-3-031-28241-6_8)
-  - [Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_10)
   - [Graph-Embedding Empowered Entity Retrieval](https://arxiv.org/abs/2005.02843)
   - [Exploring Summary-Expanded Entity Embeddings for Entity Retrieval](https://ceur-ws.org/Vol-2482/paper7.pdf)
   - maybe [Autoregressive Entity Retrieval](https://www.semanticscholar.org/paper/Autoregressive-Entity-Retrieval-Cao-Izacard/572c12e81319ccd47cc0c637c82efadd03fd05ab)
@@ -134,12 +130,10 @@ I am trying to include some sort of preference in those papers...
   - [Learning Word Embeddings from Wikipedia for Content-Based Recommender Systems](https://link.springer.com/chapter/10.1007/978-3-319-30671-1_60)
 
 
-
-
 # Keyword search over Knowledge graphs
 
 This sounds like something very close to my topic, but the resulting operation is somewhat returning the subgraph containing all the keywords.
-It seems that the first phase is to locate all the keywords matching and then building some sort of Steiner-Tree problem for constructing the minimal. 
+It seems that the first phase is to locate all the keywords matching and then building some sort of Steiner-Tree problem for constructing the minimal subgraph. 
 
 - surveys
   - this one is the most important [A systematic literature review and classification of approaches for keyword search over graph-shaped data](https://www.semantic-web-journal.net/content/systematic-literature-review-and-classification-approaches-keyword-search-over-graph-shaped)

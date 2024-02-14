@@ -181,3 +181,24 @@ Then they use wieghting methods:
 3. cosine similarity
 But in general they use cosine similarity.
 
+
+### Conclusion
+
+- Language models:
+  - They shown that the best similarity was gained with the simple language model where they use the dbpedia abstracts, better than automatically created lexicalizations.
+  - Language model were performing the worst with the labels only.
+  - It is important what information should be considered.
+- Graph models  
+  - The deepWalk performs the best.
+  - But all are outperformed by language models
+  - Telling us that it adds distraction
+  - taken into accound only the relations while disregarding the literals
+- Ontology based
+  - perform the worst but in one dataset it s better than graph embeddings
+- Composite models
+  - it is better to combine a small number of reliable models rather than a lot of models
+  - it is still worse than the language abstract models despide the fact that they include abstract embeddings inside
+- Retrofitting
+  - it is good
+  - but not a great deal in the methods that include hierarchy already
+  - parent-child data was good, siblings did a close to nothing

@@ -86,7 +86,11 @@ They propose a method to generate the data for training based on distances in th
 4 mills of entries from SNOMED CT.
 Algorithm is straight forward in the paper page 4.
 
-Otherwise it is good.
+
+### Conclusion 
+
+It is good.
+The problem is that they use only labels and synonyms on the things.
 
 
-It has complementary paper [Self-learning ontological concept representation for searching and matching](https://www.semanticscholar.org/paper/Self-learning-ontological-concept-representation-Ngo-Koopman/6985beaffc63602f8978e0c58cf7855c089adc9c)
+It has complementary paper about generating the data [Self-learning ontological concept representation for searching and matching](https://www.semanticscholar.org/paper/Self-learning-ontological-concept-representation-Ngo-Koopman/6985beaffc63602f8978e0c58cf7855c089adc9c)
