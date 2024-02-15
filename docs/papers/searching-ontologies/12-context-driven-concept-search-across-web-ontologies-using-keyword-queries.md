@@ -2,7 +2,7 @@
 
 [Link](https://dl.acm.org/doi/10.1145/2815833.2816958)
 
-### Intro
+## Intro
 
 Concept search that exploits structures present in ontologies and constructs contexts to effectively filter the noise in concept search results.
 The main components of the approach are:
@@ -24,7 +24,7 @@ The propose that ontology axioms and properties are used as contextual queries.
 They extract context for each concept based on props and axioms.
 They interpret query based on contexts and rank results.
 
-### Definitions 
+## Definitions 
 
 We have ontologies and input keywords.
 Entity is a named concept or a named property.
@@ -35,7 +35,7 @@ A context of a concept is:
  - entities in relevant axioms - subclass of, equivalent classes, property axioms
  - Precisely: Context(E) = name(E) ∪ annotations(E) ∪ (name(X) that are subclasses, parents, equivalent classes) ∪ (name(X) of domain and range concepts from property axioms)
 
-### Framework
+## Framework
 
 Assumption is that the input keywords are related.
 They generate interpretations using these relations.
@@ -51,12 +51,12 @@ The associations among keywords are used for query interpretation - QI.
 QI evaluates direct and indirect relations among keywords are obtained from context of concept.
 Then they build feature vector and learn to rank.
 
-### Query token association
+## Query token association
 
 "Evaluate co-occurrence among keywords using the Pearson's Chi square measure."
 Don't know what are the expected and observed values.
 
-### Query Interpretation (QI)
+## Query Interpretation (QI)
 
 Co-occurring tokens with single tokens are used to find direct relations, in which all the keywords in the query are related via properties and axioms.
 Indirect relations based on expressions in equivalent and subclass axioms.
@@ -74,7 +74,7 @@ The match function find similar concepts (somehow?).
 
 The classes matched via direct relations have the classname and its context words in the query and the indirect relations are used to extract classes that are not directly in the query.
 
-### My comments
+## My comments
 
 I think I do not understand completely how it is done in the end.
 First they somehow compute the associations but dont tell how it is done exactly.

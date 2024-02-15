@@ -3,7 +3,7 @@
 [Link](https://eprints.soton.ac.uk/262605/)
 [Presentation](https://protege.stanford.edu/conference/2006/submissions/slides/11.1_alani-slides.pdf)
 
-### Intro
+## Intro
 
 This paper presents a paper that obtains a list of ontologies from a search engine that contain the terms probvided by a knowledge engeneer and ranks them.
 The ranking is done based on how many of the concept labels in those ontologies match a set of terms extracted from a corpus of documents related to the domain of knowledge identified by a knowledge engineer's original terms.
@@ -18,14 +18,14 @@ How?
     - they pick 50 top terms
     - the ontology with the most matching terms is the best one
 
-### Obtaining a corpus
+## Obtaining a corpus
 
 They use google search and pick the first 100 pages as a corpus.
 But this was bad since the results were too general.
 Then they used WordNet to expand user search terms.
 And after that they used the google.
 
-### Ontology score
+## Ontology score
 
 They use class match score - CMS (something similar was done in Aktive-rank).
 They also search comments and literal values (LMS) in the ontology to see if they match the selected corpus terms.

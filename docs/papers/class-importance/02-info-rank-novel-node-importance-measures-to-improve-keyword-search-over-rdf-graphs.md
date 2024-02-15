@@ -2,7 +2,7 @@
 
 [Link](https://link.springer.com/chapter/10.1007/978-3-030-27618-8_11)
 
-### Intro
+## Intro
 
 The importance in graphs is typically computed using centrality measures that depend on the degree of nodes, such as PageRank.
 But in RDF graphs the notion of importance is not always related to the node degree.
@@ -39,7 +39,7 @@ What papers are regarding the related work?
 - Closeness centrality for undirected graphs  [14] -> it is not efficient for large graphs
 - [22] degree decoupled pageRank -> penilize or boost importance of node degree in recommendation graphs
 
-### Importance measures in general
+## Importance measures in general
 
 The simplest importance measure is to analyze its degree, but it is a local importance which is not ideal in some contexts.
 We want global analysis.
@@ -50,7 +50,7 @@ We want global analysis.
      - If pages has links from other important nodes, that the page is also important
      - computation using iterative method Power Iteration
 
-### Info rank intuition
+## Info rank intuition
 
 1. important things have lots of information about them
     - more important nodes have more literals thourgh datatype properties
@@ -62,7 +62,7 @@ We want global analysis.
    - in introduction they said that many importance measures depend on node degree
    - but here they do not want to boost or penilize degree importance but focus on a strategy that favours quality of relation rather then quantity
 
-### Ranking
+## Ranking
 
 - Instance informativeness
   - they focus first on instance informativeness since the instances have usually more literals
@@ -83,7 +83,7 @@ We want global analysis.
   - then they use the page rank as usuall but with the weights on properties assuiming undirected graph
   - the final rank for instances is the sum of its informativeness and the page rank score
 
-### Keyword search system
+## Keyword search system
 
 An answer of a keyword query over an rdf graph is one or more minimal subgraphs that cover all keywords.
 
@@ -105,13 +105,13 @@ Then they use SPARQL query to synthesized to compute the answer of keyword query
 In this work they maintain the idea of grouping matches ni classes/properties to generate the SPARQL template.
 But they reformulate the creation to allow use of InfoRank.
 
-### Finding info in RDF graph
+## Finding info in RDF graph
 
 Algorithm that takes keywords and returns the best se of class/property groups.
 They said that they already have the groups compute.
 And just iterate over the groups prioritizing things with higher text matches and info rank scores.
 
-### Connecting and ranking
+## Connecting and ranking
 
 They want to create a Steiner tree with the classes of the groups found in previous step.
 The steiner tree is computed over the schema graph.
@@ -119,7 +119,7 @@ This step generates another template.
 Then everything is put into a sparql query which returns the final triples.
 
 
-### Final comments
+a## Final comments
 
 To my use case, the searching does not seem very beneficial.
 The aim of this paper was to mainly search over general data in RDF with the focus on instance data.

@@ -2,7 +2,7 @@
 
 [Link](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_10)
 
-### Intro
+## Intro
 
 It is mainly used for nlp questions.
 
@@ -27,7 +27,7 @@ It samples random walks and is hybrid between word and network embeddings.
 It utilized ocntextual co-ocurrences as traning data, as in word embeddings, it treats words and entities as different objects.
 It takes into account local graph structure but differentiates between structural component
 
-### Related work
+## Related work
 
 Previously only knowledge graph structure.
 Then a fielded entity representation from a graph then treat it as a document.
@@ -45,7 +45,7 @@ Member and Glove for learning spaces of word and entity embeddings in which word
 There are tries to combine transE and word2vec in one loss function.
 None of the methods were proposed for entity search.
 
-### Method to learn embeddings
+## Method to learn embeddings
 
 The primary goal of the proposed method is to learn joint word and entity embeddings that are effective for entity retrieval from a knowledge graph.
 Idea is related to the idea that graph consists of key structural components.
@@ -58,7 +58,7 @@ The method uses neural architecture that utilizes as inpput a set of sequencs of
 The objective during training is to predict a surrounding context given an element.
 Given a node in the walk, it minimizes the embedding of context elements.
 
-### Training objective
+## Training objective
 
 To obtain embeddings for words and entities and optionally cathegories and predicates.
 A model is with negative skip-gram based model is used.
@@ -66,7 +66,7 @@ We have a set of random walks, the model maximizes the probability of observing 
 The combine they use concatenation of in and out embeddings for words and out and in embeddings for entities.
 Final vectors are of double size.
 
-### Embedding based entity search
+## Embedding based entity search
 
 For a given Q, they calculate embeddings for each word in a query and compute weighted sum of embeddings of query words.
 Where they use unigram probability of the query term in the corpus knowledge grapg literals.
@@ -76,7 +76,7 @@ This can be used for all entities or reranking scenario.
 Not sure what the entity is here.
 We write free text and compute word embeddings for the query and then do what?
 
-### Evaluation
+## Evaluation
 
 The used dbpedia english set and did a dataset construction.
 For the lenght of walks they find that 10 is the best.

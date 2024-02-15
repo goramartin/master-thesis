@@ -2,14 +2,14 @@
 
 [Link](https://ieeexplore.ieee.org/document/5362262)
 
-### Intro
+## Intro
 
 Previous attempts in ranking did not utilize structure information of the ontology.
 Ontology can be regarded as a formal specification of a shared concept set of a certain domain - the structure and the semantic hierarchy can be seen as representing the rule and knowledge of this domain of interest.
 They propose OS_RANK - how concepts are covered and detailed in the ontologies.
 They propose also a measures similar to tf/idf.
 
-### Ranking meethods
+## Ranking meethods
 
 The query terms are mainly regarded as the classes defined in the ontology.
 The importance of a class in an ontology should be determined by not only the frequency of the class label appearing in the ontology but the importance of struture and semantic relations of this class with other classes.

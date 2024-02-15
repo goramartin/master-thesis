@@ -5,7 +5,7 @@
 ! A big paper !
 
 
-### Intro
+## Intro
 
 The aim is to estimate concept similarity between nodes in Wikidata.
 They say concept similarity should be revisited.
@@ -31,7 +31,7 @@ They assume concepts are classes in Wikidata that have instances or subclass rel
 They design a framework that includes representative similarity metrics based on ontological structure, language modeling, knowledge graph embeddings, and their combinations. We experiment with a novel aggregation method called TopSim, that aggregates over different regions in the KG.
 Besides these metrics, we investigate the impact of knowledge injection, where the idea behind is to adapt the precomputed embeddings to a downstream task by leveraging structured knowledge.
 
-### Related work on similarity
+## Related work on similarity
 
 (skipping word similarity)
 
@@ -67,7 +67,7 @@ They address this task with a computational framework that includes metrics base
   - most specific similarity query - can estimate similarity of two entities in a single rdf graph
   - linked data semantic distance - direct and indirect relationshipts between two reasources
 
-### Framework
+## Framework
 
 They use graph embedding and text embedding models, as well as ontology based metrics, as initial similarity estimators.
 They concatenate the embeddings in order to combine their scores.
@@ -78,7 +78,7 @@ Similarity models are distinguishied into three groups - language models, kg emb
 They employ representative methods from each cathegory and aggregate methods to combine the methods.
 They follow a termonology from work [48] and adapt methods and ideas from prior work on word similarity and concept similarity WordNet and DBpedia.
 
-### KG metrics
+## KG metrics
 
 Previously used mostly for link prediction and node classification which rely on similarity between nodes or graph structures.
 Are analogou to the ontology-based vector models in [48].
@@ -111,7 +111,7 @@ Metrics group (but only 4 metrics used):
     - two professors may have a high structural similarity if they play analogous roles in their social networks
     - but the graph must be constructed in a different way
 
-### Language models
+## Language models
 
 They use bert models.
 Bert is a pretraied network that has been optimized for the tasks of language modeling and next sentence prediction.
@@ -135,7 +135,7 @@ They use two input variants.
    - “House cat, domesticated feline, is an organism known by a name, has a heart rate and life expectancy, and is studied by felinology”
    - [lexicalize](https://kgtk.readthedocs.io/en/latest/transform/lexicalize/)
 
-### Ontology based topological metrics
+## Ontology based topological metrics
 
 These metrics use feaatures derived from structure of the underlying ontology.
 They use two OT metrics.
@@ -153,7 +153,7 @@ They use two OT metrics.
      - the idf of a class is a ratio between the number of the class instances and the total number of Qnodes in KG  
 
 
-### Combinations
+## Combinations
 
 They just combine the models together.
 
@@ -163,7 +163,7 @@ They developed top-sim which aggregates different base similarity measures into 
 It agregates the measures, and averages over a whole region of high similarity KG nodes for added robustness.
 The formula is in the paper
 
-### Knowledge injection
+## Knowledge injection
 
 None of the models are directly intended for the task of concept similarity over Wikidata.
 Their application to estimate similarity is relatively speaking in a zero shot manner.
@@ -182,7 +182,7 @@ Then they use wieghting methods:
 But in general they use cosine similarity.
 
 
-### Conclusion
+## Conclusion
 
 - Language models:
   - They shown that the best similarity was gained with the simple language model where they use the dbpedia abstracts, better than automatically created lexicalizations.

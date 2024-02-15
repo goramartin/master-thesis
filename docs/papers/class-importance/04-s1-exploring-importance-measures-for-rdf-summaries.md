@@ -2,7 +2,7 @@
 
 [Link](https://link.springer.com/chapter/10.1007/978-3-319-58068-5_24)
 
-### Intro
+## Intro
 
 The paper is continuation of the previous approach in "ontology without tears".
 We want to understand and explore RDF KBs by summarization.
@@ -12,7 +12,7 @@ They want the most important parts of the schema.
 The linkage is a Steiner Tree problem.
 They split the KB into two parts: schema graph and instances graph (as in "Understanding without tears").
 
-### Importance measures
+## Importance measures
 
 There is no universal accepted measurement on the importance of nodes in an RDF graphs.
 They take a look at 6 measures that were previously proposed.
@@ -39,13 +39,13 @@ They do not compare with spectral measures (HITS, PageRank), because they are ba
   - for a node v, EC is induced subgrapg, wichi contains v, its neighbours and all the edges between them
   - tells us how important a node is to its neighbours
 
-### Adapting the measures for instances
+## Adapting the measures for instances
 
 Firstly, they normalize each importance measure.
 Secondly, they normalize each the number of instances that belong to a schema node.
 The adapted measures are the sum of the normalized importance measure and the number of instances for the thing.
 
-### Evaluation of importance measures
+## Evaluation of importance measures
 
 They do not want to rely on domain experts.
 So they exploit the query logs from DBpedia endpoinds trying to identify the schema nodes that are more frequently queried.
@@ -57,7 +57,7 @@ We define direct and indirect appearance of a class inside query.
   - a class is type of an instance or domain/range of a property that appear in the triple pattern
 They say that the paper outperforms importance measures from previous approaches "ontology without tears" and previous version of the RDFdigest.
 
-### Final Comment
+## Final Comment
 
 The paper states that the methods used here in importance metrics outperforms previous measurements in the "ontology without tears".
 The best metric was betweeness in DBPedia.

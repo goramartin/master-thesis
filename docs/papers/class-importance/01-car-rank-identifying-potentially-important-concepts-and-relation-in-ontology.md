@@ -2,7 +2,7 @@
 
 [Link](https://www.semanticscholar.org/paper/Identifying-Potentially-Important-Concepts-and-in-Wu-Li/4f713a8b72dafa9bfdb64bb967f1e96de5156775) with connection to DW-rank as it uses reverse page rank as well, but simillar.
 
-### Intro
+## Intro
 
 They propose four features to mark potentially important concepts and relations.
 Then they use a simple ranking algorithm to rank concepts and relations altogether.
@@ -17,7 +17,7 @@ It is iterative and the importance and weights grow iteratively.
 The direction of walk for the algorithm is opposed -> which is better for ontology understanding (it is convergent).
 
 
-### Related work
+## Related work
 
 There was an importance metric based on the interest among users, which reminds me of popularity in other metrics \[7 - protege module\]. The [20] does the thing based on hierarchy.
 
@@ -29,7 +29,7 @@ Two approaches from the web:
 
 These two were combined into a Reverse Page Rank, which is a similar method used in this paper, and also in the DW-rank, except they do not work with hyperlink but ontology relations -> subclass, superclass, property of... which each carries a different weight in the algorithm (ObjectRank [3]).
 
-### Model
+## Model
 
 The idea is that we are somehow ranking based on retracing creation of the ontology with regard to four features:
 1. A concept is more important if there are more relations starting from the concept
@@ -41,7 +41,7 @@ The meaning of importance is that the author wants to suggest something to the u
 A concept is a source that owns a set of relations related to other concepts.
 Concepts and relationship exhibit a mutually reinforcing relationships.
 
-### CARRank algorithm
+## CARRank algorithm
 
 We define adjancency matrix representation for the graph (the basic as we know from graph theory).
 We define relation weight function w(v_i, v_j), and w_i_j = w(v_i, v_j) be the weight of all relations from v_i to v_j.
@@ -54,7 +54,7 @@ The computation is the reverse PageRank like.
 The difference is that it updates the weight of relations during the iteration according to the last two features of the model.
 The rest of the algorithm is on pages 41 and 42 since everything is important.
 
-### Experiments
+## Experiments
 
 We want the lowest number of iteration for convergations.
 For measuring quality they employ a variant first 20 precision metrics.

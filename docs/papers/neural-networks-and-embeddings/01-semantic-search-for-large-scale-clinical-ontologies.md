@@ -2,7 +2,7 @@
 
 [Link](https://arxiv.org/abs/2201.00118)
 
-### Intro   
+## Intro   
 
 Finding concepts in large ontologies can be challenging when queries use different vocabularies.
 A search algorithm that overcomes this problem in situations where concepts can be referred to in different ways.
@@ -23,7 +23,7 @@ They propose general solution, in which they use short spans of text as input.
 They make a new algorithm based on learning derived word representations for finding good concepts even in absence of common vocabulary.
 Input is free text (normalisation), concept in the second case.
 
-### Related Work
+## Related Work
 
 - models to overcome vocabulary mismatch problem
   - Word2Vec, GloVe, fastText
@@ -50,7 +50,7 @@ Input is free text (normalisation), concept in the second case.
   - Sentence-BERT is better then InferStern
   - these models have been trained on nl inference data sets, input to a model is a pair of sentences and output is an inferred relation between them
 
-### Method
+## Method
 
 They use a method similar to Sentence-BERT - Siamese architecture, classification and regression objective functions, but instead they use Tripled network, which processes three inputs in parallel and a triplet loss function, which is a learning to rank metric for three inputs.
 
@@ -59,7 +59,7 @@ But on the other hand, by applying distance calculation on the tree structure - 
 Therefore we want distance to a parent be closer than distance to a sibling.
 That must work for synonyms too.
 
-### Label embedding with Triplet-BERT
+## Label embedding with Triplet-BERT
 
 Triplet-BERT was traine to produce a semantic embedding vector for a short text spans such as concepts' labels or user queries.
 It is a Triplet-Network - three instances of the same embedding layer containing a shared BERT network and a pooling layer.
@@ -77,7 +77,7 @@ After that we get three vectors for each input, we compute disances, and objecti
 Once training is completed, the embedding layer is used to produce embedding vectors for any user text query as well as concept labels in the ontology.
 After that, the consine similarity is used between the concept labels and user queries.
 
-### Training data
+## Training data
 
 The NN need a lot of training data.
 There exists datasets where each entry consists of a pair of sentences and a label that is either a relationship type or a semantic similarity score.
@@ -87,7 +87,7 @@ They propose a method to generate the data for training based on distances in th
 Algorithm is straight forward in the paper page 4.
 
 
-### Conclusion 
+## Conclusion 
 
 It is good.
 The problem is that they use only labels and synonyms on the things.

@@ -2,7 +2,7 @@
 
 [Link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862)
 
-### Intro
+## Intro
 
 The aim of this paper is to analyze existing techniques to measure class importance and propose a new approach ClassRank (CR).
 The CR is based on PR and assigns each class an importance score based on the importance of its instances.
@@ -11,7 +11,7 @@ T-BOX is a schema information for ontology building.
 A-BOX is an instance information in KB.
 Some methods use only T-BOX, while others use A-BOX as well.
 
-### Importance vs Relevance
+## Importance vs Relevance
 
 We do not have the exact definition of the importance.
 Several metrics use topological features.
@@ -125,9 +125,9 @@ Class rank was the best.
 Instances are good.
 
 
-### Related work to my interest
+## Related work to my interest
 
-#### Importance scores but without the ones I already have
+### Importance scores but without the ones I already have
 
 - [PageRank on Wikipedia: Towards General Importance Scores for Entities](https://link.springer.com/chapter/10.1007/978-3-319-47602-5_41) with correlation in [Browsing DBpedia with summaries](https://link.springer.com/chapter/10.1007/978-3-319-11955-7_76) and [LinkSUM](https://www.aifb.kit.edu/images/4/43/LinkSUM.pdf)
   - the first paper uses page rank on wikipedia articles and explores the notion of imporance links within the articles
@@ -163,7 +163,7 @@ Instances are good.
 - [Explaining and suggesting relatedness in knowledge graphs](https://link.springer.com/chapter/10.1007/978-3-319-25007-6_36) - exploring relatedness explanation between two entities -> a paths that linnk those entities, they collect paths and then they can detect similar entiteis
 
 
-#### Alternate centrality measures based on Pagerank
+### Alternate centrality measures based on Pagerank
 
 - Personalized page rank 
   - a set of restarting nodes which are the only ones that the random walker can jump to when it gets bored of following links.

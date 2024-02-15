@@ -2,7 +2,7 @@
 
 [Link](https://www.researchgate.net/publication/309292439_Ontology_Understanding_without_Tears_The_summarization_approach)
 
-### Intro
+## Intro
 
 Some Kb have a complex schemas, that hinders exploration and exploitation.
 We want to highlight the most representative concepts of data sources.
@@ -22,7 +22,7 @@ Then they try to connect them to subgraph by maximizing locally or globally the 
 
 
 
-### Assessment measures
+## Assessment measures
 
 The notion of relevance.
 Previously PageRank has been used in an XML.
@@ -35,13 +35,13 @@ With respect to instances as well (more instances the better).
 First they detemine how central/important a node is by the number of instances it has == **relative cardinality**, after that they use centrality of node in entire KB == **in/out centrality**.
 Combination is the final relevance.
 
-### Relative cardinality
+## Relative cardinality
 
 For classes it is the number of instances.
 For edges between two schema nodes, it is the number of corresponding instances of the nodes.
 They also define a value if there are no instances for the edge.
 
-### In/Out centrality
+## In/Out centrality
 
 In order to combine the notion of centrality in schema and the distribution of the corresponding dataset.
 It is an adaptation of the **Degree centrality** - in undirected graph, it is defined as the number of links incident upon a node.
@@ -51,7 +51,7 @@ The weights are experimentaly defined.
 They distringuish standart RDF types and user defined properties.
 The user defined ones are more important.
 
-### Final relevance
+## Final relevance
 
 How central a schema nod is KB is.
 It should consider also the centrality of other nodes.
@@ -59,9 +59,9 @@ It is affected by its surrounding neighbours and more specifically by the number
 It is determined by both the connectivity in the schema and the cardinality of the instances.
 Notion of relevance depicts the capability of a node to represent other nodes.
 
-### Construction of the summary
+## Construction of the summary
 
-#### Selection through coverage maximization 
+### Selection through coverage maximization 
 
 We want to produce valid subschema graphs.
 The paths should collect the most relevant nodes by minimizing overlaps (maximize by minimize).
@@ -75,12 +75,12 @@ The algorithm works with coverage such that it maximizes adding paths to the sum
 The number of nodes in the graph is assigned by the user, 20% default.
 So they just say, hey i want to include these top 20%, try to find paths that maximize coverage.
 
-#### Selection through relevance maximization 
+### Selection through relevance maximization 
 
 We try to optimize the total importance of the deges of the summary graph.
 We define relevance of an edge byt the relevance score of its endpoints.
 
-### Evaluation
+## Evaluation
 
 Three stages:
 1. compare a part of selected ontologies with different approaches that do not have instances

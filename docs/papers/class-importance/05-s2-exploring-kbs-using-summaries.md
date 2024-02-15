@@ -2,7 +2,7 @@
 
 [Link](https://trepo.tuni.fi/bitstream/handle/10024/105166/exploring_rdfs_2018.pdf?sequence=1)
 
-### Intro
+## Intro
 
 This paper is the continuation of the previous paper on Exploring importance measures for summarization.
 It mainly explores additional methods for summarizations, but mainly it defines operator zoom in and zoom out on summary graph.

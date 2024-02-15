@@ -2,7 +2,7 @@
 
 [Link](https://www.sciencedirect.com/science/article/pii/S0957417410011310)
 
-### Intro
+## Intro
 
 They provide a model for ontology selection and ranking.
 It enables semantic matching of taxonomy or relational linkage between concepts.
@@ -18,7 +18,7 @@ To solve these problems three methods are proposed:
     - polysemy preprocessing - query interface to add context
     - no solution for relation matching - this is the topic of this paper.
 
-### Semantic matching based on semantic similarity
+## Semantic matching based on semantic similarity
 
 - semantic similarity is integration of concept similarity, relational similarity and taxonomic relational similarity.
 
@@ -54,7 +54,7 @@ To solve these problems three methods are proposed:
   - TAXO - taxonomy match measure
     - looks for two classes matched by the search terms and that also have a "is a" relation ship
 
-### Ranking
+## Ranking
 
 - selection:
   - standarts:

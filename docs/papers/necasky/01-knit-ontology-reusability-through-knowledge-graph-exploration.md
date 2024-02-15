@@ -2,7 +2,7 @@
 
 [Link](https://www.sciencedirect.com/science/article/pii/S0957417423007418)
 
-### Intro
+## Intro
 
 A tool KNIT for exploration of open repositories to help users fetch previously designed concepts using keywords.
 The topis is finding concepts in ontologies (multiple ontologies).
@@ -26,14 +26,14 @@ A lot of ontologies are not designed to be reused or be found in general.
 
 For my use case, it seems that only the part regarding search and selection is interesting.
 
-### What is KNIT?
+## What is KNIT?
 
 Knowledge recycling networks.
 They propose methods to find and rank existing concepts in existing knowledge structures, given a domain context.
 Analyse thier interconnection and relationships and representing them with a KG.
 And then further use those concepts to create new ontology by transforming them to an ontology.
 
-### KNIT Framework
+## KNIT Framework
 
 KNIT takes a list of keywords as input and produces an OWL ontology importing the reused artefacts as a results.
 It has 4 steps:
@@ -58,11 +58,11 @@ It has 4 steps:
    - for each node of the new taxonomy -> retrieve properties from the source ontologies
 5. resulting owl
 
-### Use cases - Knowledge graph exploration
+## Use cases - Knowledge graph exploration
 
 A 5 page showing input and resulting graphs.
 
-### Evaluation
+## Evaluation
 
 The final graphs are unknown -> subjective measure is needed.
 They propose two synthetic use cases.

@@ -2,7 +2,7 @@
 
 [Link](https://www.semanticscholar.org/paper/2006-1-St-International-Symposium-on-Pervasive-and-Yu-Cao/dcb6af4aa7779db40a8bbc971cfdd86c1c6b7870)
 
-### Intro
+## Intro
 
 They take hierarhy of the ontology into an account.
 They measure semantic relations among classes and logic views of the query terms are formed.
@@ -10,7 +10,7 @@ Arro tries to automatically rank the ontologies and ceates a logic view for the 
 The user will use terms as input query and the ARRO will query the Swoogle service.
 It then loads the ontologies and ranks them accordingly.
 
-### Logic view of the concept
+## Logic view of the concept
 
 The concept is either a class, a property or comments.
 The main concept is the class.
@@ -22,7 +22,7 @@ The main concept is the class.
     - e(A) - other direct relations - subclassOf, intersectionOf, complementOf... Now, instance of, subclass of, superclass of describe the hierarchy and application in the real world we add eh(A). To weight them higher than other in e(A).
 - The idea is that the larger LV(A) is in an ontology, the better it is.
 
-### Query and Ranking
+## Query and Ranking
 
 - Query
   - matching the label directly and using its equivalence relationships in the output as well.

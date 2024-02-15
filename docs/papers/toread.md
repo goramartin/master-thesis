@@ -113,6 +113,8 @@
 4. Explore Entity Embedding Effectiveness in Entity Retrieval (2019)
 5. Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph (2020)
 6. Exploring Summary-Expanded Entity Embeddings for Entity Retrieval (2018)
+7. Graph-Embedding Empowered Entity Retrieval (2020)
+8. Entity Embeddings for Entity Ranking: A Replicability Study (2023)
 
 ### To read
 
@@ -120,16 +122,32 @@
   - [Generating Explainable Abstractions for Wikidata Entities]((https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf)) (2021)
   
 - General things
-  - [Entity Embeddings for Entity Ranking: A Replicability Study](https://link.springer.com/chapter/10.1007/978-3-031-28241-6_8) (2023)
-  - [Graph-Embedding Empowered Entity Retrieval](https://arxiv.org/abs/2005.02843) (2020)
   - [BERT-ER: Query-specific BERT Entity Representations for Entity Ranking](https://www.semanticscholar.org/paper/BERT-ER%3A-Query-specific-BERT-Entity-Representations-Chatterjee-Dietz/95786e847d7d73911f3718cf59408ad9a9d5beb8) (2022) should be better then E-BERT
+  - [Entity-aware Transformers for Entity Search](https://dl.acm.org/doi/10.1145/3477495.3531971) (2022)
   - [E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://www.semanticscholar.org/paper/E-BERT%3A-Efficient-Yet-Effective-Entity-Embeddings-Poerner-Waltinger/2bd5b4aed18400bf1a1cc866d9b8d931aa047290) (2019)
 
-
-- Continuation
+- Maybe but not necessary
   - maybe [Autoregressive Entity Retrieval](https://www.semanticscholar.org/paper/Autoregressive-Entity-Retrieval-Cao-Izacard/572c12e81319ccd47cc0c637c82efadd03fd05ab) (2020)
-  - maybe [Learning Dense Representations for Entity Retrieval](https://www.semanticscholar.org/paper/Learning-Dense-Representations-for-Entity-Retrieval-Gillick-Kulkarni/6b5cb3b85fb247256b264c2732916cf129015a92 (2019)
+  - maybe [Learning Dense Representations for Entity Retrieval](https://www.semanticscholar.org/paper/Learning-Dense-Representations-for-Entity-Retrieval-Gillick-Kulkarni/6b5cb3b85fb247256b264c2732916cf129015a92)(2019)
   - maybe [Zero-shot Entity Linking with Dense Entity Retrieval](https://www.semanticscholar.org/paper/Zero-shot-Entity-Linking-with-Dense-Entity-Wu-Petroni/592a6691373f3936631bc4ac122f69df09c842bd) (2019)
+
+### For RAG, query expansion, and Sparse retrieval
+
+- RAG
+  - [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)
+    - first retrieve results
+    - then ask the llm for ranking or selecting
+    - does not have to read it all, just learn what others did
+- Query expansion
+  - [Query Expansion by Prompting Large Language Models](https://arxiv.org/abs/2305.03653)
+    - unlike traditional pseudo relevance they use llm
+    - try different prompts
+    - it is more powerful than the traditional methods
+  - [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/abs/2303.07678)
+    - the method generates pseudo documents by few shot prompting and then expands the query with generated pseudo documents
+- Sparse retrieval as first step
+  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
+    - a new state of the art method for candidate generation using sparse vectors
 
 ### For reference
 
@@ -137,8 +155,6 @@
   - [Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data](https://www.semanticscholar.org/paper/Fielded-Sequential-Dependence-Model-for-Ad-Hoc-in-Zhiltsov-Kotov/607a834558b16c318be9c735bea048ae6638841d) (2015)
     - some older model rival of bm25
     - there are few mentions how to construct a fielded entity that was used in other papers
-  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
-    - a new state of the art method for candidate generation using sparse vectors
 - Recommendations
   - [A Comparative Study of Text Embedding Models for Semantic Text Similarity in Bug Reports](https://arxiv.org/abs/2308.09193) (2023)
   - prompting fine tuned model [GenRec: Large Language Model for Generative Recommendation](https://arxiv.org/abs/2307.00457) (2023)

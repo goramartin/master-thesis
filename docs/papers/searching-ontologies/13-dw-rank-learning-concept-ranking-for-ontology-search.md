@@ -1,8 +1,7 @@
 # DWRank - Learning Concept Ranking for Ontology Search
 
 [Link](https://www.semantic-web-journal.net/system/files/swj883.pdf)
-
-### Intro
+## Intro
 
 A two-staged bi-directional graph walk ranking algorithm for concepts in ontologies.
 It characterises two features of a concept in an ontology to determine its rank in a corpus. 
@@ -17,20 +16,20 @@ Ranking in two steps:
    -  Ranking model is learnt from the  features using LamdaMart (L2R)
 2. online query processing and evaluation againts a human
 
-### Preliminaries
+## Preliminaries
 
 Ontology is a directed graph (V,E,L), where L(v) label function for a vertex, ontology or relationship.
 We have explicit and implicit relationships between vertices.
 Intra-ontology relationships and inter-ontology relationships.
 Forward-link concepts and back-link concepts.
 
-### Framework
+## Framework
 
 In the first phase we have two indices - ConHubIdx and OntAuthIdx.
 Then L2R is used to learn how to combine these two.
 Then the user query is used to match labels of concepts and their index values are retrieved and a final top-k is returned
 
-### Offline learning and Index construction
+## Offline learning and Index construction
 
 - ranking model
   - two features for ranking
@@ -58,7 +57,7 @@ Then the user query is used to match labels of concepts and their index values a
   - linear ranking model
   - the text relevancy favours concepts that match multiple query words
 
-### Query evaluation
+## Query evaluation
 
 The user inputs a query.
 The concepts that match any keyword are added to a set of potential candidates (labels, comments, descritptions).

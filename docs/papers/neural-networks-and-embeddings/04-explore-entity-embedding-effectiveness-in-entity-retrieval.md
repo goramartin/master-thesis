@@ -2,7 +2,7 @@
 
 [Link](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9)
 
-### Intro
+## Intro
 
 The paper explores entity embedding in ad-hoc entity retrieval.
 Entity embedding learns a lots of semantic infomration from knowledge graph.
@@ -28,7 +28,7 @@ Then they calculate the soft match feature between query entities and candidate 
 They also use previous methods - textual info with multiple fiealds and exact match features with different ranking methods for all fields.
 The learning to rank models is used to combine all exact match features and entity soft match features.
 
-### Related work
+## Related work
 
 Entity retrival was first introduced in [14] by using keyword queries.
 Existing retrieval systems concern more about the representation of entities.
@@ -42,7 +42,7 @@ Thre is also Fielded Sequential Dependence Model.
 Probabilistic Retrieval Model for Semistructured Data weights query terms according to document collection statistics.
 Learning to rank models such combine features from different models and different fields, which is the best thing.
 
-### Methodology
+## Methodology
 
 Three models - text match, entity mention, and embedding model.
 Given a query and entity representations, they aim to generate ranking score for entity in the model.
@@ -69,7 +69,7 @@ Previous models only calculate Q and E correlation with exact matches without co
 We map the query and entity into the same vector space.
 They use TransE.
 
-### Experimental Methodology
+## Experimental Methodology
 
 There are four types of queries:
 1. entity,
@@ -88,13 +88,13 @@ Then they also include entity mention match feature to the baselines.
 And also include TransE to the baselines.
 So they have one set of features as baseline, then they add entity mention, also they add enetity embeddings.
 
-### Implementation
+## Implementation
 
 They use fielded sequential dependence mode as the basic retrieval model to generate candidate entity set with top 100 entities.
 Learning to rank are implemented in different toolkits.
 TransE model is implmeented in c++.
 
-### Evaluation
+## Evaluation
 
 Embeddings are great.
 The only thing is they first used FSDM to obtain the top 100 result and then used reranking.

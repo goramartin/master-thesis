@@ -3,14 +3,14 @@
 [Link](https://ieeexplore.ieee.org/document/4338348)
 
 
-### Intro
+# Intro
 
 A paper that presents a tool OntoQA that evaluates ontologies related to a certain set of ters and then ranks them. 
 The tool enables users to tune the search results with selecting preference on a given set of ranking features.
 It also evaluates ontologies with their instances (populated ontologies).
 This paper is a novel approach based on their previous metrics - but this one should be better.
 
-### Architecture based on components
+## Architecture based on components
 
 1. Ontology
   - calculate metric values
@@ -23,14 +23,14 @@ This paper is a novel approach based on their previous metrics - but this one sh
   - evaluate them as given in 2.
   - display ranking
 
-### Terminology
+## Terminology
 
 - ontology schema 
   - a set of classes, relationshiops, inheritance function, class attribures
 - knowledge base
   - a set of instances, instance function (gets instances of a class), relationship instantiation function (rel between two instances)
 
-### Metrics
+## Metrics
 
 The evaluation is done in two dimensions -> instance level and schema level.
 Schema level evaluates the design of an ontology.
@@ -77,7 +77,7 @@ Instance level evaluates placement of instance data.
       - which relation ships are in focus
       - it is the number of instances of the relationship compaed to the total number of property instances in KB
 
-### Score calculation
+## Score calculation
 
 1. extend input keywords with WordNet
 2. determine the classes and rels. whose names contain any extended term

@@ -2,7 +2,7 @@
 
 [Link](https://www.researchgate.net/publication/289725459_An_Integrated_Ontology_Ranking_Method_for_Enhancing_Knowledge_Reuse)
 
-### Intro
+## Intro
 
 This paper proposes integrated ranking based on the "content-based" and "ontology-rank" approaches.
 They argue that with keyword matching it is impossible to find semantic meaning in the ontologies -> we need similarity matching.
@@ -14,7 +14,7 @@ The purpose of this paper is to propose a framework for the ranking.
   - ontology rank
     - difficult to be used in publicly available ontologies
 
-### Combination
+## Combination
 
 The input of the framework are the user's input terms.
 The terms are used for querying Swoogle.
