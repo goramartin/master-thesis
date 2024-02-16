@@ -44,14 +44,14 @@ Such methods include FSDM, bm25f.
 
 Linking entities mentioned in the quer to the kg enables the use of relationships encoded in the kg.
 Previous work shown that it can boost efectiveness.
-! In this research they use TagMe entity linker, since it is used to anotate short and poorly composed text like queries. 
-! TagMe adds wikipedia hyperlinks to parts of text.
+In this research they use TagMe entity linker, since it is used to anotate short and poorly composed text like queries. 
+TagMe adds wikipedia hyperlinks to parts of text.
 
 ### Related work using embeddings for entity retrieval
 
 Previously people used TransE, it showed a consistent improvements but small.
 TransE is not a good choise if the graph has 1 to many, transitive or symetric relationships.
-! In this research, they use graph embeddings but use Wikipedia2Vec.
+In this research, they use graph embeddings but use Wikipedia2Vec.
 
 ## Embedding based retrieval 
 

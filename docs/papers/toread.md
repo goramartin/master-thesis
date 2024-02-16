@@ -80,6 +80,9 @@
 
 ### To read maybe
 
+- [Knowledge graph embedding methods for entity alignment: experimental review](https://link.springer.com/article/10.1007/s10618-023-00941-9)
+  - bert_int method is the best
+
 - [Background knowledge in ontology matching](https://www.semantic-web-journal.net/content/background-knowledge-ontology-matching-survey-0) (2022)
   - good matchers are using BERT models just LLM
   - KGMatcher from google is good or WiktionaryMAtcher 
@@ -125,11 +128,7 @@
   - [BERT-ER: Query-specific BERT Entity Representations for Entity Ranking](https://www.semanticscholar.org/paper/BERT-ER%3A-Query-specific-BERT-Entity-Representations-Chatterjee-Dietz/95786e847d7d73911f3718cf59408ad9a9d5beb8) (2022) should be better then E-BERT
   - [Entity-aware Transformers for Entity Search](https://dl.acm.org/doi/10.1145/3477495.3531971) (2022)
   - [E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://www.semanticscholar.org/paper/E-BERT%3A-Efficient-Yet-Effective-Entity-Embeddings-Poerner-Waltinger/2bd5b4aed18400bf1a1cc866d9b8d931aa047290) (2019)
-
-- Maybe but not necessary
-  - maybe [Autoregressive Entity Retrieval](https://www.semanticscholar.org/paper/Autoregressive-Entity-Retrieval-Cao-Izacard/572c12e81319ccd47cc0c637c82efadd03fd05ab) (2020)
-  - maybe [Learning Dense Representations for Entity Retrieval](https://www.semanticscholar.org/paper/Learning-Dense-Representations-for-Entity-Retrieval-Gillick-Kulkarni/6b5cb3b85fb247256b264c2732916cf129015a92)(2019)
-  - maybe [Zero-shot Entity Linking with Dense Entity Retrieval](https://www.semanticscholar.org/paper/Zero-shot-Entity-Linking-with-Dense-Entity-Wu-Petroni/592a6691373f3936631bc4ac122f69df09c842bd) (2019)
+  - [ENT Rank: Retrieving Entities for Topical Information Needs through Entity-Neighbor-Text Relations](https://www.cs.unh.edu/~dietz/appendix/ent-rank/)
 
 ### For RAG, query expansion, and Sparse retrieval
 
@@ -152,6 +151,10 @@
 ### For reference
 
 - General
+  - [KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation](https://arxiv.org/abs/1911.06136)
+    - incorporating knowledge into the BERT models
+  - [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223)
+    - incorporating knowledge into the BERT models
   - [Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data](https://www.semanticscholar.org/paper/Fielded-Sequential-Dependence-Model-for-Ad-Hoc-in-Zhiltsov-Kotov/607a834558b16c318be9c735bea048ae6638841d) (2015)
     - some older model rival of bm25
     - there are few mentions how to construct a fielded entity that was used in other papers
@@ -170,4 +173,3 @@ It seems that the first phase is to locate all the keywords matching and then bu
 
 - surveys
   - this one is the most important [A systematic literature review and classification of approaches for keyword search over graph-shaped data](https://www.semantic-web-journal.net/content/systematic-literature-review-and-classification-approaches-keyword-search-over-graph-shaped) (2023)
-  - [Keyword search on large graphs: A survey](https://link.springer.com/article/10.1007/s41019-021-00154-4) (2021)
