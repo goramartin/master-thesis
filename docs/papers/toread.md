@@ -118,6 +118,8 @@
 6. Exploring Summary-Expanded Entity Embeddings for Entity Retrieval (2018)
 7. Graph-Embedding Empowered Entity Retrieval (2020)
 8. Entity Embeddings for Entity Ranking: A Replicability Study (2023)
+9. BERT-ER: Query-specific BERT Entity Representations for Entity Ranking (2022)
+
 
 ### To read
 
@@ -125,10 +127,13 @@
   - [Generating Explainable Abstractions for Wikidata Entities]((https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf)) (2021)
   
 - General things
-  - [BERT-ER: Query-specific BERT Entity Representations for Entity Ranking](https://www.semanticscholar.org/paper/BERT-ER%3A-Query-specific-BERT-Entity-Representations-Chatterjee-Dietz/95786e847d7d73911f3718cf59408ad9a9d5beb8) (2022) should be better then E-BERT
   - [Entity-aware Transformers for Entity Search](https://dl.acm.org/doi/10.1145/3477495.3531971) (2022)
   - [E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://www.semanticscholar.org/paper/E-BERT%3A-Efficient-Yet-Effective-Entity-Embeddings-Poerner-Waltinger/2bd5b4aed18400bf1a1cc866d9b8d931aa047290) (2019)
   - [ENT Rank: Retrieving Entities for Topical Information Needs through Entity-Neighbor-Text Relations](https://www.cs.unh.edu/~dietz/appendix/ent-rank/)
+  - [KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation](https://arxiv.org/abs/1911.06136)
+    - incorporating knowledge into the BERT models
+  - [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223)
+    - incorporating knowledge into the BERT models
 
 ### For RAG, query expansion, and Sparse retrieval
 
@@ -151,10 +156,6 @@
 ### For reference
 
 - General
-  - [KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation](https://arxiv.org/abs/1911.06136)
-    - incorporating knowledge into the BERT models
-  - [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223)
-    - incorporating knowledge into the BERT models
   - [Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data](https://www.semanticscholar.org/paper/Fielded-Sequential-Dependence-Model-for-Ad-Hoc-in-Zhiltsov-Kotov/607a834558b16c318be9c735bea048ae6638841d) (2015)
     - some older model rival of bm25
     - there are few mentions how to construct a fielded entity that was used in other papers
