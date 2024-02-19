@@ -29,7 +29,7 @@ Methods like deepwalk expect non labeled edges and can consider extensions of th
 
 There are other like TransE - where they learn representation of triples with names.
 
-Wikipedia2Vec applies graph embeddings to Wikipedia, creating embeddings that jointly captures test and links.
+Wikipedia2Vec applies graph embeddings to Wikipedia, creating embeddings that jointly captures text and links.
 The method embeds words and entities in the same vector space by using word context and graph context.
 The word-word context is modeled using word2vec, entity-entity context considers neighbouring entities in the link graph and word-entity context takes the words in the context of the anchot that links to an entity.
 

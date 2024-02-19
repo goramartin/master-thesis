@@ -87,7 +87,6 @@
   - good matchers are using BERT models just LLM
   - KGMatcher from google is good or WiktionaryMAtcher 
 
-
 ### For reference
 
 - [OLaLa: Ontology Matching with Large Language Models](https://arxiv.org/abs/2311.03837) (2023)
@@ -119,7 +118,8 @@
 7. Graph-Embedding Empowered Entity Retrieval (2020)
 8. Entity Embeddings for Entity Ranking: A Replicability Study (2023)
 9. BERT-ER: Query-specific BERT Entity Representations for Entity Ranking (2022)
-
+10. Entity-aware Transformers for Entity Search (2022)
+11. Inductive Representation Learning on Large Graphs (2018)
 
 ### To read
 
@@ -127,13 +127,14 @@
   - [Generating Explainable Abstractions for Wikidata Entities]((https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf)) (2021)
   
 - General things
-  - [Entity-aware Transformers for Entity Search](https://dl.acm.org/doi/10.1145/3477495.3531971) (2022)
   - [E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://www.semanticscholar.org/paper/E-BERT%3A-Efficient-Yet-Effective-Entity-Embeddings-Poerner-Waltinger/2bd5b4aed18400bf1a1cc866d9b8d931aa047290) (2019)
-  - [ENT Rank: Retrieving Entities for Topical Information Needs through Entity-Neighbor-Text Relations](https://www.cs.unh.edu/~dietz/appendix/ent-rank/)
-  - [KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation](https://arxiv.org/abs/1911.06136)
+  - [ERNIE: Enhanced Language Representation with Informative Entities](https://www.semanticscholar.org/paper/ERNIE%3A-Enhanced-Language-Representation-with-Zhang-Han/5f994dc8cae24ca9d1ed629e517fcc652660ddde)
+  - [KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (2020)
     - incorporating knowledge into the BERT models
-  - [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223)
+  - [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223) (2022)
     - incorporating knowledge into the BERT models
+
+- Maybe
 
 ### For RAG, query expansion, and Sparse retrieval
 
@@ -156,6 +157,14 @@
 ### For reference
 
 - General
+  - [Knowledge Enhanced Pretrained Language Models: A Compreshensive Survey](https://www.semanticscholar.org/paper/Knowledge-Enhanced-Pretrained-Language-Models%3A-A-Wei-Wang/290867638c5ca520de5c48aa4336f196d426c226) (2021)
+  - [A Survey of Knowledge Enhanced Pre-trained Language Models](https://arxiv.org/abs/2211.05994) (2022)
+  - [Translating Embeddings for Modeling Multi-relational Data](https://www.semanticscholar.org/paper/Translating-Embeddings-for-Modeling-Data-Bordes-Usunier/2582ab7c70c9e7fcb84545944eba8f3a7f253248) (2013)
+    - transE for modeling link predictions
+    - the idea is that for the triples, the translation should be the closest tail or head
+    - it is used in the ERNIE knowledge induced things of wembedder
+  - [Complex Embeddings for Simple Link Prediction](https://www.semanticscholar.org/paper/Complex-Embeddings-for-Simple-Link-Prediction-Trouillon-Welbl/2218e2e1df2c3adfb70e0def2e326a39928aacfc)
+    - a better than transE
   - [Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data](https://www.semanticscholar.org/paper/Fielded-Sequential-Dependence-Model-for-Ad-Hoc-in-Zhiltsov-Kotov/607a834558b16c318be9c735bea048ae6638841d) (2015)
     - some older model rival of bm25
     - there are few mentions how to construct a fielded entity that was used in other papers
