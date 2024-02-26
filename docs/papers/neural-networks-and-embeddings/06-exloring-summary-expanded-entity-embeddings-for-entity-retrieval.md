@@ -11,7 +11,7 @@ Then word embeddings came.
 Word2Vec represents vocabylary terms by capturing coocurrence information between the terms, using likelihood approximation of terms appearance within a window context.
 There was a substantial work for defining embeddings for entities but there is no clear baseline fo ranking entities with such compressed semantic representations.
 
-When trying to reuse task specific entity embeddings for retrieval, results can be less than impressive.
+When trying to reuse task specific entity embeddings for retrieval, results can be less than impressive (transE).
 RDF2Vec was designed to data mining but underperform in retrieval baselines such as BM25 [29].
 Fully deep models exists, but they do not have enough data.
 

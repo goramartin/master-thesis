@@ -73,12 +73,12 @@ The training data should be large, otherwise it causes forgetting.
 
 ### Background
 
-Kg embeddings provide vector repre of enetities by projecting eneiety propeerties and relations into a vector space.
+Kg embeddings provide vector repre of enetities by projecting entity properties and relations into a vector space.
 Thse can be done based on purely tological data or combining text.
 In this paper they use Wikipedia2Vec.
-Following [37 e bert], they transform wikipedia2vec eneity embeddings into bert word piece space and use them as input to the bert model.
+Following [37 e bert], they transform wikipedia2vec entity embeddings into bert word piece space and use them as input to the bert model.
 
-- Wiki2Vec embeds a list of words and list of enetities.
+- Wiki2Vec embeds a list of words and list of entities
   - the training is done with
     - predict context of words of a given words
     - predicting neighboring entities
@@ -89,14 +89,15 @@ Following [37 e bert], they transform wikipedia2vec eneity embeddings into bert 
 
 The model incorporates entity embeddings into a point wise document approach.
 They combine e-bert with mono-bert and predicts retrieval score for a query document pair each represented by a sequnce of words and entities.
+The model takes as input concatenation of query token and the document tokens where the tokens are either bert wordpiece tokens or entity token.
 
 - entity enriched bert
   - it accepts its native word pieces
-  - to incorporate enetity embeddings into bert, they need to align eneity vectors with word piece vectors
+  - to incorporate enetity embeddings into bert, they need to align entity vectors with word piece vectors
     - following [37 e-bert]
     - linear transformation of entity vectors to bert like vectors
-  - the aligned vectors are fed to the bert when an eneity is mentioned in the input text
-  - the enetities are obtained with annotating text with entity
+  - the aligned vectors are fed to the bert when an entity is mentioned in the input text
+  - the entities are obtained with annotating text with entity
 
 - retrieval
   - based on monobert
@@ -104,8 +105,13 @@ They combine e-bert with mono-bert and predicts retrieval score for a query docu
     - first ranking based on bm25
     - the top k docs are passed to second ranker - here a bert based retrieval model
     - for every query-document pair is passed to bert to retreived
-    - the bert classification vector is used as input to a signle layer neural network to obtain the relevance
+    - the bert classification vector is used as input to a signle layer neural network to obtain the relevance of document with the query
     - the model is trained :/
+
+To sum it up.
+First they learn the mapping matrix.
+Then all queries and documents are annotated with an entity linker, and tagged quries and documents are tokenized and mapped to the corresponding vector presentations.
+This input is fed into the em-bert model and then it is tuned on multiple collections.
 
 ## Evaluation
 

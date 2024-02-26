@@ -52,7 +52,7 @@
 5. s2-Exploring RDFS KB using summaries (2018)
 6. s3-SumMER: Structural Summarization for RDF/S KGs (2022)
 7. Class-Rank: Approaches to measure class importance in Knowledge Graphs (2022)
-  - additional papers inside my comments
+   - additional papers inside my comments
 
 ### To read
 
@@ -67,6 +67,7 @@
   - also contains which method fulfil the axioms
 - [Graph based methods survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8527452) === [Ontology summarization: Graph based methods and byond](https://www.worldscientific.com/doi/abs/10.1142/S1793351X19300012) (2019)
   - general methods on summarizations
+- [Entity summarization: State of the art and future challenges](https://www.sciencedirect.com/science/article/pii/S1570826821000226) (2021)
 - [Ontology summarization based on rdf sentence graph](https://dl.acm.org/doi/10.1145/1242572.1242668) (2007)
   - using weighted hits, pagerank and focused pagerank (similarty of a concept to the ontology) also includes reranking to obtain better coverage
 - [Workload based summaries](https://dl.acm.org/doi/pdf/10.1145/3468791.3468815) (2021)
@@ -117,26 +118,16 @@
 6. Exploring Summary-Expanded Entity Embeddings for Entity Retrieval (2018)
 7. Graph-Embedding Empowered Entity Retrieval (2020)
 8. Entity Embeddings for Entity Ranking: A Replicability Study (2023)
-9. BERT-ER: Query-specific BERT Entity Representations for Entity Ranking (2022)
+9. (brief) BERT-ER: Query-specific BERT Entity Representations for Entity Ranking (2022)
 10. Entity-aware Transformers for Entity Search (2022)
-11. Inductive Representation Learning on Large Graphs (2018)
+11. (brief) Inductive Representation Learning on Large Graphs (2018)
+12. (brief) ERNIE: Enhanced Language Representation with Informative Entities (2019)
+13. (brief) E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT (2019)
+14. (brief) KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation (2020)
+15. Generating Explainable Abstractions for Wikidata Entities (2021)
+16. Combining Text Embedding and Knowledge Graph Embedding Techniques for Academic Search Engines (2018)
 
 ### To read
-
-- Regarding Wikidata
-  - [Generating Explainable Abstractions for Wikidata Entities]((https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf)) (2021)
-  
-- General things
-  - [E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://www.semanticscholar.org/paper/E-BERT%3A-Efficient-Yet-Effective-Entity-Embeddings-Poerner-Waltinger/2bd5b4aed18400bf1a1cc866d9b8d931aa047290) (2019)
-  - [ERNIE: Enhanced Language Representation with Informative Entities](https://www.semanticscholar.org/paper/ERNIE%3A-Enhanced-Language-Representation-with-Zhang-Han/5f994dc8cae24ca9d1ed629e517fcc652660ddde)
-  - [KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (2020)
-    - incorporating knowledge into the BERT models
-  - [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223) (2022)
-    - incorporating knowledge into the BERT models
-
-- Maybe
-
-### For RAG, query expansion, and Sparse retrieval
 
 - RAG
   - [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)
@@ -150,13 +141,16 @@
     - it is more powerful than the traditional methods
   - [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/abs/2303.07678)
     - the method generates pseudo documents by few shot prompting and then expands the query with generated pseudo documents
-- Sparse retrieval as first step
-  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
-    - a new state of the art method for candidate generation using sparse vectors
 
 ### For reference
 
+- Sparse retrieval as first step
+  - [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/document/8047276) and the more new [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842)
+  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
+    - a new state of the art method for candidate generation using sparse vectors
 - General
+  -  [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223) (2022), there is also KEPLET model
+     -  for incorporating kg into language models
   - [Knowledge Enhanced Pretrained Language Models: A Compreshensive Survey](https://www.semanticscholar.org/paper/Knowledge-Enhanced-Pretrained-Language-Models%3A-A-Wei-Wang/290867638c5ca520de5c48aa4336f196d426c226) (2021)
   - [A Survey of Knowledge Enhanced Pre-trained Language Models](https://arxiv.org/abs/2211.05994) (2022)
   - [Translating Embeddings for Modeling Multi-relational Data](https://www.semanticscholar.org/paper/Translating-Embeddings-for-Modeling-Data-Bordes-Usunier/2582ab7c70c9e7fcb84545944eba8f3a7f253248) (2013)
