@@ -135,11 +135,11 @@
     - then ask the llm for ranking or selecting
     - does not have to read it all, just learn what others did
 - Query expansion
-  - [Query Expansion by Prompting Large Language Models](https://arxiv.org/abs/2305.03653)
+  - [Query Expansion by Prompting Large Language Models](https://arxiv.org/abs/2305.03653) (2023)
     - unlike traditional pseudo relevance they use llm
     - try different prompts
     - it is more powerful than the traditional methods
-  - [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/abs/2303.07678)
+  - [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/abs/2303.07678) (2023)
     - the method generates pseudo documents by few shot prompting and then expands the query with generated pseudo documents
 
 ### For reference
@@ -170,6 +170,36 @@
   - [Word Embeddings for Wine Recommender Systems Using Vocabularies of Experts and Consumers](https://www.ronpub.com/ojwt/OJWT_2018v5i1n04_Cruz.html) (2018)
   - [Learning Word Embeddings from Wikipedia for Content-Based Recommender Systems](https://link.springer.com/chapter/10.1007/978-3-319-30671-1_60) (2016)
 
+# Entity linking to Wikidata
+
+It is the task of linking entity mentions to Wikidata entities.
+This could be used in the query analyzation process.
+E.g. finding entity mentions (classes and properties in the query and then do someething like similarity).
+The aim is to find something that could be used directly.
+
+### Finished
+
+1. OpenTapioca: Lightweight Entity Linking for Wikidata (april 2019)
+2. Falcon 2.0: An Entity and Relation Linking Tool over Wikidata  (december 2019)
+3. Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking (2022)
+ 
+### To read
+
+- [CHOLAN: A Modular Approach for Neural Entity Linking on Wikipedia and Wikidata](https://arxiv.org/abs/2101.09969) (2021)
+- [Tweeki: Linking Named Entities on Twitter to a Knowledge Graph](https://aclanthology.org/2020.wnut-1.29/) (2020)
+  - unsupervised
+  - tagger from allen nlp library
+  - To adapt Intrawiki links to the WikiData KB, we use the existing links between Wikipedia and WikiData entities to gather all the entity aliases and number of time each alias is used in Wikipedia for the entity
+
+### For reference
+
+- [A Neural Approach to Entity Linking on Wikidata](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_10) (april 2019)
+  - this paper is a predecesor of Falcon 2
+  - in falcon 2 they argue that neural methods do not have enough data for training
+  - in this paper specifically focus only on disambiguation and not recognition, thus it is hard to use
+- [Scalable Zero-shot Entity Linking with Dense Entity Retrieval](https://aclanthology.org/2020.emnlp-main.519/)
+  - for wikipedia only BLINK
+
 # Keyword search over Knowledge graphs
 
 This sounds like something very close to my topic, but the resulting operation is somewhat returning the subgraph containing all the keywords.
@@ -177,3 +207,6 @@ It seems that the first phase is to locate all the keywords matching and then bu
 
 - surveys
   - this one is the most important [A systematic literature review and classification of approaches for keyword search over graph-shaped data](https://www.semantic-web-journal.net/content/systematic-literature-review-and-classification-approaches-keyword-search-over-graph-shaped) (2023)
+
+
+
