@@ -182,6 +182,7 @@ The aim is to find something that could be used directly.
 1. OpenTapioca: Lightweight Entity Linking for Wikidata (april 2019)
 2. Falcon 2.0: An Entity and Relation Linking Tool over Wikidata  (december 2019)
 3. Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking (2022)
+4. Encoding Knowledge Graph Entity Aliases in Attentive Neural Network for Wikidata Entity Linking (2020)
  
 ### To read
 
@@ -190,15 +191,21 @@ The aim is to find something that could be used directly.
   - unsupervised
   - tagger from allen nlp library
   - To adapt Intrawiki links to the WikiData KB, we use the existing links between Wikipedia and WikiData entities to gather all the entity aliases and number of time each alias is used in Wikipedia for the entity
+  - code is missing only the data are present
 
 ### For reference
 
+- [ReFinED: An Efficient Zero-shot-capable Approach to End-to-End Entity Linking](https://arxiv.org/abs/2207.04108)
+  - can be used with wikidata and the code seems maintained
+  - this seems like a good option
 - [A Neural Approach to Entity Linking on Wikidata](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_10) (april 2019)
   - this paper is a predecesor of Falcon 2
   - in falcon 2 they argue that neural methods do not have enough data for training
   - in this paper specifically focus only on disambiguation and not recognition, thus it is hard to use
 - [Scalable Zero-shot Entity Linking with Dense Entity Retrieval](https://aclanthology.org/2020.emnlp-main.519/)
   - for wikipedia only BLINK
+- [NECKAr: A Named Entity Classifier for Wikidata](https://link.springer.com/chapter/10.1007/978-3-319-73706-5_10)
+  -  In this paper we present the tool NECKAr, which assigns Wikidata entities to the three main classes of named entities.
 
 # Keyword search over Knowledge graphs
 

@@ -82,3 +82,9 @@ Input of reranker is concat. of the mention repre. and the candidate entity repr
 
 It has good performance.
 The hybrid method works.
+They compared it with genre and blink (facebook entity linking things).
+The dataset they created is missing, and in general it was trained on wikipedia dataset with linkage to wikidata.
+All in all, it focuses only on disambiguation phase and not how to find the mentions in the text.
+There exists docker image with the entity linking framework, but the code is not open and the dataset is not present.
+Also it specifically assumes there is some context to the query.
+
