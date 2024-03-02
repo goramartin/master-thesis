@@ -1,5 +1,11 @@
 # Neural networks and embeddings
 
+
+
+- Tools to remember
+  - [natural language toolkit](https://www.nltk.org/) - for working with word net and using classical approach to linguistics
+
+
 ### Finished
 
 1. [Semantic Search for Large Scale Clinical Ontologies](https://arxiv.org/abs/2201.00118) (2022)
