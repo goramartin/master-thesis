@@ -2,19 +2,19 @@
 
 ### Finished
 
-1. Swoogle: A Search and Metadata Engine for the Semantic Web (2004)
-2. WATSON: a gateway for the semantic web (2007)
-3. Searching linked objects with falcons: approach, implementation and evaluation (2009)
-4. Ranking Ontologies with AKTiveRank (2006)
-5. Ontology Evaluation and Ranking using OntoQA (2007)
-6. Linked Open Vocabularies (LOV): A gateway to reusable semantic vocabularies on the Web (2017)
-7. ARRO: Novel Approach for Ranking Ontologies on the Semantic Web (2006)
-8. Ontology-rank - Ontology selection ranking model for knowledge reuse (2011)
-9. OS-Rank - Ranking Ontology Based on Structure Analysis (2009)
-10. Content-based Ontology Ranking  (2006)
-11. Content-OR:  An Integrated Ontology Ranking Method for Enhancing Knowledge Reuse (2014)
-12. Context-driven Concept Search across Web Ontologies using Keyword Queries (2015)
-13. DWRank - Learning Concept Ranking for Ontology Search (2016)
+1. [Swoogle: A Search and Metadata Engine for the Semantic Web](https://dl.acm.org/doi/10.1145/1031171.1031289) (2004)
+2. [WATSON: a gateway for the semantic web](https://www.researchgate.net/publication/48989644_WATSON_a_gateway_for_the_semantic_web) (2007)
+3. [Searching linked objects with falcons: approach, implementation and evaluation](https://www.researchgate.net/publication/220123904_Searching_Linked_Objects_with_Falcons_Approach_Implementation_and_Evaluation) (2009)
+4. [Ranking Ontologies with AKTiveRank](https://link.springer.com/chapter/10.1007/11926078_1) (2006)
+5. [Ontology Evaluation and Ranking using OntoQA](https://ieeexplore.ieee.org/document/4338348) (2007)
+6. [Linked Open Vocabularies (LOV): A gateway to reusable semantic vocabularies on the Web](https://www.researchgate.net/publication/312015882_Linked_Open_Vocabularies_LOV_A_gateway_to_reusable_semantic_vocabularies_on_the_Web) (2017)
+7. [ARRO: Novel Approach for Ranking Ontologies on the Semantic Web](https://www.semanticscholar.org/paper/2006-1-St-International-Symposium-on-Pervasive-and-Yu-Cao/dcb6af4aa7779db40a8bbc971cfdd86c1c6b7870) (2006)
+8. [Ontology-rank - Ontology selection ranking model for knowledge reuse](https://www.sciencedirect.com/science/article/pii/S0957417410011310) (2011)
+9. [OS-Rank - Ranking Ontology Based on Structure Analysis](https://ieeexplore.ieee.org/document/5362262) (2009)
+10. [Content-based Ontology Ranking](https://eprints.soton.ac.uk/262605/) (2006)
+11. [Content-OR:  An Integrated Ontology Ranking Method for Enhancing Knowledge Reuse](https://www.researchgate.net/publication/289725459_An_Integrated_Ontology_Ranking_Method_for_Enhancing_Knowledge_Reuse) (2014)
+12. [Context-driven Concept Search across Web Ontologies using Keyword Queries](https://dl.acm.org/doi/10.1145/2815833.2816958) (2015)
+13. [DWRank - Learning Concept Ranking for Ontology Search](https://www.semantic-web-journal.net/system/files/swj883.pdf) (2016)
 
 ### To read
 
@@ -45,13 +45,13 @@
 
 ### Finished
 
-1. CAR-rank: Identifying Potentially Important Concepts and Relations in an Ontology (2008)
-2. Info-rank: Novel Node Importance Measures to Improve Keyword Search over RDF Graphs (2019)
-3. s0-Ontology Understanding without Tears: The Summarization Approach (2016)
-4. s1-Exploring Importance Measures for Summarizing RDF/S KBs (2017)
-5. s2-Exploring RDFS KB using summaries (2018)
-6. s3-SumMER: Structural Summarization for RDF/S KGs (2022)
-7. Class-Rank: Approaches to measure class importance in Knowledge Graphs (2022)
+1. [CAR-rank: Identifying Potentially Important Concepts and Relations in an Ontology](https://www.semanticscholar.org/paper/Identifying-Potentially-Important-Concepts-and-in-Wu-Li/4f713a8b72dafa9bfdb64bb967f1e96de5156775) (2008)
+2. [Info-rank: Novel Node Importance Measures to Improve Keyword Search over RDF Graphs](https://link.springer.com/chapter/10.1007/978-3-030-27618-8_11) (2019)
+3. s0-[Ontology Understanding without Tears: The Summarization Approach](https://www.researchgate.net/publication/309292439_Ontology_Understanding_without_Tears_The_summarization_approach) (2016)
+4. s1-[Exploring Importance Measures for Summarizing RDF/S KBs](https://link.springer.com/chapter/10.1007/978-3-319-58068-5_24) (2017)
+5. s2-[Exploring RDFS KB using summaries](https://trepo.tuni.fi/bitstream/handle/10024/105166/exploring_rdfs_2018.pdf?sequence=1) (2018)
+6. s3-[SumMER: Structural Summarization for RDF/S KGs](https://www.mdpi.com/1999-4893/16/1/18) (2022)
+7. [Class-Rank: Approaches to measure class importance in Knowledge Graphs](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862) (2022)
    - additional papers inside my comments
 
 ### To read
@@ -100,7 +100,7 @@
 
 ### Finished
 
-1. KNIT: Ontology reusability through knowledge graph exploration
+1. [KNIT: Ontology reusability through knowledge graph exploration](https://www.sciencedirect.com/science/article/pii/S0957417423007418) 2023
 
 ### To read
 
@@ -110,22 +110,22 @@
 
 ### Finished
 
-1. Semantic Search for Large Scale Clinical Ontologies (2022)
-2. A study of concept similarity in Wikidata (2024)
-3. Wembedder: Wikidata entity embedding web service (2017)
-4. Explore Entity Embedding Effectiveness in Entity Retrieval (2019)
-5. Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph (2020)
-6. Exploring Summary-Expanded Entity Embeddings for Entity Retrieval (2018)
-7. Graph-Embedding Empowered Entity Retrieval (2020)
-8. Entity Embeddings for Entity Ranking: A Replicability Study (2023)
-9. (brief) BERT-ER: Query-specific BERT Entity Representations for Entity Ranking (2022)
-10. Entity-aware Transformers for Entity Search (2022)
-11. (brief) Inductive Representation Learning on Large Graphs (2018)
-12. (brief) ERNIE: Enhanced Language Representation with Informative Entities (2019)
-13. (brief) E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT (2019)
-14. (brief) KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation (2020)
-15. Generating Explainable Abstractions for Wikidata Entities (2021)
-16. Combining Text Embedding and Knowledge Graph Embedding Techniques for Academic Search Engines (2018)
+1. [Semantic Search for Large Scale Clinical Ontologies](https://arxiv.org/abs/2201.00118) (2022)
+2. [A study of concept similarity in Wikidata](https://content.iospress.com/articles/semantic-web/sw233520) (2024)
+3. [Wembedder: Wikidata entity embedding web service](https://arxiv.org/abs/1710.04099) (2017)
+4. [Explore Entity Embedding Effectiveness in Entity Retrieval](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9) (2019)
+5. [Joint Word and Entity Embeddings for Entity Retrieval from a Knowledge Graph](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_10) (2020)
+6. [Exploring Summary-Expanded Entity Embeddings for Entity Retrieval](https://ceur-ws.org/Vol-2482/paper7.pdf) (2018)
+7. [Graph-Embedding Empowered Entity Retrieval](https://arxiv.org/abs/2005.02843) (2020)
+8. [Entity Embeddings for Entity Ranking: A Replicability Study](https://link.springer.com/chapter/10.1007/978-3-031-28241-6_8) (2023)
+9. (brief) [BERT-ER: Query-specific BERT Entity Representations for Entity Ranking](https://www.semanticscholar.org/paper/BERT-ER%3A-Query-specific-BERT-Entity-Representations-Chatterjee-Dietz/95786e847d7d73911f3718cf59408ad9a9d5beb8) (2022)
+10. [Entity-aware Transformers for Entity Search](https://arxiv.org/abs/2205.00820) (2022)
+11. (brief)[ Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) (2018)
+12. (brief)[ ERNIE: Enhanced Language Representation with Informative Entities](https://arxiv.org/abs/1905.07129) (2019)
+13. (brief)[ E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT](https://arxiv.org/abs/1911.03681) (2019)
+14. (brief)[ KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (2020)
+15. [Generating Explainable Abstractions for Wikidata Entities](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_8269.pdf) (2021)
+16. [Combining Text Embedding and Knowledge Graph Embedding Techniques for Academic Search Engines](https://ceur-ws.org/Vol-2241/paper-08.pdf) (2018)
 
 ### To read
 
@@ -208,13 +208,12 @@ The library seems new (6 moths recent commit).
 There is also the [r1] refined, which links to wikidata and allows to use unseen entities (which could be nice), and is fairly new.
 
 - The research ends I guess:
-  - try falcon 2, zhot lib (check the properties) and refined libs
+  - try falcon 2, zhot lib (check the properties) and refined libs from amazon
   - the next idea would be to use large language model to find general concepts in the sentence and then create embeddings or use RAG, it would be nice to talk to Necasky and maybe reuse the model for Dominik
-
 
 ### Finished
 
-1. OpenTapioca: Lightweight Entity Linking for Wikidata (april 2019)
+1. [OpenTapioca: Lightweight Entity Linking for Wikidata](https://ceur-ws.org/Vol-2773/paper-02.pdf) (april 2019)
    - nice approach but old, and they had to create dataset linking wikipedia dataset to the wikidata
    - a working solution but not very good
    - the first solution to appear
@@ -222,7 +221,7 @@ There is also the [r1] refined, which links to wikidata and allows to use unseen
    - only includes things that are subclass of humans, organizations and geographical object
    - which makes it difficult to find training data even though they created the datasets
    - there is also a pipeline for spacy
-2. Falcon 2.0: An Entity and Relation Linking Tool over Wikidata  (december 2019)
+2. [Falcon 2.0: An Entity and Relation Linking Tool over Wikidata](https://arxiv.org/abs/1912.11270) (december 2019)
    - falcon replaces the opentapioca
    - it has better performance
    - rule based approach with dictionaries and works with aliases
@@ -231,21 +230,24 @@ There is also the [r1] refined, which links to wikidata and allows to use unseen
    - the problem is that it works well in sentences, but can be used to recognize keywords
    - the solution is good since it does not need available training data
    - the code seems good enought but issues on github started to appear that there is some error while running the project
-3. Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking (2022)
+3. [Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking]((https://arxiv.org/abs/2202.13404)) (2022)
    - the work aims only on the second phase of the entity linking
    - creates profiles of entities based on context and given mention - needs training and dataset, they used wikipedia dataset with linkage to wikidata
    - it assumes the entity mentions are predefines and needs datasets
    - the problem the code is missing and the dataset is not present
-4. Encoding Knowledge Graph Entity Aliases in Attentive Neural Network for Wikidata Entity Linking (2020)
+4. [Encoding Knowledge Graph Entity Aliases in Attentive Neural Network for Wikidata Entity Linking](https://arxiv.org/abs/1912.06214)  (2020)
    - they use two nn, one for encoding sentence and finding mentions and one for disambiguation
    - all in all they use method of dicionary from falcon (2) as mapping phase
    - they use dataset from wikipedia annotated with wikidata
    - the code is missing and also missing running direction
- 
+5. [CHOLAN: A Modular Approach for Neural Entity Linking on Wikipedia and Wikidata](https://arxiv.org/abs/2101.09969) (2021)
+  - this is continuation of [4] instead of attentive neural networks they use transformers
+  - code is there but no documentations
+  - all in all it is trained on trex and using candidates using falcon things, arjun [4] had a better performance, again problem is that the entities are just a small percentage of the wikidata 85k entities while the ontology contains 4 milions as of 1.3.2024 
+
+
 ### To read
 
-- [CHOLAN: A Modular Approach for Neural Entity Linking on Wikipedia and Wikidata](https://arxiv.org/abs/2101.09969) (2021)
-  - missing running instructions and data
 
 ### For reference
 
@@ -264,11 +266,11 @@ There is also the [r1] refined, which links to wikidata and allows to use unseen
    - To adapt Intrawiki links to the WikiData KB, we use the existing links between Wikipedia and WikiData entities to gather all the entity aliases and number of time each alias is used in Wikipedia for the entity
    - code is missing only the data are present
 4. [Scalable Zero-shot Entity Linking with Dense Entity Retrieval](https://aclanthology.org/2020.emnlp-main.519/)
-   - for wikipedia only BLINK
+   - for wikipedia only BLINK facebook
 5. [NECKAr: A Named Entity Classifier for Wikidata](https://link.springer.com/chapter/10.1007/978-3-319-73706-5_10)
    -  In this paper they present the tool NECKAr, which assigns Wikidata entities to the three main classes of named entities.
 6. [Autoregressive Entity Retrieval](https://openreview.net/forum?id=5k8F6UU39V)
-   - genre
+   - genre from facebook
    - only for disambiguation phase 
 
 # Keyword search over Knowledge graphs
