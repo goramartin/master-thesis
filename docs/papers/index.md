@@ -23,15 +23,15 @@ Folders:
    - folder contains papers on ontology mapping and aligment
    - the idea was to see the query as a concept and then create embeddings or ask llm (which i exactly found)
 
-# Topics and papers not classified yet
+## Topics and papers not classified yet
 
-## Termpicker
+### Termpicker
 
 Stealing the written report from Krystof.
 
 [Link](https://github.com/georgeus19/MastersThesis/blob/main/docs/papers/term-picker.md)
 
-## Keyword search over Knowledge graphs
+### Keyword search over Knowledge graphs
 
 This sounds like something very close to my topic, but the resulting operation is somewhat returning the subgraph containing all the keywords.
 It seems that the first phase is to locate all the keywords matching and then building some sort of Steiner-Tree problem for constructing the minimal subgraph. 
