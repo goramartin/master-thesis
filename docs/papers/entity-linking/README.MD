@@ -56,7 +56,7 @@ There is also the [r1] refined, which links to wikidata and allows to use unseen
    - the problem is that it works well in sentences, but can be used to recognize keywords
    - the solution is good since it does not need available training data
    - the code seems good enought but issues on github started to appear that there is some error while running the project
-3. [Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking]((https://arxiv.org/abs/2202.13404)) (2022)
+3. [Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking](https://arxiv.org/abs/2202.13404) (2022)
    - the work aims only on the second phase of the entity linking
    - creates profiles of entities based on context and given mention - needs training and dataset, they used wikipedia dataset with linkage to wikidata
    - it assumes the entity mentions are predefines and needs datasets
