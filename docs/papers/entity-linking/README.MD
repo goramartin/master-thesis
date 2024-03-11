@@ -36,6 +36,8 @@ There is also the [r1] refined, which links to wikidata and allows to use unseen
 - The research ends I guess:
   - try falcon 2, zhot lib (check the properties) and refined libs from amazon
   - the next idea would be to use large language model to find general concepts in the sentence and then create embeddings or use RAG, it would be nice to talk to Necasky and maybe reuse the model for Dominik
+  - also i had idea to test the number of instances to classes and see if the classes point to the wikipedia, but usually the things strugle with general concepts, there would still be problems with the new entities comming
+
 
 ### Finished
 
@@ -68,7 +70,7 @@ There is also the [r1] refined, which links to wikidata and allows to use unseen
    - the code is missing and also missing running direction
 5. [CHOLAN: A Modular Approach for Neural Entity Linking on Wikipedia and Wikidata](https://arxiv.org/abs/2101.09969) (2021)
   - this is continuation of [4] instead of attentive neural networks they use transformers
-  - code is there but no documentations
+  - code is there but no documentations, this was enclosed in the [3]
   - all in all it is trained on t-rex and using candidates using falcon things, arjun [4] had a better performance, again problem is that the entities are just a small percentage of the wikidata 85k entities while the ontology contains 4 milions as of 1.3.2024 
 
 ### To read

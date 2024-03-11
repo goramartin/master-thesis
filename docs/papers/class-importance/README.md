@@ -10,11 +10,11 @@
 6. s3-[SumMER: Structural Summarization for RDF/S KGs](https://www.mdpi.com/1999-4893/16/1/18) (2022)
 7. [Class-Rank: Approaches to measure class importance in Knowledge Graphs](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252862) (2022)
    - additional papers inside my comments
+8. [Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3292500.3330855) (2021)
 
 ### To read
 
 - [Identifying Key Concepts in an Ontology, through the Integration of Cognitive Principles with Statistical and Topological Measures](https://link.springer.com/chapter/10.1007/978-3-540-89704-0_17) (2008)
-
 
 ### For reference
 
@@ -30,4 +30,3 @@
 - [Workload based summaries](https://dl.acm.org/doi/pdf/10.1145/3468791.3468815) (2021)
   -  importance based on usage in queries, similar to the evaluation in the s0-3 series of papers
 - Importance 
-  - [Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3292500.3330855) (2021)

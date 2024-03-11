@@ -27,19 +27,6 @@
 
 ### To read
 
-- RAG
-  - [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)
-    - first retrieve results
-    - then ask the llm for ranking or selecting
-    - does not have to read it all, just learn what others did
-- Query expansion
-  - [Query Expansion by Prompting Large Language Models](https://arxiv.org/abs/2305.03653) (2023)
-    - unlike traditional pseudo relevance they use llm
-    - try different prompts
-    - it is more powerful than the traditional methods
-  - [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/abs/2303.07678) (2023)
-    - the method generates pseudo documents by few shot prompting and then expands the query with generated pseudo documents
-
 ### For reference
 
 - Sparse retrieval as first step
