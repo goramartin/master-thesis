@@ -15,3 +15,4 @@
 - [Training Custom NER Model Using Flair](https://medium.com/thecyphy/training-custom-ner-model-using-flair-df1f9ea9c762)
 - [From zero to semantic search embedding model](https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61)
 - [ZShot: An overview](https://medium.com/ibm-data-ai/zshot-an-overview-37b7ab608cc2)
+- [https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)

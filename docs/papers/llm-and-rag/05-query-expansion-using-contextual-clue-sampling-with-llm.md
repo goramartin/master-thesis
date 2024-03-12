@@ -46,7 +46,7 @@ The senteces are extracted from passage provided by the dataset or from matching
 BM25.
 DPR implements retrieval by repsenting question and passages as dense vectors.
 GAR proposes to expand query by ading relevant answers, the title of a passage and the sentence where the answer belongs.
-
+It is mainly for the passage ranking.
 
 ## Comments
 
@@ -54,5 +54,6 @@ It works, but not sure about the fine tuning the bart model.
 - papers that are similar and used a lot through out the paper
   - [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906)
     - basically they learn dense vector embeddings and then retrieve
+    - dpr naming
   - [Generation-Augmented Retrieval for Open-Domain Question Answering](https://aclanthology.org/2021.acl-long.316/)
   - [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)

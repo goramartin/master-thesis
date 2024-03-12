@@ -19,7 +19,7 @@ They propose method that entity embedding is based on other entities crucial to 
 They use entities that appear inside dbpedia abstract.
 They use links in them, since htey were added by human.
 
-They say it is better then query expansion or single word embeddings.
+They say it is better, then query expansion or single word embeddings.
 
 ## Related work
 
@@ -36,7 +36,6 @@ They say it is better then query expansion or single word embeddings.
   - glove - matrix factorizations
   - used for academic search, disambiguation, question aswering or graph completion
   - rdf2vec is not effective for retrieval task
-
 
 ## General sheme of retrieval
 
