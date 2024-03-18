@@ -54,6 +54,9 @@
 
 - Lexicalize entities and convert them into embeddings using some public pretrained language model
   - Lexicalization based on the [1]
+  - could be multiple vectors
+    - one with name and descirption plus base info
+    - one with the additional data
 - Use vector database for storing the embeddings
 - Convert user input into the vector and query the database.
 - it might be a slow solution
