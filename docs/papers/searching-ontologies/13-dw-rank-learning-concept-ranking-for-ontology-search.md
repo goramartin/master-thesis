@@ -1,6 +1,11 @@
 # DWRank - Learning Concept Ranking for Ontology Search
 
+
+
 [Link](https://www.semantic-web-journal.net/system/files/swj883.pdf)
+
+it might have a previous paper - [Relationship-Based Top-K Concept Retrieval for Ontology Search](https://link.springer.com/chapter/10.1007/978-3-319-13704-9_37?fromPaywallRec=true)
+
 ## Intro
 
 A two-staged bi-directional graph walk ranking algorithm for concepts in ontologies.

@@ -33,11 +33,14 @@ The library seems new (6 moths recent commit).
 
 There is also the [r1] refined, which links to wikidata and allows to use unseen entities (which could be nice), and is fairly new.
 
-- The research ends I guess:
+- What to take from this?
   - try falcon 2, zhot lib (check the properties) and refined libs from amazon
   - the next idea would be to use large language model to find general concepts in the sentence and then create embeddings or use RAG, it would be nice to talk to Necasky and maybe reuse the model for Dominik
   - also i had idea to test the number of instances to classes and see if the classes point to the wikipedia, but usually the things strugle with general concepts, there would still be problems with the new entities comming
-
+  - usually the problem is re-learning, training, obtaining wikidata data, code is missing
+  - also the things are used for sentences and questions, which is not the usecase i am looking for right now
+- Possible future work?
+  - if i use a slot for properties which are separated and i can easily denote what the properties are, then i can just use semantic search, in which case the linking might not be neccessary, so to use the entity-linking it would be good to just use one text input and do the extraction
 
 ### Finished
 

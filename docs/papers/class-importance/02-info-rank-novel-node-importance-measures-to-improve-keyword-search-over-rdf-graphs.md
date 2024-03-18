@@ -25,13 +25,13 @@ So in this paper:
 They define measures InfoRank:
 1. important things have lots of information about them
 2. important things are surrounded by other important things
-3. few important relationshipt are better than many unimportant relations
+3. few important relationships are better than many unimportant relations
 Benefits -> they do not need manual assignment of weights or training dataset.
 
 What papers are regarding the related work?
 - Variations of the algs to add links [12, 15, 18, 21, 26]
-- Manually weighting links [3, 20, 29]
-- Machine learning [1, 24, 27]
+- Manually weighting links [3, 20, 29], but it is cumbersome and usually we do not have the data.
+- Machine learning [1, 24, 27] based on user feedback.
 - ObjectRank [3] was the first to use PageRank for computing importance in RDB
 - Swoogle used pageRank too.
 - TripleRank used tensors and decomposition but it s hard to extend for keyword search and it is slow for large datasets
@@ -108,7 +108,7 @@ But they reformulate the creation to allow use of InfoRank.
 ## Finding info in RDF graph
 
 Algorithm that takes keywords and returns the best se of class/property groups.
-They said that they already have the groups compute.
+They said that they already have the groups computed.
 And just iterate over the groups prioritizing things with higher text matches and info rank scores.
 
 ## Connecting and ranking
@@ -118,8 +118,7 @@ The steiner tree is computed over the schema graph.
 This step generates another template.
 Then everything is put into a sparql query which returns the final triples.
 
-
-a## Final comments
+## Final comments
 
 To my use case, the searching does not seem very beneficial.
 The aim of this paper was to mainly search over general data in RDF with the focus on instance data.

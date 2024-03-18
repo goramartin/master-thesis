@@ -1,6 +1,6 @@
 # Ontology Understanding without Tears: The Summarization Approach
 
-[Link](https://www.researchgate.net/publication/309292439_Ontology_Understanding_without_Tears_The_summarization_approach)
+[Link](https://www.semantic-web-journal.net/system/files/swj1452.pdf)
 
 ## Intro
 
@@ -10,7 +10,7 @@ They propose RDF Digest, a platform that produces and visualizes summaries of RD
 Summary is a valid RDF graph.
 Two algorithms that exploit structure and semantics of KB.
 First they identify the most important nodes with notion of relevance.
-Then explore how to slect edges connecting these nodes by maxiizing either locally or globally the importance of the selected edges.
+Then explore how to select edges connecting these nodes by maxizing either locally or globally the importance of the selected edges.
 
 Previously partitioning [7] and modularization [6], or building of overviews [7, 8, 9, 10, 11].
 Summarization [10] is he process of distilling knowledge from an ontology in order to produce an abridged version.
@@ -19,8 +19,6 @@ What is missing is a solution for summary that uses both graph structure and sem
 They view RDFS KB as two graphs: a schema graph and instances graph.
 The most important nodes have the heighest relevance: relative cardinality and in/out cardinality.
 Then they try to connect them to subgraph by maximizing locally or globally the importance of selected edges.
-
-
 
 ## Assessment measures
 
@@ -46,7 +44,7 @@ They also define a value if there are no instances for the edge.
 In order to combine the notion of centrality in schema and the distribution of the corresponding dataset.
 It is an adaptation of the **Degree centrality** - in undirected graph, it is defined as the number of links incident upon a node.
 
-It is defined as a sum of the weighted  relative cardinality of the incoming edges, respectively, outgoing edges.
+It is defined as a sum of the weighted relative cardinality of the incoming edges, respectively, outgoing edges.
 The weights are experimentaly defined.
 They distringuish standart RDF types and user defined properties.
 The user defined ones are more important.

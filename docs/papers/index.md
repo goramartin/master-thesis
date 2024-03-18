@@ -22,6 +22,10 @@ Folders:
 6. ontology-mapping
    - folder contains papers on ontology mapping and aligment
    - the idea was to see the query as a concept and then create embeddings or ask llm (which i exactly found)
+7. llm and rag
+   - folder constains papers regarding llms and retrieval augmented generation
+   - from the llms it contains mostly query expansions using llms and ways of prompting
+   - from rag it contains a summary of a survey 
 
 ## Topics and papers not classified yet
 

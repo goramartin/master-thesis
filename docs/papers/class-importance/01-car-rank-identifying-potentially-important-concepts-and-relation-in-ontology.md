@@ -19,18 +19,26 @@ The direction of walk for the algorithm is opposed -> which is better for ontolo
 
 ## Related work
 
-There was an importance metric based on the interest among users, which reminds me of popularity in other metrics \[7 - protege module\]. The [20] does the thing based on hierarchy.
+- cognitive support for ontology understanding
+   - There was an importance metric based on the interest among users, which reminds me of popularity in other metrics \[7 - protege module\]. The [20] does the thing based on hierarchy.
+   - the difference is that importance of one concepts should take into account all other concepts through relations
 
-Two approaches from the web:
-1. PageRank
-   - a good authority page is pointed out by a many good authority pages. And computation is done in random surfer
-2. HITS
-   - mutual reinforcing relationship between hub pages and authority pages withing a subgraph
+- ontology ranking
+  - OntoSelect, OnthoKoj based on popularity
+  - AktiveRank based on centrality
+  - the aim of ther work is the granularity - here they aim at concepts
 
-These two were combined into a Reverse Page Rank, which is a similar method used in this paper, and also in the DW-rank, except they do not work with hyperlink but ontology relations -> subclass, superclass, property of... which each carries a different weight in the algorithm (ObjectRank [3]).
+- Two approaches from the web:
+  1. PageRank
+     - a good authority page is pointed out by a many good authority pages. And computation is done in random surfer
+  2. HITS
+     - mutual reinforcing relationship between hub pages and authority pages withing a subgraph
+   - These two were combined into a Reverse Page Rank, which is a similar method used in this paper, and also in the DW-rank, except they do not work with hyperlink but ontology relations -> subclass, superclass, property of... which each carries a different weight in the algorithm (ObjectRank [3]).
+   - there is also objectrank and poprank but they need prior knowledge and weighting which is not common
 
 ## Model
 
+It is based on the stream of conciousness.
 The idea is that we are somehow ranking based on retracing creation of the ontology with regard to four features:
 1. A concept is more important if there are more relations starting from the concept
 2. A concept is more important if ther is a relation startgin from the concept to a more important concept
@@ -40,6 +48,7 @@ The idea is that we are somehow ranking based on retracing creation of the ontol
 The meaning of importance is that the author wants to suggest something to the user.
 A concept is a source that owns a set of relations related to other concepts.
 Concepts and relationship exhibit a mutually reinforcing relationships.
+In this paper, term importance is used as a metric for measuring the extent that the ontology creator suggests a concept or relation to users.
 
 ## CARRank algorithm
 
@@ -64,3 +73,8 @@ Ranking methods:
  - aktiverank
 To obtain results they asked people to rank the concepts -> get the top 20 from the given ontology.
 The CarRank and aktive rank did a good job.
+
+## My comments
+
+It is hard to say it is importance to my use case, since defining importance in the Wikidata could be error prone thanks to a lot of semantic and structural errors.
+While keeping in mind, that searching is based on query - one might say - that the number of edges on the concept, does not mean entirely, that it is somewhat worse or better from the search point of view.

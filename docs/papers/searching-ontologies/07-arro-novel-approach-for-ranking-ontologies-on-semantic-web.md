@@ -1,6 +1,6 @@
 # ARRO: Novel Approach for Ranking Ontologies on the Semantic Web
 
-[Link](https://www.semanticscholar.org/paper/2006-1-St-International-Symposium-on-Pervasive-and-Yu-Cao/dcb6af4aa7779db40a8bbc971cfdd86c1c6b7870)
+[Link](https://ieeexplore.ieee.org/abstract/document/4079065)
 
 ## Intro
 

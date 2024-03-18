@@ -5,7 +5,7 @@
 
 # Intro
 
-A paper that presents a tool OntoQA that evaluates ontologies related to a certain set of ters and then ranks them. 
+A paper that presents a tool OntoQA that evaluates ontologies related to a certain set of terms and then ranks them. 
 The tool enables users to tune the search results with selecting preference on a given set of ranking features.
 It also evaluates ontologies with their instances (populated ontologies).
 This paper is a novel approach based on their previous metrics - but this one should be better.

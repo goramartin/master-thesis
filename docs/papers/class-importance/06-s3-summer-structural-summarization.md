@@ -11,7 +11,7 @@ The difference is that this time, they try to combine the metrics with machine l
 The metrics used: the degree, the bridging, and the harmonic centrality, the radiality, the ego centrality, the betweenness, the PageRank and the HITS, each one of them perceiving differently the importance of the available nodes.
 
 Which is the combo from previous papers.
-They model thre problem of selecting top-k as the regression problem.
+They model the problem of selecting top-k as the regression problem.
 Each node gets a set of features based on centrality measures and correspinging number of instances.
 
 ## Evalutation

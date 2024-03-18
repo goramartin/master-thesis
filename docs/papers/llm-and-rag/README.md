@@ -25,15 +25,19 @@
     - most of the things need a lot of data
 
 - Query expansion and rewring
+  - the baseline is rm3 but it is not used often and lacks 
   - prompting llms to get better results
   - i wanted to generate:
     - terms for the query
     - or entire sample document
     - the generation would need the probably some sort of context, this could be inputet by the user
   - query2doc and [query expansion by prompoting] are good things
-
+  - backstep prompting to get abstract reasoning
+  - hyde needs learning
+  - rrr quering web and reinforcement leaning, but there is also version wihout reinforcement leanrning 
 
 - Named entity recognition?
+  - Dominik does this
   - would there be a way to find out about the named entities in the text?
   - there would have to be a sentence or just prompts
   - there might not be the need for named entity recognition and relation

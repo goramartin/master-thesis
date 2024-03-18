@@ -46,3 +46,12 @@ It has a web view of the semantic documents.
 
 - n-grams - segment of the text which spans inter word boundaries - sliding window
   - it should be better than matching whole words
+- for uris they use traditional bag of words vectors
+- internally they used information retrieval system
+
+
+## My comments
+
+All in all, the aim is to design a system for crawling and searching ontologies.
+The ontologies are ranked as important based on rational page rank algorithm (degree).
+Searching is traditional ir based on documents.

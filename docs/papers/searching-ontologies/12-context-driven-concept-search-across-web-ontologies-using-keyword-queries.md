@@ -4,7 +4,7 @@
 
 ## Intro
 
-Concept search that exploits structures present in ontologies and constructs contexts to effectively filter the noise in concept search results.
+They present a novel concept search approach that exploits structures present in ontologies and constructs contexts to effectively filter the noise in concept search results.
 The main components of the approach are:
 
 1. context for each concept extracted from relevant properties
@@ -31,7 +31,7 @@ Entity is a named concept or a named property.
 Axiom *a* from an ontology, entities(a) is a list of entities appearing in *a*.
 Function name(entity), annotations(entity) (rdfs:label, rdfs:comments, rdfs:isDefinedBy).
 A context of a concept is:
- - a set of annotation values if the concept
+ - a set of annotation values of the concept
  - entities in relevant axioms - subclass of, equivalent classes, property axioms
  - Precisely: Context(E) = name(E) ∪ annotations(E) ∪ (name(X) that are subclasses, parents, equivalent classes) ∪ (name(X) of domain and range concepts from property axioms)
 
@@ -66,7 +66,6 @@ They create two sets from the input query.
 Then they use cosine similarity to match(name(c) and annotations(c), k') and match(properties(c), k'').
 The match function find similar concepts (somehow?).
 
-
 - Direct Relation - DR(k′,k′′):=match(L(Cj ),k′) ∪ match(name(P xCj ),k′′).
   - basically we match name and annotations with the tokens from measure and the rests from properties
 - Indirect Relation - i do the same direct relation match with classes that are subclasses and equivalent classes.
@@ -83,6 +82,5 @@ Then they find the Query interpretations but do not mention how it is used for t
 I think I get it now.
 The associations are done based on some training dataset statistics.
 The interpretations are direcly using the searh in match function, but I am not sure how there are searching it since they need to compare it to every thing.
-
 
 This paper has continuation in [Search and Diversification](https://link.springer.com/chapter/10.1007/978-3-319-46523-4_17)

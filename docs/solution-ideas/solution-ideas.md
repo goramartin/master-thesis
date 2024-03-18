@@ -1,6 +1,16 @@
 # Solution ideas
 
+- why do we do it?
+  - wikidata has a complex search but it is not possible to use programatically due to cors
+  - also it has the wdsearchentities but it is too primitive
+  - searching directly in the wikidata is not a good idea since we do not update the data in real time, so class information might be changed, also working with classes can be harsh in the wikidata landscape
+  - so we produce our own search
+
 ## 1. Probabilistic Model BM25-Fielded (Sparse retrieval)
+
+- classical search methods based on document retrieval, convert the node and property into a document and search for it
+- probabilistic bm25f based on tf-idf
+- used as a default amongst papers and general use in enterprise/research enviroments
 
 - Store classes in Elastic Search and retrieve using BM25F implemnted by default in Elastic Search
   - the stored information is similar from GALAGO search system, and mentioned multiple times in papers
@@ -8,18 +18,21 @@
     - base information
       - label
       - aliases
-      - subclasses
-      - most popular properties
+      - subclass info
+      - most popular properties (probably cannot fit all of them)
     - additional information
       - description
+        - this is tricky since it does sway the search results a little
       - has parts/part of
       - category
+        - the cathogery usually contains the name of the class, which might not be the best thing here
       - has characteristics
-      - different from
+      - different from  
+        - difficult to provide context based solely on names of the entity here
       - has cause 
       - studied in
   - use term boosting on exact match and analyzers for languages
-  - use wikidata api to search entities for better priority
+  - use wikidata api to search entities for better priority?
 
 - Can be used as a first phase of retrieval, e.g. the first 1000 results
   - then combined with dense retrieval or rag
@@ -73,6 +86,8 @@
 - Use BM25 as in [1] and on the returned results use reranking by similarity to the query as in [2]
 
 ## 4. B25F with reranking using extracted entities from the query and embeddings
+
+- entity linking might be superfluous if we make multiple text boxes
 
 - Multiple papers used a solution which required entity linking from the query (TagMe, REL)
 - They first used BM25F

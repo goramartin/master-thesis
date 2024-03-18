@@ -6,7 +6,7 @@
 
 They provide a model for ontology selection and ranking.
 It enables semantic matching of taxonomy or relational linkage between concepts.
-It identifies what measures should be used to tank ontologies in the given context.
+It identifies what measures should be used to rank ontologies in the given context.
 They adapt semantic similarity theory.
 
 It proposes a framework - ontology rank.
@@ -31,7 +31,7 @@ To solve these problems three methods are proposed:
   - based on four factos:
     - concept match
       -  deals with the correspondence between concepts and search terms
-      -  F(o, T) checks whether domain and range concep are matched exactly or partially with search terms.
+      -  F(o, T) checks whether domain and range concept are matched exactly or partially with search terms.
       -  this can be done by concept matching
     - relation label match
       - degree of corespondence bwetween relation labels Rs and Rc
@@ -44,7 +44,7 @@ To solve these problems three methods are proposed:
     - neighbour match
       - it check whether the domain and range concepts of a search relation can be connected with the help of their neighbour nodes
       - inverse proportion to the number of concepts in the neighborhood of concept
-  - RMM calculates the degree of semantic similarity of a relation Rs between search terms in an ontology o. A lot of formular - refer to the paper page (5)
+  - RMM calculates the degree of semantic similarity of a relation Rs between search terms in an ontology o. A lot of formulas - refer to the paper page (5)
 - taxonomy matching
   - a metric to measure taxonomix relation
   - special type of relation matching

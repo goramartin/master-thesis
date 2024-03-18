@@ -28,7 +28,7 @@ While importance may be different for the creator and different for the consumer
 
 ### Importance metrics applied over schema structures
 
-The techniques used: Degreem Betweenness, Bridging Centrality, Closeness, Harmonic Centrality and Radiality.
+The techniques used: Degree, Betweenness, Bridging Centrality, Closeness, Harmonic Centrality and Radiality.
 These were used in the series of papers "s0-s3".
 While here they used them only on schema (t-box) and disregarding a-box.
 In this paper they use them in t-box experiments.
@@ -43,7 +43,7 @@ In this paper they use HITS and PageRank on schema graph and also on entire KB.
 - Instance Counting
   - class-instance relation
   - the more instances a class have the more important it is
-  - wikidata apparently offer statistics about this (i found it but it is from the 2020)
+  - wikidata apparently offer statistics about this (i found it but it is from the 2020) - i can do it my self
   - or dbpedia offers files about instantiations
 - PageRank
   - an element gains importance if it receives more links from other elements, if those links come from important elements, and if those elements have few outgoing elements
@@ -123,7 +123,6 @@ Which models user persistence.
 
 Class rank was the best.
 Instances are good.
-
 
 ## Related work to my interest
 

@@ -13,7 +13,7 @@ Why is it done this way?
 How?
     - they define a content similarity of an ontology to a corpus that is selected for the given search terms
     - the corpus is selected based on the user query
-    - they pick up domain related terms and use the for evaluating selected ontologies in terms of how well they cover the domain of interest
+    - they pick up domain related terms and use them for evaluating selected ontologies in terms of how well they cover the domain of interest
     - they extract the terms using tf-idf, and the terms with the heighest score are considered as a potential concept labels
     - they pick 50 top terms
     - the ontology with the most matching terms is the best one
