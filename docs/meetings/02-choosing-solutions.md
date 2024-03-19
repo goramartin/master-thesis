@@ -66,21 +66,22 @@ This meeting I would like to talk about:
       - linear combination of number of incoming links + number of sitelinks
     - using RAG with Mistral LLM
 
-- Subclassing problem with properties
-  - A user wants to find a class with given properties.
-    - User input:
-      - class text input - name, description
-      - properties text list input - name, description
-    - Process
-      1. find the best matched for the properties input list
-      2. filter or rerank the results 
-    - **pre/during-candidate selection** vs **post-candidate selection**
-      - pre/during-candidate selection
-        - where clause in sql
-        - in the database use filter based on the properties
-        - possibly time consuming
-        - with the database it is difficult/impossible to give scores based on the containing properties
-      - post-candidate
-        - on the candidate list do filtering and reranking
-        - faster but results might not be that good
+## Subclassing problem with properties
+
+- A user wants to find a class with given properties.
+  - User input:
+    - class text input - name, description
+    - properties text list input - name, description
+  - Process
+    1. find the best matched for the properties input list
+    2. filter or rerank the results from class search
+  - **pre/during-candidate selection** vs **post-candidate selection**
+    - pre/during-candidate selection
+      - where clause in sql
+      - in the database use filter based on the properties
+      - possibly time consuming
+      - with the database it is difficult/impossible to give scores based on the containing properties
+    - post-candidate
+      - on the candidate list do filtering and reranking
+      - faster but results might not be that good
 
