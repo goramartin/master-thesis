@@ -51,12 +51,21 @@ This file contains a brief selection of databases and their features that I deem
 ### MeiliSearch
 
 - ranking
-  - allows custom rules for ordering but not functions as in elastic search
+  - allows custom rules for ordering but not functions as in elastic search but only as reordering
   - the score is always [0,1]
 - text search
   - as in typesense, and based on algolia
 - vector search
   - experimental features
+
+### Solr
+
+- feature wise it is not better than elastic search
+
+### Opensearch
+
+- based on elasticsearch fork
+- the only benefit to elastic search is that it allows post query normalizations
 
 ## Vector databases
 
@@ -74,8 +83,10 @@ This file contains a brief selection of databases and their features that I deem
 ### Qadrant
 
 - Seems good for filtering.
+- Simple api
+- Nice documentation
 
 ### Vespa
 
-- A badly organized documentation, long set up.
-- But nice feature on ranking given user functions.
+- A badly organized documentation, tedious set up.
+- But nice features on ranking given user functions.
