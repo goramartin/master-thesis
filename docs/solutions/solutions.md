@@ -139,4 +139,26 @@
 
 Keyword search over Knowledge Graph
 
-#
+# Second solution ideas
+
+- It is to implement a small pipeline that would enable to swich certain parts.
+- Also I decided to exclude certain parts.
+
+- The pipeline has three main parts:
+  - query expansion
+  - candidate selection
+  - reranking
+
+- Query expansion
+  - the query would be expanded using the llm mixtral
+- Candidate selection
+  - full text search and vector search (semantic)
+  - containing subclassing with properties
+- reranking
+  - wikidata reranking
+  - based on similarity (some sort of cos-sim)
+  - cross-encoder from other models
+
+- I wanted to exclude learning the embeddings, reranking with the llm and entity linking (i can do it with the use input).
+
+- As of now, I will be writing the solution into separate files

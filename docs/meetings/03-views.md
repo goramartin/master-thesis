@@ -73,3 +73,9 @@ Properties input bar
     - Needs thread paralelism (java, c sharp).
     - I could not find a good full text search engine with capabilities of above mentioned returning all matched results.
     - Vector similarity in brute force manner - query cos_sim to every entity.
+
+
+## Final Comments
+
+- I can use the engine for candidate selection.
+- Think more about the embeddings.
