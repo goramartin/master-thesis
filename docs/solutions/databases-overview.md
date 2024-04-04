@@ -30,6 +30,8 @@ This file contains a brief selection of databases and their features that I deem
     - combine knn with bm25 using rrf out of the box
   - semantic search using elsner sparse encoder
     - sparse encoder learned by elastic
+  - elastic can disable storing of the data and just do the indexing
+  - it enables subfields on one: original text and keyword type
 
 ### Typesense
 
