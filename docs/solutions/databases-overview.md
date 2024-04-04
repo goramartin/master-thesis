@@ -32,6 +32,7 @@ This file contains a brief selection of databases and their features that I deem
     - sparse encoder learned by elastic
   - elastic can disable storing of the data and just do the indexing
   - it enables subfields on one: original text and keyword type
+  - it enables to use language analyzers, tokenizers, and normalizers
 
 ### Typesense
 
