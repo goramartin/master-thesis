@@ -1,0 +1,74 @@
+
+- small intro
+  - what we will be doing - as in bachelor thesis
+- related work
+  - how to combine it with the solutions? should it be kept in the end or write everything at once
+  - e.g how to combine it with retrieval intro
+- dataspecer  
+    - what is it
+    - datascruture modeling 
+- wikidata intro
+  - what is it
+    - knowledge base
+    - community edditing
+    - connection to wikipedia
+  - my research from research subject
+    - what is inside
+    - integration thoughts
+    - model
+    - general research
+      - errors, property recommendations
+    - ontology
+      - rules for classes
+      - properties and constraints
+        - assignemnt
+        - what and where
+      - how to access it
+        - dumps and apis
+      - preprocessing
+        - phases
+      - backend node
+      - front end apis
+- analysis 
+  - some parts overflow to the intro - dont know how to combine it
+  - what is actually inside
+    - properties
+    - generally say things about the contents of ontology based on my summaries
+  - performance overview
+- retrieval
+  - information about retrieval
+    - general tasks
+    - choose some of the papers had good intro
+    - document retrieval
+    - language models
+    - embeddings
+      - dense
+      - sparse
+    - reranking
+    - examples from different branches
+- solutions building
+  - requirements
+  - architecture
+  - integration
+  - solution overviews
+    - user input and interface
+    - subclassing
+    - topic modeling
+    - candidate retrieval
+    - reranking
+- implementation
+  - why language 
+  - intergration
+- user interface
+- tesing
+  - performance
+  - queries
+  - results
+- conclusion
+  - future work
+  - yago
+
+- general question
+  - how to combine intro to wikidata and its analysis
+  - how to combine related work with formal intro about retrieval and solution building
+  - how to do the foremost intro

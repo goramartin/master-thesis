@@ -4,6 +4,7 @@
   - full text search
   - vector search
   - subclassing with properties
+  - topic modeling
 
 
 ## Full text search
@@ -17,10 +18,10 @@
 - There could be search based on multiple options
   - label and aliases (as is done now)
   - label, aliases and description
-  - label, aliases, description and additional information
+  - label, aliases, description and additional information  
+    - has cause, has effect, parts, part of, has characteristics
 
 - basically a document retrieval
-
 
 ## Vector search
 
@@ -76,4 +77,53 @@
 ## Subclassing 
 
 - either use all the properties for each class
+  - i have tried this, but the overall number of properties was huge
+  - the final file was just 19GB
+  - if did not fit the web server we have
+
 - or use the other way around with setting parents
+  - for each class compute the parents in the hierarchy
+  - but we know that only limited number of parents contain some number of property definitions
+  - so we will mark only parents that do contain some properties
+  - further we can do reduction
+    - instead of keeping the properties as they are
+    - we will traverse the hierarchy and remove the properties that are the same in parents
+    - eventually properties on entity (41 properties) will be only on the entity class
+    - this way the properties will not have duplicities in the children hierarchy
+
+## Topic modeling
+
+- how to further narrow down the search results
+- based on the statistics many classes contain similar descriptions and labels
+- the search can be ambigious
+
+- lets create topis
+  - user will choose
+  - or it will be implicit
+
+- both solution are hindered by what topics should be used
+  1. topic2bert and bertopic
+     - nice solutions but depend on the text and can be difficult to explain why it is that way, would work only in implicit way
+  2. choosing some topics
+     - difficult to model - what belongs inside?
+     - there are few options
+       - wikipedia topics
+         - better
+         - there is an upper level of topics
+         - the most general ones
+         - difficult to access programatically
+           - messy, slow apis, difficult to locate
+       - wikimedia topics
+         - difficult to access
+         - mostly to describe projects of wikimedia   
+
+- but how to assign them in case of wikipedia?
+  - based on instances by iterating the topic hierarchy of wikipedia
+    - but we have slow api
+    - downloading the dump? cannot get into the format
+  - based on instances by using embeddings of the instances
+    - slow 108_000_000 embeddings is diffucult
+  - based on classes by assigning them to the topics by embeddings
+    - simpler and straightforwards
+    - how many topics to assign?
+    - should we use hierarchy?
