@@ -2,50 +2,68 @@
 - small intro
   - what we will be doing - as in bachelor thesis
 - related work
-  - how to combine it with the solutions? should it be kept in the end or write everything at once
-  - e.g how to combine it with retrieval intro
-- dataspecer  
+  - my collection of papers
+- dataspecer intro 
     - what is it
-    - datascruture modeling 
+    - data stcruture modeling
+    - root selection phase 
 - wikidata intro
-  - what is it
     - knowledge base
+    - what is inside
+      - entities, properties, lexemes...
     - community edditing
     - connection to wikipedia
-  - my research from research subject
-    - what is inside
-    - integration thoughts
-    - model
+    - yago and other projects
+- Wikidata ontology - my research from ontology research project
     - general research
-      - errors, property recommendations
-    - ontology
       - rules for classes
-      - properties and constraints
-        - assignemnt
-        - what and where
+      - errors
+      - properties on classes
+        - usage vs constraints
+      - recommendations and sorting
+    - general implementation
+      - integration thoughts
       - how to access it
         - dumps and apis
       - preprocessing
         - phases
       - backend node
-      - front end apis
-- analysis 
-  - some parts overflow to the intro - dont know how to combine it
+      - front end apis and dataspecer intergration
+- information retrieval intro (maybe use intro sequence from multimedia retrieval course)
+    - general tasks (most of them intersect)
+      - similarity search
+      - multimedia retrieval - text
+      - document retrieval
+        - matching query against free text
+      - entity retrieval
+      - full text search
+      - ad hoc retrieval, semantic search
+      - (choose some of the papers had good intro)
+    - models
+      - boolean model
+      - vector model (they say it is based on text)
+      - probabilistic models
+        - bm25 and gm25f
+      - language models
+        - yet porbabilistic - ngrams, skipgram
+      - neural models
+    - embeddings
+      - dense
+      - sparse
+      - algorithms of vector databases - hsnw
+      - exact match and approximation knn
+    - hybrid
+      - reciprocal rank fusion and others
+    - reranking
+      - general
+      - why do we do it
+      - normalization, 
+      - cross encoders...
+- analysis of wikidata ontology? or combaine with wikidata intro
   - what is actually inside
     - properties
     - generally say things about the contents of ontology based on my summaries
   - performance overview
-- retrieval
-  - information about retrieval
-    - general tasks
-    - choose some of the papers had good intro
-    - document retrieval
-    - language models
-    - embeddings
-      - dense
-      - sparse
-    - reranking
-    - examples from different branches
 - solutions building
   - requirements
   - architecture
@@ -61,14 +79,19 @@
   - intergration
 - user interface
 - tesing
-  - performance
   - queries
   - results
+  - performance
 - conclusion
   - future work
   - yago
 
-- general question
+
+_
+
+- general questions
   - how to combine intro to wikidata and its analysis
-  - how to combine related work with formal intro about retrieval and solution building
+    - mainly what i did in the research project and what actually is inside the ontology
+  - how to do the information retrieval intro
   - how to do the foremost intro
+  - how to combine related work with formal intro about retrieval and solution building

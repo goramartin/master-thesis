@@ -13,6 +13,11 @@
 - [[D] Difference between sparse and dense information retrieval : r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/z76uel/d_difference_between_sparse_and_dense_information/)
 - [Knowledge Graphs & LLMs: Fine-Tuning vs. Retrieval-Augmented Generation - Graph Database & Analytics](https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/)
 - [Training Custom NER Model Using Flair](https://medium.com/thecyphy/training-custom-ner-model-using-flair-df1f9ea9c762)
-- [From zero to semantic search embedding model](https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61)
 - [ZShot: An overview](https://medium.com/ibm-data-ai/zshot-an-overview-37b7ab608cc2)
+
+
+- [From zero to semantic search embedding model](https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61)
 - [https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)
+- [Quadrant on hybrid search](https://qdrant.tech/articles/hybrid-search/)
+- [elasticsearch-hybrid-search](https://opster.com/guides/elasticsearch/machine-learning/elasticsearch-hybrid-search/#Hybrid-search-with-dense-and-sparse-models)
+- [c sharp ](https://crispycode.net/vector-search-with-c-a-practical-approach-for-small-datasets/)
