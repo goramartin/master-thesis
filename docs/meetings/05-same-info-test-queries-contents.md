@@ -170,5 +170,6 @@ Properties input bar
      - large field
   5. General depth of formality?
      - formal ontologies, dataspecer, rdf?
-     - depth of language models 
+     - depth of language models
+  6. Can i use chatgpt?
      
