@@ -168,4 +168,7 @@ Properties input bar
   3. Should I talk about the solution from research project?
   4. Depth of the information retrieval intro
      - large field
+  5. General depth of formality?
+     - formal ontologies, dataspecer, rdf?
+     - depth of language models 
      
