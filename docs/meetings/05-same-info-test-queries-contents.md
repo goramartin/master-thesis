@@ -145,20 +145,43 @@ Properties input bar
 
 ```
 - intro
-- related work
+  - velice rychle dataspecer, concpetualni modely, muzeme vyuzit to co uz mame - wikidata
+  - neni to jednoduche - nevime co je ontologie a je velka
+  - umoznime dataspeceru brat conceptualni model z wikidat
+  - analyzujeme co to znamena, naprogramujeme extension a otestujeme
 - dataspecer intro
-- wikidata intro
-  - general intro
-  - ontology intro from research projects
+  - uzivalteske hledisko
+  - conceptualni modely - cim, pim, psm
+  - a ten vstup chceme brat jako wikidata - novy adapter
 - information retrieval intro
+  - jak jsme videli wikidata jsou velke - chceme cislo, pocet trid bez vetsiho detailu
+  - chceme metody IR
+  - chceme konkretni metody ktere vyuzijeme
 - wikidata analysis
-  - what is inside
+  - do detailu v jake strukture jsou ty ontologie zakodovane a velikost
+  - je mozne se dotazovat na verejna api a rict proc se to neda pouzit
+  - konstatovat - tu ontologii musime identifikovat, preprocesovat, indexovat
+- requirements analysis
+  - analysis of requirements on dataspecer extension
+  - funkcni pozadavky
+    - nasepta mi to koren na zaklade tridy, na zaklade propert, filtrovani
+  - kvalitativni pozadavky
+    - musime zvladnou objem ve wikidatech
+    - opakovani preprocesingu
+  - pozadavky na vysledny conceptualni model
+    - co chceme za model a namapovat ho na strukturu ve wikidatech
+      - co si z nich beru a do ceho to transformujeme
 - solutions
   - achitecture
   - solutions in depth and why
 - implementation
+  - pruvodce pro programatora
+    - orientace
+    - kam sahnout kdyz chceme neco upravit
 - testing
+- related work
 - conclusion
+  - + future work, open questions
 ```
 
 - Questions:
@@ -173,3 +196,22 @@ Properties input bar
      - depth of language models
   6. Can i use chatgpt?
      
+- chybi analyza requirements a co je cilem te prace, information retrieval intro, pozadavky na to co chceme
+analyza pozadavku
+- analyza wikidat z pohledu pozadavku
+- wikidata intro spojit s analyzou
+- related work az na konci
+- veci z previous research projektu
+  - skoro vsechno
+- depth infromation retrieval
+  - jen rict to co potrebuji a odkazovat se referencema
+- s pomoci wikidat zkonstruujeme conceptualni model
+  - do urcite miry detaily abychom to mohli pouzit v textu
+  - ten jejich model
+  - a jak vidim ten konceptualni model a jak se to mapuje
+  - tohle spada do pozadavku
+
+
+## To the next meeting
+
+- Promyslet strukturu textu

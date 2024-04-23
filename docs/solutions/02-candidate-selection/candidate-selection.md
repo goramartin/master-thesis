@@ -6,7 +6,6 @@
   - subclassing with properties
   - topic modeling
 
-
 ## Full text search
 
 - For this I would use ElasticSearch and its native BM25 ranking function.
@@ -40,7 +39,9 @@
   - exact nn
   - hdsn and other methods to index the data
   - picking the embeddings based on our previous research
-
+  - hybrid search
+  - benchmarks
+    - mteb, beir - they have public results
 
 ### What dense embeddings 
 
@@ -72,7 +73,12 @@
 
 - There is the elser from elastic search
 - there is the general spladev2, which the elser is based on
-- there is colbert
+- there is also colbert
+
+### Hybrid search
+
+- reciprocal rank fusion with two queries
+- based on qadrant and elastic search
 
 ## Subclassing 
 
@@ -90,6 +96,9 @@
     - we will traverse the hierarchy and remove the properties that are the same in parents
     - eventually properties on entity (41 properties) will be only on the entity class
     - this way the properties will not have duplicities in the children hierarchy
+
+- sparse vectors for the properties
+  - difficult to combine it with search and usage as filter
 
 ## Topic modeling
 
