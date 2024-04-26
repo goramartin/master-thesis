@@ -27,6 +27,17 @@
 
 ### To read
 
+
+- [Hybrid Structured and Similarity Queries over Wikidata plus Embeddings with Kypher-V](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_7722.pdf) (2022)
+  - KGTK library for kg exploration, aims at using graph queries with embeddings (similar to neo4j) for analysis of kgs
+- [KGvec2go – Knowledge Graph Embeddings as a Service](https://aclanthology.org/2020.lrec-1.692.pdf) (2020)
+  - creating and serving api for wikidata entities using rdf2vec, similar to webembedder on wikidata
+- [User-friendly Comparison of Similarity Algorithms on Wikidata](https://www.semanticscholar.org/paper/User-friendly-Comparison-of-Similarity-Algorithms-Ilievski-Szekely/0f21f87dc9460356627d6ac7c53cc92d19233d4d) (2021)
+  - from KGTK comparisons for similarity of entities in wikidata, the paper is cited in the Wikidata similarity of concepts
+
+
+
+
 ### For reference
 
 - Sparse retrieval as first step
