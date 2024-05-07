@@ -1,4 +1,4 @@
-# 6. meeting
+# 7. meeting
 
 This meeting I would like to talk about:
 1. Brief overview of what I did.
@@ -77,3 +77,27 @@ Properties input bar
         - assigning properties, description, name...
         - collect feedback for the entire part
       - or just use anything you want
+  
+## Comments
+
+- pro root search separatni reseni - neresit modeling
+  - iterace + anything you want (pro kazdou kombinaci), tehle 8 uloh musi byt slozitosti stejne a 8 uloh slozitostne, ve smyslu clarity pro uzivatele
+  - complexnost - 16 uloh, do 1-2 hodiny zvladnutelne by to melo byt zvladnutelne,
+  - nechat  ho udelat vsechny
+  - musim zjistit na co se ptat uzivatele a jake ty metriky pouzit
+  - a predstavit mu ty ulohy, a pak se s nim pobavit i o tom modelovani
+
+- pro modelovani
+  - si jak dlouho modelujes
+  - jestli se to podarilo namodelovat
+  - tam ten feedback nemusi byt takovy
+  - modeluj maximalne 10 minut
+  - co tam bude to tam nech
+  - my dva to projdeme a budeme to srovnavat
+  - a zhodnotime kolik se tomu podarilo namodelovat
+  - kolik procent se podarilo namodelovat uzivateli
+  - prumer napric ulohava a napric evaluatorovi
+  - aby to bylo srovnatelne, musi delat stejne tasky
+  - a mozna to nevazal na root search, ale uz ten koren ma byt vybrany
+  - a pak zacni modelovat a za 10 minut odejdi,
+  - 2 complex (nested) a 2 easy (flat) a nechameto nechat
