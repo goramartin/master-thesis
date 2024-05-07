@@ -134,4 +134,17 @@ Properties input bar
             - how was it difficult to find it? search bar, including hierarchy, browsing ancestors      
    4. Overall questions for the task.
 
+## Comments
 
+- urovne obtiznosti
+  - osa x - root 
+    -  easy, root complex, root does not exists
+  - osa y - surroundings 
+    -  easy ( jen naklikam, ne pro does not exists)
+    -  surroundings large list , napriklad surroundings s domain a range
+    -  complex - traget class for selection
+    -  no surroundings 
+-  pro kazde dva priklady
+- uvazovat ze ty veci tam jsou
+uzivateli nereknu kombinaci, ale udelam konfigurace v ulohach
+kazdemu evaluatorovi dame jeden typ
