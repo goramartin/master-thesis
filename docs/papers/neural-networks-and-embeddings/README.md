@@ -1,7 +1,5 @@
 # Neural networks and embeddings
 
-
-
 - Tools to remember
   - [natural language toolkit](https://www.nltk.org/) - for working with word net and using classical approach to linguistics
 
@@ -27,7 +25,6 @@
 
 ### To read
 
-
 - [Hybrid Structured and Similarity Queries over Wikidata plus Embeddings with Kypher-V](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_7722.pdf) (2022)
   - KGTK library for kg exploration, aims at using graph queries with embeddings (similar to neo4j) for analysis of kgs
 - [KGvec2go – Knowledge Graph Embeddings as a Service](https://aclanthology.org/2020.lrec-1.692.pdf) (2020)
@@ -35,15 +32,23 @@
 - [User-friendly Comparison of Similarity Algorithms on Wikidata](https://www.semanticscholar.org/paper/User-friendly-Comparison-of-Similarity-Algorithms-Ilievski-Szekely/0f21f87dc9460356627d6ac7c53cc92d19233d4d) (2021)
   - from KGTK comparisons for similarity of entities in wikidata, the paper is cited in the Wikidata similarity of concepts
 
-
-
-
 ### For reference
 
-- Sparse retrieval as first step
-  - [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/document/8047276) and the more new [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842)
-  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
-    - a new state of the art method for candidate generation using sparse vectors
+- A bit of general theory
+  - [BERT](https://arxiv.org/abs/1810.04805)
+  - [S-BERT](https://arxiv.org/abs/1908.10084) 
+    - including cross encoders
+  - [MTEB](https://arxiv.org/abs/2210.07316)
+  - [BEIR](https://arxiv.org/abs/2104.08663) 
+    - also shows bm25
+  - [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/abs/2211.14876)
+  - [Dense retrieval](https://medium.com/@aikho/deep-learning-in-information-retrieval-part-ii-dense-retrieval-1f9fecb47de9)
+  - [Using crossencoders](https://medium.com/@rossashman/the-art-of-rag-part-3-reranking-with-cross-encoders-688a16b64669)
+  - [Sparse, Dense, and Attentional Representations for Text Retrieval](https://aclanthology.org/2021.tacl-1.20/)
+  - Sparse retrieval as first step
+    - [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/document/8047276) and the more new [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842)
+    - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
+      - a new state of the art method for candidate generation using sparse vectors
 - General
   -  [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223) (2022), there is also KEPLET model
      -  for incorporating kg into language models
