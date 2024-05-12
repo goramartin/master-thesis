@@ -26,13 +26,15 @@ This file contains a brief selection of databases and their features that I deem
     - filtering
       - elastic search mentions, that it filters **during the querying** of knn and it **does not do a post filtering**
     - it supports approximate and excat brute force knn
-  - hybrid search
+  - Semantic and hybrid search
+    - One problems is that the ELSNER model is for paying users and in general cannot use sparse vectors.
+    - As well as the reciprocal rank function.
     - combine knn with bm25 using rrf out of the box
-  - semantic search using elsner sparse encoder
-    - sparse encoder learned by elastic
+    - semantic search using elsner sparse encoder
   - elastic can disable storing of the data and just do the indexing
   - it enables subfields on one: original text and keyword type
   - it enables to use language analyzers, tokenizers, and normalizers
+  - enables rescoring - **Wikidata native boosting**
 
 ### Typesense
 

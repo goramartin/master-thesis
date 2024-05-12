@@ -49,6 +49,7 @@
     - [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/document/8047276) and the more new [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842)
     - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
       - a new state of the art method for candidate generation using sparse vectors
+      - more on sparse vectors [sparse](https://qdrant.tech/articles/sparse-vectors/)
 - General
   -  [KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223) (2022), there is also KEPLET model
      -  for incorporating kg into language models

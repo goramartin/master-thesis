@@ -18,7 +18,7 @@
   - label and aliases (as is done now)
   - label, aliases and description
   - label, aliases, description and additional information  
-    - has cause, has effect, parts, part of, has characteristics
+    - has cause, has effect, parts, part of, has characteristics, has use
 
 - basically a document retrieval
 
@@ -74,6 +74,8 @@
 - There is the elser from elastic search
 - there is the general spladev2, which the elser is based on
 - there is also colbert
+- [sparse](https://qdrant.tech/articles/sparse-vectors/)
+  - there are links to other stuff like papers why it was good
 
 ### Hybrid search
 
