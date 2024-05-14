@@ -45,7 +45,7 @@ This meeting I would like to talk about:
 
 ### What I eventually discarded
 
-- **query rewriting/expansion using LLM **(1.)
+- **query rewriting/expansion using LLM** (1.)
   - it started to be exceedindly complicated
   - i formely thought it would be easier to implement and evaluate
 - filtering in candidate selection **by assigning topic to each class**
@@ -73,7 +73,7 @@ This meeting I would like to talk about:
 
 1. Candidate retrieval
    - filtering by properties
-     - can be AND (all of the selected) or OR (at least one)
+     - can be AND (all of the selected) or OR (at least one) -> we can choose based on performance
    - full text
    - emebeddings
 2. reranking
@@ -90,12 +90,12 @@ This meeting I would like to talk about:
 | -                          |   Fulltext bm25 (Elastic) + Dense embeedings(Qdrant, Elastic)              | -                   |
 | -                          |   Fulltext bm25f (Elastic) + Dense embeedings(Qdrant, Elastic)             | -                   |
 
-So it would be:
-    - 7 solutions without reranking
-    - 7 solutions with cross encoder reranking
-    - 7 solution with features reranking
-    - 7 solutions with combination of both
-    - 28 solutions
+- So it would be:
+  - 7 solutions without reranking
+  - 7 solutions with cross encoder reranking
+  - 7 solution with features reranking
+  - 7 solutions with combination of both
+  - 28 solutions
 
 - We talked about the tests
   - for each solution test using iterative approach
