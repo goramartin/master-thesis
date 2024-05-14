@@ -128,3 +128,28 @@ This meeting I would like to talk about:
 - Should we test searching of properties
 - Or should we give them what properties they are looking for.
 
+### Comments
+
+- netestovat uzivatele
+- ale dat nam dotazy
+- nereflektujeme to hledani
+- ale najdeme tridu
+- a pak k ni dotazy a ja pak mechanicky otestuju jestli ta trida tam je
+  - uzivatel nam vygeneruje dotazy jak by hledal tu tridu
+    - pevnost
+    - historicke misto ktere hralo roli ve valkach
+- problem je ze to kazdy vidi jinak
+  - ale muze to udelat blbe protoze tomu odpovidaji jine tridy
+  - je to riziko te metody 
+  - predtim je ze jsem spokojeny
+- mozna kombinace 
+  - nejdriv automatizovane a pak tri nejlepsi dat uzivatelum a reranking taky
+  - vytipuju nejlepsi kombinace a chci se je seradit -> blbe to je kdyby to bylo 0,1 - 0,2
+  - musime zkusit je rozdistribuovat
+  - a ti kandidaty muzeme dat na detailnejsi posouzeni
+  - podme najit dve tri tridy a pro kazdou z tech trid si pripravit dotazy a pak si ty dotazy pustit
+    - a zmerit jak vysoko tu tridu renkovali
+    - a zprumerovat pres vsechny tridy
+    - a tehle 5 dame pro produkcni posouzeni
+    - ale muzou fungovat dobre ale treba blbe vuci uzivatelum
+  - a pro ne to pak rucne zevaluovat
