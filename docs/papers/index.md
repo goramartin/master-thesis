@@ -11,21 +11,23 @@ Folders:
 2. class-importance
    - folder contains papers on importance of classes in ontologies - the question what classes are important in the ontology
    - it is somewhat continuation of my research from the first folder
-3. neural-networks-and-embeddings
-   - folder contains papers on neural networks regarding embeddings, including concept similarity, using knowledge enhanced transformers, exploration of entity retrieval, joint embeddings and graph embeddings
    - also it contains an important RAG
-4. entity-linking
+3. entity-linking
    - folder contains papers on entity linking to wikidata entities in text
    - the idea was that the query could contain entities that could be linked to the wikidata entities directly
-5. necasky
+4. necasky
    - folder contains papers provided by necasky
-6. ontology-mapping
+5. ontology-mapping
    - folder contains papers on ontology mapping and aligment
    - the idea was to see the query as a concept and then create embeddings or ask llm (which i exactly found)
-7. llm and rag
+6. neural-networks-and-embeddings
+   - reranking and combining results  
+   - retrieval
+     -  folder contains papers on neural networks regarding embeddings, including concept similarity, using knowledge enhanced transformers, exploration of entity retrieval, joint embeddings and graph embeddings
+7. rag and query expansion
    - folder constains papers regarding llms and retrieval augmented generation
    - from the llms it contains mostly query expansions using llms and ways of prompting
-   - from rag it contains a summary of a survey 
+   - from rag it contains a summary of a survey
 
 ## Topics and papers not classified yet
 

@@ -31,10 +31,5 @@
 
 ## Reranking using cross encoder
 
-- the idea is to get some oncoder 
+- the idea is to get some cross encoder
 
-## Reranking combinations using Reciprocal rank fusion or Relative score fusion or Distributive Relative score fusion
-
-- [waeviate link](https://weaviate.io/blog/weaviate-1-20-release#search-re-ranking)
-- [medium link](https://medium.com/plain-simple-software/distribution-based-score-fusion-dbsf-a-new-approach-to-vector-search-ranking-f87c37488b18)
-- [another algorithm waeviate](https://weaviate.io/blog/hybrid-search-fusion-algorithms)
