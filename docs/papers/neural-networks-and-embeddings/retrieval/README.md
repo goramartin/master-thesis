@@ -36,6 +36,7 @@
 
 - A bit of general theory
   - [BERT](https://arxiv.org/abs/1810.04805)
+  - [Utilizing BERT for Information Retrieval: Survey, Applications, Resources, and Challenges](https://arxiv.org/abs/2403.00784) (2024)]
   - [S-BERT](https://arxiv.org/abs/1908.10084) 
     - including cross encoders
   - [MTEB](https://arxiv.org/abs/2210.07316)
@@ -44,10 +45,8 @@
   - [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/abs/2211.14876)
   - [Dense retrieval](https://medium.com/@aikho/deep-learning-in-information-retrieval-part-ii-dense-retrieval-1f9fecb47de9)
   - [Using crossencoders](https://medium.com/@rossashman/the-art-of-rag-part-3-reranking-with-cross-encoders-688a16b64669)
-  - [Sparse, Dense, and Attentional Representations for Text Retrieval](https://aclanthology.org/2021.tacl-1.20/)
-  - Sparse retrieval as first step
-    - [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/document/8047276) and the more new [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842)
-    - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
+  - [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/document/8047276) and the more new [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842)
+  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/abs/2107.05720) (2021)
       - a new state of the art method for candidate generation using sparse vectors
       - more on sparse vectors [sparse](https://qdrant.tech/articles/sparse-vectors/)
 - General

@@ -2,18 +2,50 @@
 
 - pseudo relevance feedback also counts as reranker
 
+## Finished
+
+1. [A Thorough Comparison of Cross-Encoders and LLMs for Reranking SPLADE](https://arxiv.org/pdf/2403.10407v1) (2024)
+   - cross encoders are on par with llms or sometimes better 
+2. [Rethink Training of BERT Rerankers in Multi-Stage Retrieval Pipeline](https://arxiv.org/abs/2101.08751) (2020)
+   - Simple bert rerankers could not fully exploit improved initial rerankings, but with new method yes
+   - All in all, simple bert are not used a lot today after 4 years
+   - The first paper contradicts the statement
+   - While to look from another point of view, this paper just shows that simple bert is not always a good choise.
+3.  [Retrieve, Rerenk, Generate](https://arxiv.org/pdf/2207.06300v1) (2022)
+      - based on [reddit](https://www.reddit.com/r/MachineLearning/comments/1286n6w/d_multilingual_retrieve_rerank_models/)
+      - Apperently hybrid with bm25 makes sense, and they propose it in this paper
+      - Also based on beir, the bi encoders dont generalize well
+      - They find the results and do the union and then pass them to cross encoder (there is no merging via rrf or something else).
+      - Another proposing are [Sparse, Dense, and Attentional Representations for Text Retrieval](https://aclanthology.org/2021.tacl-1.20.pdf) 
+        - By finding linear combinatoin, but did not metion the results of the lambda parameter.
+      - Also another one [Sparse Meets Dense: A Hybrid Approach to Enhance Scientific Document Retrieval](https://arxiv.org/abs/2401.04055) (2024)
+        - They use weighted combination
+        - But they dont mention whether they do it hungrily or they first retrieve the results for both models and then do the merging, it seems more that did it on the entire set.
+        - Again high dense get better results around lambda 0.8 for dense
+4. [Dense to question and sparse to answer: hybrid retriever system for industrial frequently asked questions](https://www.mdpi.com/2227-7390/10/8/1335?trk=article-ssr-frontend-pulse_little-text-block) (2022)
+     - How to normalize bm25 score when doing hybrid search.
+     - (2*arctan(x))/pi and then (lambda * n(dense) + (1-lambda) * n(sparse))
+     - Larger lambda for dense was better (0.75)
+     - But it does not necessarily combine the results. It seems they retrieve and then do the both to get the score disregarding wheether it was retrieved from the dense or sparse.
+5. [Bert dense retrievers require interpolation with bm25 to be good at reranking](https://dl.acm.org/doi/10.1145/3471158.3472233) (2021)
+   - Previously, using bm25 as first stage and rerank it with only reranker was way better then combining the scores with interpolation from the reranker.
+   - They wanted to find whether it applies with bert dense retrievers.
+   - The results show that interpolation is important.
+   - They behave differently in terms of the interpolation in rerankers.
+   - [Complement Lexical Retrieval Model with Semantic Residual Embeddings](https://arxiv.org/pdf/2004.13969) (2021)
+     - Hybrid search i guess first one, but with training
+     - This paper shows us that simple interpolation is better
+   - [Passage Re-ranking with BERT](https://arxiv.org/pdf/1901.04085) (2020)
+     - The interpolation paper was based on this one, who claims that the bert rerankers dont benefit from the interpolation.
+
 ## To read
 
-- [A Thorough Comparison of Cross-Encoders and LLMs for Reranking SPLADE](https://arxiv.org/pdf/2403.10407v1)
-- [Rethink Training of BERT Rerankers in Multi-Stage Retrieval Pipeline](https://arxiv.org/abs/2101.08751)
-  - appending bert to reranking is not always a good idea
-- [Retrieve, Rerenk, Generate](https://arxiv.org/pdf/2207.06300v1)
-  - based on [reddit](https://www.reddit.com/r/MachineLearning/comments/1286n6w/d_multilingual_retrieve_rerank_models/)
-  - apperently hybrid with bm25 makes sense, and they propose it in this paper
-  - also based on beir, the bi encoders dont generalize well
+- [An Analysis of Fusion Functions for Hybrid Retrieval](https://dl.acm.org/doi/10.1145/3596512) (late 2023)
 
 ## For reference 
 
+- [Pretrained transformers for text ranking: Bert and beyond](https://arxiv.org/abs/2010.06467) (2021)
+- [Utilizing BERT for Information Retrieval: Survey, Applications, Resources, and Challenges](https://arxiv.org/abs/2403.00784) (2024)
 - [Reciprocal rank fusion](https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf) (2009)
 - [Why rank level fusion.](https://www.researchgate.net/publication/276126028_Why_rank-level_fusion_And_what_is_the_impact_of_image_quality) (2015)
 - [Analysis of score level fusions in deep fake detection scenarios](https://www.mdpi.com/2076-3417/12/15/7365) (2022)
@@ -47,13 +79,16 @@
   - Other papers about combination - [1, 14, 18]
     - Expanding the papers:
       - 1: [Predicting Efficiency/Effectiveness Trade-offs for Dense vs. Sparse Retrieval Strategy Selectio](https://arxiv.org/abs/2109.10739) (2021)
-
+- [Multi-Stage Document Ranking with BERT](https://arxiv.org/abs/1910.14424) (2019)
+  - The mono and duo bert.
+- [RankT5: Fine-Tuning T5 for Text Ranking with Ranking Losses](https://dl.acm.org/doi/10.1145/3539618.3592047) (2023)
 
 ## Articles 
 
 - [Waeviate on Relative score fusion.](https://weaviate.io/blog/weaviate-1-20-release#search-re-ranking)
 - [Again waeviate on Relative score fusion](https://weaviate.io/blog/hybrid-search-fusion-algorithms)
-- [Distribution-Based Score Fusion](https://medium.com/plain-simple-softwaredistribution-based-score-fusion-dbsf-a-new-approach-to-vector-search-ranking-f87c37488b18)
+- [Distribution-Based Score Fusion](https://medium.com/plain-simple-software/distribution-based-score-fusion-dbsf-a-new-approach-to-vector-search-ranking-f87c37488b18)
   - on medium from waeviate
 - [reranking approaches article](https://medium.com/@rossashman/the-art-of-rag-part-3-reranking-with-cross-encoders-688a16b64669)
 - [SetenceTransformers scross encoding](https://www.sbert.net/examples/applications/retrieve_rerank/README.html)
+- [Guide book](https://www.linkedin.com/pulse/guidebook-state-of-the-art-embeddings-information-aapo-tanskanen-pc3mf)
