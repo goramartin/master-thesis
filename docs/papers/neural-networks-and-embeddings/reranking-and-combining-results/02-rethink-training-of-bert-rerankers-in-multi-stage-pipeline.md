@@ -3,7 +3,6 @@
 
 - [Link](https://arxiv.org/abs/2101.08751) (2021)
 
-
 ## Intro
 
 Recent success with reranking using bert with bm25 scores.

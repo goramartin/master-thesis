@@ -1,5 +1,7 @@
 # Expansion with the llm
 
+- I am not going to implement this - since it got really fast complicated.
+
 - Based on the user input:
 
     Concept input:
@@ -40,7 +42,3 @@
         - or compute it with the precomputed topic vectors - similarity cos
      2. explicit
         - nothing would be expanded
-
-# Expansion with enser and splade
-
-Sparse vectors expansion

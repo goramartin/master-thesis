@@ -4,13 +4,12 @@
 
 ! A big paper !
 
-
 ## Intro
 
 The aim is to estimate concept similarity between nodes in Wikidata.
 They say concept similarity should be revisited.
 They explore similarity methods in three groups and leverage background information for knowledge injection via retrofitting.
-They measure impact of retrofitting with diferent weighted subsets from Wikidata.
+They measure impact of retrofitting with different weighted subsets from Wikidata.
 
 Wikidata is the largest free KB. 
 But since it is community driven, it contains errors with challenges - deduplication, blurred distiction between classes and instances and incosistencies in terms of modeling of its knowledge. 

@@ -103,5 +103,4 @@ The TransE does the best job in inmproving the retrieval.
 The most weight in the ranking was given to the transE and FSDM and the baselines too.
 The heighest weight is the transE and is more important than the ELR.
 
-
 The most important paper is which is their previous work [An empirical study of learning to rank for entity search](https://www.semanticscholar.org/paper/An-Empirical-Study-of-Learning-to-Rank-for-Entity-Chen-Xiong/11e1e395431c73a3a961b0c5f30b0227f98873b0)

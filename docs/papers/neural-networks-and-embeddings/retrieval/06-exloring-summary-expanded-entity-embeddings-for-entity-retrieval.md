@@ -37,7 +37,7 @@ They say it is better, then query expansion or single word embeddings.
   - used for academic search, disambiguation, question aswering or graph completion
   - rdf2vec is not effective for retrieval task
 
-## General sheme of retrieval
+## General scheme of retrieval
 
 Vocabulary mismatch is a problem - word embeddings were proposed to mitigate the problem.
 They investiage the effect of word embeddings in entitry retrieval to solve mismatches.
