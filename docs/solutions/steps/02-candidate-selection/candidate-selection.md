@@ -11,7 +11,7 @@
 - For this I would use ElasticSearch and its native BM25 ranking function.
 - Also there is an option with the BM25F as combined fields
   - but that requires to set a parameter that minimum should match in %
-- I looked into other databases (viz. view databases overview)
+- I looked into other databases (viz. view databases overview) but it seemed that elastic is the best.
 - I know it the best
 
 - There could be search based on multiple options
@@ -21,6 +21,12 @@
     - has cause, has effect, parts, part of, has characteristics, has use
 
 - basically a document retrieval
+- So have decided to use elastic search:
+  - the problem is that the previous query might not be that good
+  - so i was thinking that maybe creating additional fields tht contains merged things.
+  - One for english text, one for standart tokenizer, and one for keywords
+  - the keywords should be present only in separate fields
+  - additionaly - description could be concatenation of all of the things together not just the ones.
 
 ## Vector search
 
@@ -42,6 +48,11 @@
   - hybrid search
   - benchmarks
     - mteb, beir - they have public results
+
+### Lexicalization
+
+- Needs to count for tokens, models have a limit
+- Repeat the label for each sentence since it improves results.
 
 ### What dense embeddings 
 
@@ -73,14 +84,13 @@
 
 - There is the elser from elastic search
 - there is the general spladev2, which the elser is based on
-- there is also colbert
 - [sparse](https://qdrant.tech/articles/sparse-vectors/)
   - there are links to other stuff like papers why it was good
 
 ### Hybrid search
 
-- reciprocal rank fusion with two queries
 - based on qadrant and elastic search
+- needs fusion
 
 ## Subclassing 
 
