@@ -46,3 +46,24 @@ For theory visit papers.
 - eighter 0.5 and 0.5 or give more to the dense things
 - additional step could be the crossencoder
 - it makes sense to first do the fusion and then the reranking on the documents (since we are adding linear combination), the cross encoder before fusion does not make sense since it would be fusion of very little elements
+
+## Features for classes
+
+- number of instances - satu with pivot of 100
+- number of external ontology mappings - satu with pivot of 2
+ 
+- based on experiments
+- we want to boost classes that enable better modeling
+- two factors mentioned above
+- incoming links are highly collerated with the number of instances
+
+- we can sum up the scores to 0.5, 0.5
+- and to sum it up to the search score with 0.6 and 0.4
+
+## For properties
+
+- usage count - satu with 1000
+- number of external ontology mapping satu with 2
+
+
+
