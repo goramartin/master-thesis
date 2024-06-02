@@ -238,3 +238,66 @@ Pro dve veci mame dve ruzne metody.
          - Anything you want.
        - Merime jestli nasli tridu.
        - A jak jsou spokojeni.    
+
+
+# Meeting with LP
+
+- Obecne 
+  - vuci cemu to porovame 
+    - root search base line method with simple string matching
+    - ale co ten dialog na prohledavani 
+      - tam nemame protoze to neexistuje
+      - sbirame pocitovy feedback od uzivatelu
+      - uzivatelu se zeptame na pocitove otazky
+  - between user
+    - da nam mene signifikantni vysledky
+  - kdyz pracoval s tim puvodnim tak je tam bias te studie - carry over studie
+  - minimum je randomizace 
+  - jake data chceme sbirat 
+    - qvantitativni analyza - implicitni data behem toho co to dela
+      - perception correlate k dotazniku
+    - qvalitativni analyza dotaznik
+      - primo se ptat na veci na ktere nas zajimaji
+      - resque a user centric evaluation framwrok for recommenders systems 
+
+- modelovani
+  - tezke trefit obtiznost - muze se stat ze to vsichni dokonci
+  - pridat mereni rychlosti
+    - kdy se dokonci ten task
+    - nebo rychlost jednotlivych stepu
+    - rollback - neco vytvoril a vratil to zpatky, nutny feedback
+  - pozor na presne vytvoreni zadani smeruji k stejnemu cili
+  - jestli property jsou vyse nez ty co nepotrebuje
+    - ndcg mean average precision
+
+- Search 
+  - lepsi nechat cely task
+  - chceme itemu ktere potrebuje na prvnich mistech
+  - jestli dokazal interagovat dostatecne dobre
+    - nepotreboval interagovat s vice koreny
+  - opatrnost na bias jak se ptame tech lidi
+  - jaka je sance ze ty strukturovane metody se neprekryvaji
+    - na to je dobre mit vizualizaci tech vystupu
+  - nepretizit uzivatele
+    - sanity check nechat to vyplnit potom kamarada jestli tu studii mel chut dokoncit
+    - po kazde iteraci dotaznik
+    - musime ty tasky napsat jednoduse a na mistech aby je neprehlidli
+    - hlavni je nezahltit lidi
+    - kratky cas aby dokazali vnimat
+  
+<br>
+
+- merme vsechno co nas napadne a pak myslet co jsme zapomneli
+  - do logy abychom to pak nemuseli hledat zpetne
+
+<br>
+
+- obecne otazky scale strongly agree neutral ...
+- zkusit si odhadnout, pocet lidi abychom 
+  - sample size estimation and power analysis
+  - kolik lidi aby se projevily nejake rozdily
+  - sluzby prolific
+
+- preregistration
+  - co merime a co chceme ziskat
+  - dobre pro clanky
