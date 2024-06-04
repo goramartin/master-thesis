@@ -301,3 +301,5 @@ Pro dve veci mame dve ruzne metody.
 - preregistration
   - co merime a co chceme ziskat
   - dobre pro clanky
+
+

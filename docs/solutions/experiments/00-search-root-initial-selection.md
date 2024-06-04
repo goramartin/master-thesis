@@ -21,6 +21,7 @@
     - The user is biased from the Wikidata search engine.
 - What to measure?
   - Existence and rank of the class in the results, lets say in the top 30 (the size of the page a user will see).
+  - Performance of the methods.
 - How to measure it?
   -  Mean reciprocal rank
      -  Because we want to look only for the first relevant results, which is our class.
