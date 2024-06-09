@@ -31,6 +31,12 @@ Folders:
 
 ## Topics and papers not classified yet
 
+### KeySearchWiki
+
+Creating a keyword search dataset over Wikidata.
+
+[Link](https://ceur-ws.org/Vol-3640/paper6.pdf)
+
 ### Termpicker
 
 Stealing the written report from Krystof.
