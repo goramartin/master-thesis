@@ -39,11 +39,10 @@ Then a work is done to match the question and semantic menaing of the construct 
   - 5 constructs
     - efficiency
     - affect
-    - helppfulness
+    - helpfulness
     - control
     - learnability
   - used for desiners and developers to assess the quality of use of a sofrware product or prototy
-
 
 They did not generate linear model of sample questions but structured the questions into four layers of higher level constructs crossing four dimension:
 - perceived system qualitiees

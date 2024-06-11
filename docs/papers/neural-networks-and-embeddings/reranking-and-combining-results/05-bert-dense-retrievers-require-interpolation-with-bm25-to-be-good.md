@@ -21,7 +21,7 @@ They show that this interpolation provides significant gains in effectiveness co
 They also show that drs not interpolated with bm25, perform poorly with respect to deep evaluation measures.
 
 Why? 
-Since dr are better at modelling strong releenace signals than bm25.
+Since dr are better at modeling strong releenace signals than bm25.
 
 ## Do DR encode the same relevance signals as BM25
 

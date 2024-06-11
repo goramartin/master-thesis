@@ -24,7 +24,7 @@ Just not to forget: the best methods used pagerank, hits or number of instances 
 ### Finished
 
 1. [CAR-rank: Identifying Potentially Important Concepts and Relations in an Ontology](https://www.semanticscholar.org/paper/Identifying-Potentially-Important-Concepts-and-in-Wu-Li/4f713a8b72dafa9bfdb64bb967f1e96de5156775) (2008)
-   - the idea is that they model importance as a view from the authors view as he was modelling the ontology
+   - the idea is that they model importance as a view from the authors view as he was modeling the ontology
    - they compute wieghted reverse page rank while updating edge weights
    - the problem with this approach is that they assume that important concepts have more edges, while i argue that it might not be a good option for the modeling the user wants to do in the dataspecer
    - since even if the class do not have a lot of edges, it still  can be important to the user for modeling
