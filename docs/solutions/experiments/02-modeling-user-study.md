@@ -62,12 +62,12 @@ Your task is to model four data structures based on the domain descriptions list
    2. At the top right corner, click on the "Set root element".
    3. Into the input box, copy the IRI of the root class.
    4. Select the class by clicking on it.
-   5. Start modeling the data structure by clicking on the `(+)` button next to the class.
+   5. Start modeling the data structure by clicking on the `(+)` button next to the class. The button opens a surroundings dialog.
       - Select appropriate properties, click confirm.
       - Repeat on the added properties until you are satisfied. 
+      - Model the domain for 10 minutes maximum.
       - [A guide how to use the dialogs]()
-   6. Model the domain for 10 minutes maximum.
-   7. When you are finished or the time expires, click on the button "Back to specification manager" in the right upper corner.
+   6. When you are finished or the time expires, click on the button "Back to specification manager" in the right upper corner.
 3. After you finish all the modeling tasks, fill in the questionare below.
 
 **Domain descriptions**:
@@ -91,21 +91,27 @@ Your task is to model four data structures based on the domain descriptions list
      - database expert
      - Programmer
      - Manager
-  1. I understood the modeling tasks clearly.
+  2. I understood the modeling tasks clearly.
        - scale disagree .. highly agree.
-  2. The properties present on the classes were what I would expect them to be.
-       - scale disagree .. highly agree.  
-  3. The surroundings dialog was sufficiently fast.
-       - scale disagree .. highly agree. 
-  4. Information provided in the surroundings dialog was sufficient for me to select adequate properties.
+       - Maybe for each modeling task?
+  3. I managed to complete the tasks in the time limit.
+        - scale disagree .. highly agree.  
+        - Maybe for each modeling task? 
+  4. I found it easy to understand the meaning of the classes and properties in the surroundings dialog.
+       - scale disagree .. highly agree.
+  5. I consider the filter by instance useful.
+       - scale disagree .. highly agree.   
+  6. Information provided in the surroundings dialog was sufficient for me to select adequate properties.
      - scale disagree .. highly agree.
-  5. The layout of the surroundings dialog interface is adequate.  
+  7. The surroundings dialog was sufficiently fast.
+       - scale disagree .. highly agree. 
+  8. The layout of the surroundings dialog interface is adequate.  
      - scale disagree .. highly agree.  
-  6. I became familiar with the surroundings dialog very quickly.
+  9.  I became familiar with the surroundings dialog very quickly.
      - scale disagree .. highly agree. 
-  7.  The surroundings dialog enabled me to accomplish the tasks.
+  10. The surroundings dialog enabled me to accomplish the tasks.
      - scale disagree .. highly agree. 
-  8.  Overall, I am satisfied with the surroundings dialog.
+  11. Overall, I am satisfied with the surroundings dialog.
      - scale disagree .. highly agree. 
-  9.  I would use the surroundings dialog again.
+  12. I would use the surroundings dialog again.
      - scale disagree .. highly agree. 
