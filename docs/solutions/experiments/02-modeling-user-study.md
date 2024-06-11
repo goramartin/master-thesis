@@ -92,26 +92,13 @@ Your task is to model four data structures based on the domain descriptions list
      - Programmer
      - Manager
   2. I understood the modeling tasks clearly.
-       - scale disagree .. highly agree.
        - Maybe for each modeling task?
   3. I managed to complete the tasks in the time limit.
-        - scale disagree .. highly agree.  
         - Maybe for each modeling task? 
   4. I found it easy to understand the meaning of the classes and properties in the surroundings dialog.
-       - scale disagree .. highly agree.
   5. I consider the filter by instance useful.
-       - scale disagree .. highly agree.   
   6. Information provided in the surroundings dialog was sufficient for me to select adequate properties.
-     - scale disagree .. highly agree.
-  7. The surroundings dialog was sufficiently fast.
-       - scale disagree .. highly agree. 
-  8. The layout of the surroundings dialog interface is adequate.  
-     - scale disagree .. highly agree.  
-  9.  I became familiar with the surroundings dialog very quickly.
-     - scale disagree .. highly agree. 
+  7. The surroundings dialog was sufficiently responsive.
+  8.  I found the surroundings dialog intuitive to use.
   10. The surroundings dialog enabled me to accomplish the tasks.
-     - scale disagree .. highly agree. 
-  11. Overall, I am satisfied with the surroundings dialog.
-     - scale disagree .. highly agree. 
-  12. I would use the surroundings dialog again.
-     - scale disagree .. highly agree. 
+  11. I would use the surroundings dialog again.

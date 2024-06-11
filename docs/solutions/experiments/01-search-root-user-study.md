@@ -123,24 +123,11 @@ You are assigned four short domain descriptions listed below. For each descripti
 
 1. General questions
     1. The search engine returned relevant results to the provided queries.
-       - scale disagree .. highly agree. 
     2. I found the most relevant results at the top of the result's list.
-       - scale disagree .. highly agree. 
     3. I consider the property filter useful.
-       - scale disagree .. highly agree. 
     4. I consider the boosting of widely used classes useful.
-       - scale disagree .. highly agree. 
     5. The information provided was sufficient for me to select an appropriate root class.
-       - scale disagree .. highly agree. 
-    6. The search engine was sufficiently fast.
-       - scale disagree .. highly agree. 
-    7. The layout of the search engine's dialog is adequate.  
-       - scale disagree .. highly agree.  
-    8.  I became familiar with the search engine dialog very quickly.
-       - scale disagree .. highly agree. 
+    6. The search engine was sufficiently responsive.
+    7. I found the search engine intuitive to use. 
     9.  The search engine enabled me to accomplish the tasks.
-       - scale disagree .. highly agree. 
-    10. Overall, I am satisfied with the search engine.
-       - scale disagree .. highly agree. 
-    11. I would use the search engine again.
-       - scale disagree .. highly agree. 
+    10. I would you the search engine again.
