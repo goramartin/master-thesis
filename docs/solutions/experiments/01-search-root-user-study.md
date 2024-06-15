@@ -73,10 +73,12 @@ Thank you for participating in the user study.
 The data structure can be used to generate various software artifacts.
 The ontology is a set of classes and properties. 
 To create the data structure, one must start by searching for an appropriate root class of the data structure.
+After the root class is selected, the user models the data structure by adding properties of the root class to the data structure.
+The data structure is further modeled by adding properties of the already added property endpoints.  
 
 **Task**
 
-You are assigned four short domain descriptions listed below. For each description, you are tasked to search for an appropriate root class of the data structure representing the domain description. Please, follow the instructions below.
+You are assigned four data structure descriptions listed below. For each description, you are tasked to search for an appropriate root class of the data data structure in the Wikidata ontology. Please, follow the instructions below.
 
 **Instructions**
 
@@ -88,18 +90,22 @@ You are assigned four short domain descriptions listed below. For each descripti
      5. Click the "Set root element".
      6. In the top side of the panel select the **method X**.
      7. You have successfully opened the search dialog.
-2. The questionare below contains the search tasks. Fill in the search tasks questions.
+2. The questionare below contains the four data structure descriptions. Fill in the root search tasks questions. 
+   - Your task is to only find the root class, you are not supposed to model the entire data structure.
+   - During the search, please, try paying attention to the result lists and their relevance to your queries. You will need to answer a question about relevance in the questionaire.
 3. When you are finished with the tasks. Fill in the rest of the questions.
 
-**The search dialog tips:**
+**The search dialog tips**
 
   - By clicking on a class in the search dialog, the class will be selected as a root class.
-  - Between tasks you can simply close and reopen the dialog.
+  - By clicking outside of the dialog, the dialog closes. Then you can simply reopen it and select again the **method X**.
   - In the search dialog, you can:
     1. Input keywords, a short description, full sentences or any combination of the mentioned into the text input box.
     2. Use the properties filter that enables you to select properties the class must have.
-    3. Use the widely used classes boost that enables you to give more relevance to classes with many instances.
+    3. Use the widely used classes boost option that enables you to give more relevance to classes with many instances.
     4. View a detail of the class, by clicking on the `(i)` icon and navigating to a "Wikidata" panel.
+       - There you can navigate to the "Wikidata" panel and see properties, ancestors, and external ontology mappings of the class.
+       - You can also browse the Wikidata link (the arrow next to it's name) to learn more about the class. 
 
 ---------------
 
@@ -112,9 +118,9 @@ You are assigned four short domain descriptions listed below. For each descripti
        - Programmer
        - Manager
  2. Domain description here
-    - Search for the root class you would use to build the data structure. Try both with and without the property filter and boosting. Give yourself 5 minutes at most.
+    - Search for the root class you would use to build the described data structure. Try both with and without the property filter and boosting. Give yourself 5 minutes at most.
     - Questions:
-        - I understood the domain description clearly.
+        - I understood the data structure description clearly.
         - Did you find a root class?
             -  did not find ... found perfect class
         - Insert it's name and an identifier (located next to it's name in parenthesis). 
@@ -129,5 +135,8 @@ You are assigned four short domain descriptions listed below. For each descripti
     5. The information provided was sufficient for me to select an appropriate root class.
     6. The search engine was sufficiently responsive.
     7. I found the search engine intuitive to use. 
-    9.  The search engine enabled me to accomplish the tasks.
-    10. I would you the search engine again.
+    8. The search engine enabled me to accomplish the tasks.
+    9. I would you the search engine again.
+  
+
+

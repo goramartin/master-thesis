@@ -45,7 +45,8 @@ The data structure can be used to generate various software artifacts.
 The ontology is a set of classes and properties. 
 The properties are divided into attributes and associations.
 To create the data structure, one must start by searching for an appropriate root class of the data structure.
-After the root class is selected, the user models the data structure by adding surroundings of the root class, and subsequnetly the surroundings of the added classes.
+After the root class is selected, the user models the data structure by adding properties of the root class to the data structure.
+The data structure is further modeled by adding properties of the already added property endpoints.  
 
 **Task**
 
@@ -62,8 +63,8 @@ Your task is to model four data structures based on the domain descriptions list
    2. At the top right corner, click on the "Set root element".
    3. Into the input box, copy the IRI of the root class.
    4. Select the class by clicking on it.
-   5. Start modeling the data structure by clicking on the `(+)` button next to the class. The button opens a surroundings dialog.
-      - Select appropriate properties, click confirm.
+   5. Start modeling the data structure by clicking on the `(+)` button next to the class name. The button opens a surroundings dialog.
+      - Select appropriate properties, then click confirm.
       - Repeat on the added properties until you are satisfied. 
       - Model the domain for 10 minutes maximum.
       - [A guide how to use the dialogs]()
@@ -102,3 +103,46 @@ Your task is to model four data structures based on the domain descriptions list
   8.  I found the surroundings dialog intuitive to use.
   10. The surroundings dialog enabled me to accomplish the tasks.
   11. I would use the surroundings dialog again.
+  
+
+## The modeling tasks
+
+### (Mostly) flat modeling
+
+- A scholarly article
+  - Properties
+    - Title
+    - Publication name
+    - DOI
+    - Main subject - about biological processes
+    - Works that cite this article
+    - Works that are cited by this article
+    - published in 
+  - Description
+    - Model a data structure for exchanging data about scholarly articles that specialize in proteins. The data structure should have a title, a publication date, and DOI identifier. Subsequently, a journal that the article was published in should be present with it's name and official website. The article is also described by articles that it is cited by and the articles it cites itself. The citation articles should only contain DOI identifiers. Lastly, the article contains a description of the main subject proteins. The description contains a protein family the protein is part of and a chemical formula of the protein.
+  - Link
+    - http://www.wikidata.org/entity/Q13442814
+
+<br>
+
+- A touristic attraction
+  - Properties:
+    - + disabled accessibility - quality
+    - + link to a official website
+    - + A person that owns the attraction.
+    - + The organization that operates the attraction.
+    - + The maximum number of people allowed into the attraction.
+    - + a language used
+    - + opening time 
+    - + opening days
+    - + full address 
+    - + a country
+  - Description:
+    - Model a data structure for exchanging data about touristic attractions. The data structure should contain information about the official website, opening times, and entry fee of the attraction. Additionally, there is the need to include organization that operates the place and a person that owns it. Each attraction has a limit of tourists available to entry, a language available at the site, and information about accessibility for disabled people. Lastly, the touristic attraction has a full address and a country it is located in.
+  - Link:
+    - http://www.wikidata.org/entity/Q570116
+
+### Recursive modeling
+
+- Neco vic in depth
+- Neco vic in depth
