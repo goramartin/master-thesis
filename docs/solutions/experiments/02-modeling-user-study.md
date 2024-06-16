@@ -97,52 +97,129 @@ Your task is to model four data structures based on the domain descriptions list
   3. I managed to complete the tasks in the time limit.
         - Maybe for each modeling task? 
   4. I found it easy to understand the meaning of the classes and properties in the surroundings dialog.
-  5. I consider the filter by instance useful.
-  6. Information provided in the surroundings dialog was sufficient for me to select adequate properties.
-  7. The surroundings dialog was sufficiently responsive.
-  8.  I found the surroundings dialog intuitive to use.
-  10. The surroundings dialog enabled me to accomplish the tasks.
-  11. I would use the surroundings dialog again.
+  5. Information provided in the surroundings dialog was sufficient for me to select adequate properties.
+  6. The surroundings dialog was sufficiently responsive.
+  7.  I found the surroundings dialog intuitive to use.
+  8.  The surroundings dialog enabled me to accomplish the tasks.
+  9.  I would use the surroundings dialog again.
   
 
 ## The modeling tasks
 
-### (Mostly) flat modeling
+### Flat modeling
+
+- Country
+  - Properties
+    - flag image
+    - population
+    - area
+    - nominal GDP
+    - official name
+    - capital -> capital city
+      - population 
+      - official name
+    - head of government -> Human
+      - start time
+      - end time
+      - birth name
+      - member of -> political party
+        - member count
+        - name 
+    - currency -> currency
+    - langauge used -> modern language
+  - Description
+    - Model a data structure for exchanging general information about world countries. The data will be used to form a small information panel. The data structure should contain the number of people living in the country, the overall size, a name, nominal GDP, and GDP at purchasing power parity of the country. Each country has a capital city with a total population and a name. The information panel will also contain a current head of state with a name and time of election to office. The head of state also pertains to a political party. The panel must contain the name of the party and the overall number of members. Lastly, the panel will contain information about the official language and currency.
+  - Link
+    - http://www.wikidata.org/entity/Q6256
+
+<br>
+
+- A touristic attraction
+  - Properties:
+    -  Disabled accessibility -> quality
+    -  Link to a official website
+    -  Owned by -> human
+       -  telephone
+       -  email
+    -  Operator -> organization
+       -  tepephone
+       -  email
+    -  The maximum number of people allowed into the attraction.
+    -  A language used -> language
+    -  Opening time -> time
+    -  Opening days -> days of the week
+    -  Full address 
+    -  A country -> country
+    -  Coordinate location
+  - Description:
+    - Model a data structure for representing tourist attractions on Google Maps. The data structure should contain information about the official website, opening times, and attraction entry fees. Additionally, there is the need to include an organization that operates the place and a person that owns it. Each attraction has a limit of tourists available to entry, a language available at the site, and information about accessibility for disabled people. The tourist attraction has a complete address with a country and its coordinated location on the map. Lastly, we need the owner's and operator's email addresses and telephone numbers.
+  - Link:
+    - http://www.wikidata.org/entity/Q570116
+
+<br>
+
+### More in depth modeling
 
 - A scholarly article
   - Properties
     - Title
     - Publication name
     - DOI
-    - Main subject - about biological processes
-    - Works that cite this article
-    - Works that are cited by this article
-    - published in 
+    - Main subject to genes
+        - Genomic end
+        - Genomic start
+        - Genomic association -> Rare disease
+          - Symptoms and signs -> Symptoms and signs
+            - name
+            - SNOMED ID
+          - name
+          - SNOMED ID
+        - Encodes -> protein
+        - Chromosome -> chromosone
+    - Works that cite this article <- article 
+      - DOI identifier
+    - Works that are cited by this article -> article
+      - DOI identifier
+    - Published in -> journal
+        - Name
+        - Official website
   - Description
-    - Model a data structure for exchanging data about scholarly articles that specialize in proteins. The data structure should have a title, a publication date, and DOI identifier. Subsequently, a journal that the article was published in should be present with it's name and official website. The article is also described by articles that it is cited by and the articles it cites itself. The citation articles should only contain DOI identifiers. Lastly, the article contains a description of the main subject proteins. The description contains a protein family the protein is part of and a chemical formula of the protein.
+    - Model a data structure for applications exchanging data about scholarly articles specialized in genes that cause rare diseases. The data structure should have a title, a publication date, and a DOI identifier. Subsequently, the journal where the article was published should be present with its name and official website. The scholarly article is also described by the articles it is cited by and the articles it cites. The citation articles only contain DOI identifiers. Lastly, the scholarly article includes a description of the main subject, genes. The genes should contain a genomic end, a genomic start, and an HGNC identifier. The genes are also associated with a rare disease, the protein they encode, and the containing chromosome. For rare diseases, we need a name, a SNOMED disease ID, and a list of symptoms with a name and a reference to SNOMED symptom identifiers. 
   - Link
     - http://www.wikidata.org/entity/Q13442814
 
 <br>
 
-- A touristic attraction
+- Album
   - Properties:
-    - + disabled accessibility - quality
-    - + link to a official website
-    - + A person that owns the attraction.
-    - + The organization that operates the attraction.
-    - + The maximum number of people allowed into the attraction.
-    - + a language used
-    - + opening time 
-    - + opening days
-    - + full address 
-    - + a country
+    - Publication date
+    - Title
+    - Number of parts of this work
+    - Review score
+    - Spotify album id
+    - Performer -> musical group 
+      - Inception
+      - Name
+      - Members count
+      - Spotify artist id 
+      - Member of <- human
+        - Birth name
+        - Pseudonym
+        - Country of citizen ship -> country
+        - Time of join
+      - Has parts -> songs
+        - Duration
+        - Title
+        - Audio
+        - Video
+        - Lyrics by -> human
+          - Birth name
+          - Country of citizen ship
+      - genre -> Music genre
+        - Label
+        - Url
   - Description:
-    - Model a data structure for exchanging data about touristic attractions. The data structure should contain information about the official website, opening times, and entry fee of the attraction. Additionally, there is the need to include organization that operates the place and a person that owns it. Each attraction has a limit of tourists available to entry, a language available at the site, and information about accessibility for disabled people. Lastly, the touristic attraction has a full address and a country it is located in.
+    - Model a data structure for exchanging data about musical albums for a new audio player application. An album is characterized by the date it was published, a title, a reference to a Spotify album, and the number of songs it contains. Additionally, users' reviews must be included to enable relevant ordering. The album is associated with the musical group that performs the song, a genre of music, and a list of songs. Each song has a duration, title, and appropriate audio and video files. Each song also includes a writer of lyrics, denoted by its name and country of origin. The musical group encompasses inception time, the name of the group, a reference to a Spotify artist, and a number of members. The musical group has members represented by their pseudonym, the time the member joined the group, a name, and, again, country of origin. Lastly, the genre will be displayed only with its name and a link to additional information.
   - Link:
-    - http://www.wikidata.org/entity/Q570116
+    - http://www.wikidata.org/entity/Q482994
 
-### Recursive modeling
-
-- Neco vic in depth
-- Neco vic in depth
