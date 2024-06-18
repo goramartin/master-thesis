@@ -124,8 +124,8 @@ You are assigned four data structure descriptions listed below. For each descrip
         - Did you find a root class?
             -  did not find ... found perfect class
         - Insert it's name and an identifier (located next to it's name in parenthesis). 
-        - Using the property filter helped me to find the right class.
-        - Using the boosting of widely used classes helped me to find the right class.
+        - ? Using the property filter helped me to find the right class.
+        - ? Using the boosting of widely used classes helped me to find the right class.
 
 1. General questions
     1. The search engine returned relevant results to the provided queries.
@@ -141,4 +141,5 @@ You are assigned four data structure descriptions listed below. For each descrip
 
 ## Tasks
 
-
+- Something about administrative districts in the czech republic or just administrative entities
+- 

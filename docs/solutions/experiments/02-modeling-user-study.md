@@ -50,7 +50,7 @@ The data structure is further modeled by adding properties of the already added 
 
 **Task**
 
-Your task is to model four data structures based on the domain descriptions listed below. There are four domain descriptions. For each description, you will create one data structure. Please, follow the instructions below.
+Your task is to model four data structures based on the domain descriptions listed below. For each description, you will create one data structure using the Dataspecer tool. During the tasks, please, pay attention to the "Add interpreted surroundings" dialog, since you will need to fill in the questionaire questions about the dialog later. Please, follow the instructions below.
 
 **Instructions**
 
@@ -59,16 +59,16 @@ Your task is to model four data structures based on the domain descriptions list
      2. Click on the "Create specification" button, enter label "modeling_testing".
      3. In the "Vocabulary sources" select Wikidata and click on the button "save".
 2. Iterate over the domain descriptions listed below from top to bottom and do:
-   1. At the top the data specification page, click on the "Create data structure" button.
+   1. At the top of the data specification page, click on the "Create data structure" button.
    2. At the top right corner, click on the "Set root element".
    3. Into the input box, copy the IRI of the root class.
    4. Select the class by clicking on it.
    5. Start modeling the data structure by clicking on the `(+)` button next to the class name. The button opens a surroundings dialog.
       - Select appropriate properties, then click confirm.
-      - Repeat on the added properties until you are satisfied. 
+      - Repeat on the added properties associations until you are satisfied. 
       - Model the domain for 10 minutes maximum.
       - [A guide how to use the dialogs]()
-   6. When you are finished or the time expires, click on the button "Back to specification manager" in the right upper corner.
+   6. When you are finished or the time expires, click on the button "Back to specification manager" in the left upper corner.
 3. After you finish all the modeling tasks, fill in the questionare below.
 
 **Domain descriptions**:
@@ -128,7 +128,7 @@ Your task is to model four data structures based on the domain descriptions list
     - currency -> currency
     - langauge used -> modern language
   - Description
-    - Model a data structure for exchanging general information about world countries. The data will be used to form a small information panel. The data structure should contain the number of people living in the country, the overall size, a name, nominal GDP, and GDP at purchasing power parity of the country. Each country has a capital city with a total population and a name. The information panel will also contain a current head of state with a name and time of election to office. The head of state also pertains to a political party. The panel must contain the name of the party and the overall number of members. Lastly, the panel will contain information about the official language and currency.
+    - Model a data structure for exchanging general information about world countries. The data will be used to form a small information panel for an educational application. The data structure should contain the number of people living in the country, the overall size, a name, nominal GDP, and GDP at purchasing power parity of the country. Each country has a capital city with a total population and a name. The information panel will also contain a current head of state with a name and time of election to office. The head of state also pertains to a political party. The panel must contain the name of the party and the overall number of members. Lastly, the panel will contain information about the official language and currency.
   - Link
     - http://www.wikidata.org/entity/Q6256
 
