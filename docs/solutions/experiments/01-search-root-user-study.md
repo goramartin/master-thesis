@@ -69,7 +69,7 @@ Thank you for participating in the user study.
 
 **Introduction**
 
-[The Dataspecer tool](https://dataspecer.com/) enables users to model a tree-like data structure based on an input ontology.
+[The Dataspecer tool](https://dataspecer.com/) enables users to model a tree-like data structures based on an input ontology.
 The data structure can be used to generate various software artifacts.
 The ontology is a set of classes and properties. 
 To create the data structure, one must start by searching for an appropriate root class of the data structure.
@@ -78,7 +78,7 @@ The data structure is further modeled by adding properties of the already added 
 
 **Task**
 
-You are assigned four data structure descriptions listed below. For each description, you are tasked to search for an appropriate root class of the data data structure in the Wikidata ontology. Please, follow the instructions below.
+You are assigned four data structure descriptions listed as part of the questionnaire. For each description, you are tasked to search for an appropriate root class of the data structure in the Wikidata ontology using the Dataspecer tool. **Your task is to only find the root class. Do not model the entire data structure.**
 
 **Instructions**
 
@@ -88,11 +88,10 @@ You are assigned four data structure descriptions listed below. For each descrip
      3. In the "Vocabulary sources" select Wikidata and click on the button "save".
      4. Proceed by clicking on the large rectangle "Create data structure" button at the top of the page.
      5. Click the "Set root element".
-     6. In the top side of the panel select the **method X**.
+     6. **In the top side of the panel select the method X.**
      7. You have successfully opened the search dialog.
-2. The questionare below contains the four data structure descriptions. Fill in the root search tasks questions. 
-   - Your task is to only find the root class, you are not supposed to model the entire data structure.
-   - During the search, please, try paying attention to the result lists and their relevance to your queries. You will need to answer a question about relevance in the questionaire.
+2. The questionnaire below contains the four data structure descriptions. Fill in the root search tasks questions. 
+   - During the search, please, try paying attention to the result lists and their relevance to your queries. You will need to answer a question about relevance in the questionnaire.
 3. When you are finished with the tasks. Fill in the rest of the questions.
 
 **The search dialog tips**
@@ -138,8 +137,64 @@ You are assigned four data structure descriptions listed below. For each descrip
     8. The search engine enabled me to accomplish the tasks.
     9. I would you the search engine again.
   
-
 ## Tasks
 
-- Something about administrative districts in the czech republic or just administrative entities
-- 
+1. A bunker
+   - Link
+     - http://www.wikidata.org/entity/Q91122
+   - Properties
+     - service entry
+     - service retirement
+     - maximum capacity
+     - floors below ground
+     - schematic
+     - state of conservation -> conservation state
+     - significant events -> battle 
+     - conflicts -> world war
+   - Description
+     - Find the root of a data structure for exchanging data about defensive military buildings designed to protect people and materials from enemy attacks. The buildings were extensively used during World War I-II and usually contained many floors below ground. The data will be used to display information panels in a war museum. The root needs to represent information about conflicts and significant battles the building participated in. Information about the building's schema, capacity, and time it entered and retired service must also be included. Lastly, the panel must state the current state of conservation.
+
+<br>
+
+2. A co-educational school
+  - Link
+    - http://www.wikidata.org/entity/Q67383935
+  - Properties
+    - students count
+    - name
+    - teaching methods
+    - curriculum topics
+    - educated at
+  - Description
+    - Find the root class of a data structure for exchanging data about schools/universities that enable enrollment of both male and female students. The data will form an online brochure for educational institutes' fairs. The root class needs to be associated with famous people who were educated at the institute, the number of current students, a name, and methods used for teaching. Topics/subjects included in the curriculum must also be present. 
+  
+<br>
+
+1. A type of chemical entity
+   - Link
+     - https://www.wikidata.org/wiki/Q113145171
+   - Properties
+     - chemical formula
+     - chemical structure
+     - mass
+     - has effect
+     - InCHl
+     - interacts with
+   - Description
+     - Find the root class of a data structure for exchanging data about general chemical substances and entities. The class must be general enough to encompass all objects of interest in chemistry. The most important properties are the description of the chemical formula accompanied by a chemical structure and the weight of the chemical object. Additionally, the class must provide properties for the effects of the objects, an international chemical identifier (InChl), and a list of other objects it interacts with.
+
+<br>
+
+4. A municipality of Luxembourg
+   - Link
+     - http://www.wikidata.org/entity/Q2919801
+   - Properties
+     - unemployment rate
+     - number of households
+     - average income
+     - poverty incidence
+     - population
+     - electoral district
+     - cadastral district
+   - Description
+     - Find the root class of a data structure for exchanging data about administrative territorial entities that provide municipal services in Luxembourg. The data will be provided for Luxembourg's Open Data Catalogue. The root class must provide a name and statistical information about the entities. The class should represent the population, the unemployment rate, the number of households, the average income, and the incidence of poverty. Furthermore, an associated electoral and cadastral district must be present.

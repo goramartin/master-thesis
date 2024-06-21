@@ -50,7 +50,7 @@ The data structure is further modeled by adding properties of the already added 
 
 **Task**
 
-Your task is to model four data structures based on the domain descriptions listed below. For each description, you will create one data structure using the Dataspecer tool. During the tasks, please, pay attention to the "Add interpreted surroundings" dialog, since you will need to fill in the questionaire questions about the dialog later. Please, follow the instructions below.
+Your task is to model three data structures based on the domain descriptions listed below. For each description, you will create one data structure using the Dataspecer tool. During the tasks, please, pay attention to the "Add interpreted surroundings" dialog, since you will need to fill in the questions about the dialog later. Please, follow the instructions below.
 
 **Instructions**
 
@@ -66,21 +66,14 @@ Your task is to model four data structures based on the domain descriptions list
    5. Start modeling the data structure by clicking on the `(+)` button next to the class name. The button opens a surroundings dialog.
       - Select appropriate properties, then click confirm.
       - Repeat on the added properties associations until you are satisfied. 
-      - Model the domain for 10 minutes maximum.
+      - **Model the domain for 10 minutes maximum.**
       - [A guide how to use the dialogs]()
    6. When you are finished or the time expires, click on the button "Back to specification manager" in the left upper corner.
-3. After you finish all the modeling tasks, fill in the questionare below.
+3. After you finish all the modeling tasks, fill in the questionnaire below.
 
 **Domain descriptions**:
 
-1. X
-   - Root class:  
-2. X
-   - Root class: 
-3. X
-   - Root class: 
-4. X
-   - Root class: 
+[Link]()
 
 -------------
 
@@ -138,9 +131,6 @@ Your task is to model four data structures based on the domain descriptions list
   - Properties:
     -  Disabled accessibility -> quality
     -  Link to a official website
-    -  Owned by -> human
-       -  telephone
-       -  email
     -  Operator -> organization
        -  tepephone
        -  email
@@ -152,7 +142,7 @@ Your task is to model four data structures based on the domain descriptions list
     -  A country -> country
     -  Coordinate location
   - Description:
-    - Model a data structure for representing tourist attractions on Google Maps. The data structure should contain information about the official website, opening times, and attraction entry fees. Additionally, there is the need to include an organization that operates the place and a person that owns it. Each attraction has a limit of tourists available to entry, a language available at the site, and information about accessibility for disabled people. The tourist attraction has a complete address with a country and its coordinated location on the map. Lastly, we need the owner's and operator's email addresses and telephone numbers.
+    - Model a data structure for representing tourist attractions on Google Maps. The data structure should contain information about the official website, opening times, and entry fees. Additionally, there is the need to include an organization that operates the place with an email address and a telephone number. Each attraction has a limit of tourists available to entry, a language available at the site, and information about accessibility for disabled people. Lastly, the tourist attraction has a complete address, including country, and it's coordinates on the map. 
   - Link:
     - http://www.wikidata.org/entity/Q570116
 
@@ -176,6 +166,7 @@ Your task is to model four data structures based on the domain descriptions list
           - SNOMED ID
         - Encodes -> protein
         - Chromosome -> chromosone
+          - 3D model
     - Works that cite this article <- article 
       - DOI identifier
     - Works that are cited by this article -> article
@@ -184,7 +175,7 @@ Your task is to model four data structures based on the domain descriptions list
         - Name
         - Official website
   - Description
-    - Model a data structure for applications exchanging data about scholarly articles specialized in genes that cause rare diseases. The data structure should have a title, a publication date, and a DOI identifier. Subsequently, the journal where the article was published should be present with its name and official website. The scholarly article is also described by the articles it is cited by and the articles it cites. The citation articles only contain DOI identifiers. Lastly, the scholarly article includes a description of the main subject, genes. The genes should contain a genomic end, a genomic start, and an HGNC identifier. The genes are also associated with a rare disease, the protein they encode, and the containing chromosome. For rare diseases, we need a name, a SNOMED disease ID, and a list of symptoms with a name and a reference to SNOMED symptom identifiers. 
+    - Model a data structure for applications exchanging data about scholarly articles specialized in genes that cause rare diseases. The data structure should have a title, a publication date, and a DOI identifier. Subsequently, the journal that published the article should be present with its name and a link to an official website. The scholarly article is also described by the articles it is cited by and the articles it cites. The citation articles only contain DOI identifiers. Lastly, the scholarly article includes a brief description of the main subject, genes. The description should contain a HGNC identifier of the gene and an associated rare disease, the protein they encode, and the containing chromosome. For rare diseases, we need a name, a SNOMED disease indetifier, and a list of symptoms with, again, a name and a reference to SNOMED symptom identifiers. Lastly, the chromosone will be displayed by it's 3D model.
   - Link
     - http://www.wikidata.org/entity/Q13442814
 
@@ -214,12 +205,11 @@ Your task is to model four data structures based on the domain descriptions list
         - Video
         - Lyrics by -> human
           - Birth name
-          - Country of citizen ship
       - genre -> Music genre
         - Label
         - Url
   - Description:
-    - Model a data structure for exchanging data about musical albums for a new audio player application. An album is characterized by the date it was published, a title, a reference to a Spotify album, and the number of songs it contains. Additionally, users' reviews must be included to enable relevant ordering. The album is associated with the musical group that performs the song, a genre of music, and a list of songs. Each song has a duration, title, and appropriate audio and video files. Each song also includes a writer of lyrics, denoted by its name and country of origin. The musical group encompasses inception time, the name of the group, a reference to a Spotify artist, and a number of members. The musical group has members represented by their pseudonym, the time the member joined the group, a name, and, again, country of origin. Lastly, the genre will be displayed only with its name and a link to additional information.
+    - Model a data structure for exchanging data about musical albums for a new audio player application. An album is characterized by the date it was published, a title, a reference to a Spotify album, and the number of songs it contains. Additionally, users' reviews must be included to enable relevant ordering. The album is associated with the musical group that performs the song, a genre of music, and a list of songs. Each song has a duration, a title, and appropriate audio and video files. Each song also includes a writer of lyrics, denoted by its name. The musical group encompasses inception time, the name of the group, a reference to a Spotify artist, and a number of members. The musical group has members represented by their pseudonym, the time the member joined the group, a name, and a country of origin. Lastly, the genre will be displayed only with its name and a link to additional information.
   - Link:
     - http://www.wikidata.org/entity/Q482994
 

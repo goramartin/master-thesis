@@ -303,3 +303,8 @@ Pro dve veci mame dve ruzne metody.
   - dobre pro clanky
 
 
+# Post user's generating querties process
+
+# Why are we not testing all the data with generated queries?
+
+- Becuase it would take too long.

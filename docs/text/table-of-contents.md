@@ -1,3 +1,5 @@
+- na zacatku otazka jak manipulovat s wikidaty pro model driven data.
+
 
 - small intro
   - what we will be doing - as in bachelor thesis
@@ -79,6 +81,9 @@
   - intergration
 - user interface
 - tesing
+  - obecne otazky testovani 
+    - hledani korene
+    - a jak dobre se nam s tim manipuluje
   - queries
   - results
   - performance
