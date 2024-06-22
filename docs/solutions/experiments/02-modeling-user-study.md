@@ -160,8 +160,6 @@ Your task is to model three data structures based on the domain descriptions lis
         - Genomic start
         - Genomic association -> Rare disease
           - Symptoms and signs -> Symptoms and signs
-            - name
-            - SNOMED ID
           - name
           - SNOMED ID
         - Encodes -> protein
@@ -175,7 +173,7 @@ Your task is to model three data structures based on the domain descriptions lis
         - Name
         - Official website
   - Description
-    - Model a data structure for applications exchanging data about scholarly articles specialized in genes that cause rare diseases. The data structure should have a title, a publication date, and a DOI identifier. Subsequently, the journal that published the article should be present with its name and a link to an official website. The scholarly article is also described by the articles it is cited by and the articles it cites. The citation articles only contain DOI identifiers. Lastly, the scholarly article includes a brief description of the main subject, genes. The description should contain a HGNC identifier of the gene and an associated rare disease, the protein they encode, and the containing chromosome. For rare diseases, we need a name, a SNOMED disease indetifier, and a list of symptoms with, again, a name and a reference to SNOMED symptom identifiers. Lastly, the chromosone will be displayed by it's 3D model.
+    - Model a data structure for applications exchanging data about scholarly articles specialized in genes that cause rare diseases. The data structure should have a title, a publication date, and a DOI identifier. Subsequently, the journal that published the article should be present with its name and a link to an official website. The scholarly article is also described by the articles it is cited by and the articles it cites. The citation articles only contain DOI identifiers. Lastly, the scholarly article includes a brief description of the main subject, genes. The description should contain a HGNC identifier of the gene and an associated rare disease, the protein they encode, and the containing chromosome. For rare diseases, we need a name, a SNOMED disease indetifier, and a list of symptoms. Lastly, the chromosone will be displayed by it's 3D model.
   - Link
     - http://www.wikidata.org/entity/Q13442814
 

@@ -100,6 +100,7 @@ Questionare questions:
 - We also provide generated queries using labels, descriptions, and their combinations, because we did not want the people to copy paste the names with description. It will be included in the testing.
 - We do not include aliases, since the users were allowed to use those directly.
 - Also we were curious how much adding the label to the human generated queries influences the results.
-- The queries are associated with: user id, class id, query_id (human vs generated vs mix).
-- We want to measure overall mean reciprocal rank, then mean reciprocal rak per class, per user, overall with only maximum per class
+- The queries are associated with: user id, class id, query_id (human vs generated vs mix), class_category_id, and method_id
+- We want to measure overall mean reciprocal rank, then mean reciprocal rak per class, (per user?), overall with only maximum per class -> meaning that the user found the class.
 - We noted that the time to execute all the queries can be rather long. So to measure the Reranking using cross encoder, we used only the top solution based on the weight ratio.
+- There is also question how to execute the boost parameters -> the idea would be to use 0.25, 0.5 and 0.75, again for the best solutions. Maybe it could be done on the entire set?
