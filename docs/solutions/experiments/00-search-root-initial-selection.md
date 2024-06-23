@@ -104,3 +104,4 @@ Questionare questions:
 - We want to measure overall mean reciprocal rank, then mean reciprocal rak per class, (per user?), overall with only maximum per class -> meaning that the user found the class.
 - We noted that the time to execute all the queries can be rather long. So to measure the Reranking using cross encoder, we used only the top solution based on the weight ratio.
 - There is also question how to execute the boost parameters -> the idea would be to use 0.25, 0.5 and 0.75, again for the best solutions. Maybe it could be done on the entire set?
+
