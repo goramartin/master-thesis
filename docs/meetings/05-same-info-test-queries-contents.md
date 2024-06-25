@@ -146,12 +146,21 @@ Properties input bar
 ```
 - intro
   - velice rychle dataspecer, concpetualni modely, muzeme vyuzit to co uz mame - wikidata
+  - modelovani je tezke kdyz se dela rucne
+  - musime rozlisit konceptualni model ve dvou situacich
+    - chci popsat jednu svoji domenu v enterprise domene, nezbyva nez modelovat rucne
+    - nebo vytvarit model pro komunikaci pro vymenu dat v prostredi a tam si nemuzu moc vymyslet specifika, nejake spolecne a chceme to prevzit od nekud
+      - to spolecne uz je namodelovane
+      - i v tom extremu muzu nekde odnekud prevzit
+    - cim vic jsme v heterogennim postredi tim vic chceme pouzit to co uz je namodelovano 
   - neni to jednoduche - nevime co je ontologie a je velka
   - umoznime dataspeceru brat conceptualni model z wikidat
   - analyzujeme co to znamena, naprogramujeme extension a otestujeme
+  - rekneme ze navazuje na softwarovy projekt
 - dataspecer intro
   - uzivalteske hledisko
   - conceptualni modely - cim, pim, psm
+  - z analyzovat vnitrni architekturu, ze mame adaptery jak to
   - a ten vstup chceme brat jako wikidata - novy adapter
 - information retrieval intro
   - jak jsme videli wikidata jsou velke - chceme cislo, pocet trid bez vetsiho detailu
@@ -159,6 +168,8 @@ Properties input bar
   - chceme konkretni metody ktere vyuzijeme
 - wikidata analysis
   - do detailu v jake strukture jsou ty ontologie zakodovane a velikost
+  - do hlounku z jake pohopim ze prijdu k wikidatum a ze nemam tu ontologii jen tak
+  - co znamena tu ontologii z toho dostat
   - je mozne se dotazovat na verejna api a rict proc se to neda pouzit
   - konstatovat - tu ontologii musime identifikovat, preprocesovat, indexovat
 - requirements analysis
@@ -171,16 +182,20 @@ Properties input bar
   - pozadavky na vysledny conceptualni model
     - co chceme za model a namapovat ho na strukturu ve wikidatech
       - co si z nich beru a do ceho to transformujeme
-- solutions
+- design solutions
   - achitecture
+  - design soluto
   - solutions in depth and why
 - implementation
   - pruvodce pro programatora
     - orientace
     - kam sahnout kdyz chceme neco upravit
-- testing
+- evaluace 
+  - co pripravujeme
+  - user 
 - related work
 - conclusion
+  - ze jsme to rozsirili vyzkumny projekt vs diplomka
   - + future work, open questions
 ```
 
