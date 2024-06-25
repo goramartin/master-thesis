@@ -115,3 +115,45 @@
 - Where to write and share.
 - How to structure the diploma with the research project
 - Level of formalism on Wikidata and Dataspecer.
+
+
+```
+- intro
+  - velice rychle dataspecer, concpetualni modely, muzeme vyuzit to co uz mame - wikidata
+  - neni to jednoduche - nevime co je ontologie a je velka
+  - umoznime dataspeceru brat conceptualni model z wikidat
+  - analyzujeme co to znamena, naprogramujeme extension a otestujeme
+- dataspecer intro
+  - uzivalteske hledisko
+  - conceptualni modely - cim, pim, psm
+  - a ten vstup chceme brat jako wikidata - novy adapter
+- information retrieval intro
+  - jak jsme videli wikidata jsou velke - chceme cislo, pocet trid bez vetsiho detailu
+  - chceme metody IR
+  - chceme konkretni metody ktere vyuzijeme
+- wikidata analysis
+  - do detailu v jake strukture jsou ty ontologie zakodovane a velikost
+  - je mozne se dotazovat na verejna api a rict proc se to neda pouzit
+  - konstatovat - tu ontologii musime identifikovat, preprocesovat, indexovat
+- requirements analysis
+  - analysis of requirements on dataspecer extension
+  - funkcni pozadavky
+    - nasepta mi to koren na zaklade tridy, na zaklade propert, filtrovani
+  - kvalitativni pozadavky
+    - musime zvladnou objem ve wikidatech
+    - opakovani preprocesingu
+  - pozadavky na vysledny conceptualni model
+    - co chceme za model a namapovat ho na strukturu ve wikidatech
+      - co si z nich beru a do ceho to transformujeme
+- solutions
+  - achitecture
+  - solutions in depth and why
+- implementation
+  - pruvodce pro programatora
+    - orientace
+    - kam sahnout kdyz chceme neco upravit
+- testing
+- related work
+- conclusion
+  - + future work, open questions
+```
