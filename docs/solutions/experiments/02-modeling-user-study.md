@@ -139,10 +139,9 @@ Your task is to model three data structures based on the domain descriptions lis
     -  Opening time -> time
     -  Opening days -> days of the week
     -  Full address 
-    -  A country -> country
     -  Coordinate location
   - Description:
-    - Model a data structure for representing tourist attractions on Google Maps. The data structure should contain information about the official website, opening times, and entry fees. Additionally, there is the need to include an organization that operates the place with an email address and a telephone number. Each attraction has a limit of tourists available to entry, a language available at the site, and information about accessibility for disabled people. Lastly, the tourist attraction has a complete address, including country, and it's coordinates on the map. 
+    - Model a data structure for representing tourist attractions on Google Maps. The data structure should contain information about the official website, opening times, and entry fees. Additionally, an organisation that operates the place must be included with an email address and a telephone number. Each attraction has a limit of tourists available to entry, a language available at the site, and information about accessibility for disabled people. Lastly, the tourist attraction has a complete address and global coordinates on the map.
   - Link:
     - http://www.wikidata.org/entity/Q570116
 
@@ -156,8 +155,6 @@ Your task is to model three data structures based on the domain descriptions lis
     - Publication name
     - DOI
     - Main subject to genes
-        - Genomic end
-        - Genomic start
         - Genomic association -> Rare disease
           - Symptoms and signs -> Symptoms and signs
           - name
@@ -173,7 +170,7 @@ Your task is to model three data structures based on the domain descriptions lis
         - Name
         - Official website
   - Description
-    - Model a data structure for applications exchanging data about scholarly articles specialized in genes that cause rare diseases. The data structure should have a title, a publication date, and a DOI identifier. Subsequently, the journal that published the article should be present with its name and a link to an official website. The scholarly article is also described by the articles it is cited by and the articles it cites. The citation articles only contain DOI identifiers. Lastly, the scholarly article includes a brief description of the main subject, genes. The description should contain a HGNC identifier of the gene and an associated rare disease, the protein they encode, and the containing chromosome. For rare diseases, we need a name, a SNOMED disease indetifier, and a list of symptoms. Lastly, the chromosone will be displayed by it's 3D model.
+    - Model a data structure for applications exchanging data about scholarly articles specialised in genes that cause rare diseases. The data structure should have a title, a publication date, and a DOI identifier. Subsequently, the journal that published the article should be present with its name and a link to an official website. The scholarly article is also described by the articles it is cited by and the articles it cites. The citation articles only contain DOI identifiers. The data structure includes a description of the article’s main subject, genes. The description should contain an HGNC identifier of the gene and an associated rare disease, the protein they encode, and the containing chromosome. For rare diseases, we need a name, a SNOMED disease identifier, and a list of symptoms. Lastly, the chromosome will be displayed by its 3D model.
   - Link
     - http://www.wikidata.org/entity/Q13442814
 
@@ -195,7 +192,6 @@ Your task is to model three data structures based on the domain descriptions lis
         - Birth name
         - Pseudonym
         - Country of citizen ship -> country
-        - Time of join
       - Has parts -> songs
         - Duration
         - Title
@@ -207,7 +203,7 @@ Your task is to model three data structures based on the domain descriptions lis
         - Label
         - Url
   - Description:
-    - Model a data structure for exchanging data about musical albums for a new audio player application. An album is characterized by the date it was published, a title, a reference to a Spotify album, and the number of songs it contains. Additionally, users' reviews must be included to enable relevant ordering. The album is associated with the musical group that performs the song, a genre of music, and a list of songs. Each song has a duration, a title, and appropriate audio and video files. Each song also includes a writer of lyrics, denoted by its name. The musical group encompasses inception time, the name of the group, a reference to a Spotify artist, and a number of members. The musical group has members represented by their pseudonym, the time the member joined the group, a name, and a country of origin. Lastly, the genre will be displayed only with its name and a link to additional information.
+    - Model a data structure for exchanging data about musical albums for a new audio player application. An album is characterised by the date it was published, a title, a reference to a Spotify album, and the number of songs it contains. Additionally, users' reviews must be included to enable relevant ordering. The album is associated with the musical group that performs the song, a genre of music, and a list of songs. Each song has a duration, a title, and appropriate audio and video files. Each song also includes a writer of lyrics, denoted by its name. The musical group encompasses inception time, the name of the group, a reference to a Spotify artist, and a number of members. The musical group has members represented by pseudonyms, a name, and a country of origin. Lastly, the genre will be displayed only with its name and a link to additional information.
   - Link:
     - http://www.wikidata.org/entity/Q482994
 
