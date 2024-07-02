@@ -2,6 +2,8 @@
 # Searching classes in Wikidata ontology
 
 ## intro
+
+- Intro ontologii
 - motivation od dataspecer from stepan
   - komunikace mezi systemy vede na ruzna schemata
   - delat to rucne je tezke, ruzna pravidla a dorozumeni
@@ -37,28 +39,62 @@
 
 ## dataspecer intro do hloubky ted uz vice technicky
 
-- co to je datapecer a na co se pouziva
-  - opacko z intra trochu vic podrobneji
-  - nezminovat nic o te nase ontologii a integraci
-- uzivatelske hledisko
-  - uzivatel vybira vstupni ontologii
-  - dela nejake datove specifikace
-  - uvnitr specifikace mame datove struktury
+- Sekce ma popopsat vlastnosti a architekturu datespeceru
+  - Nezminujeme nic o integraci nove ontologie
+- pohled na dataspecer z uzivatelskeho hlediska
+  - uzivatel vytvari project called data specification
+  - popis vytvareni datove stuktury podrobneji nez introduction
+    - uzivate
+    - uzivatel vybira vstupni ontologii pro cil vytvoreni datove struktury pro vymenovani dat o turistickych cilech
+    - cely procedure ma byt popsan na danem priklade -> mozna obrazky?
+    - vyhledavani korene
+      - probiha textove hledani uvnitr cele ontologie
+    - vyber vlastnosti ktere se pridavaji do datove struktury
+      - uzivatel rozklikne ten dialog
+      - ma rozdeleni na attributy, associace, a zpetne associcace, kazda property ma jeden enpoint
+      - proklikavani predku meni se v ramci hierarchie
+      - proklikavani attributu a asociaci
+      - dale zde hraje roli dalsi veci jako cardinalita a vyber typy
+      - obrazek ze z toho vznikne graph
+      - replace along hierarchy
+    - recurzivni prace proklikavani dalsich trid
+    - vytvareni tech artefaktu 
+    - also generating artifacts between the formats
+      - shlukuje abstraktni schemata v ramci datovych struktur
+      - mame generatory a artefacts
+        - specification artefacts do not depend on sconcrete schemas
+        - achema artifacts
   - popis tvorby datove struktury
-    - uzivalteske hledisko a modelovani vic do hloubky nez v tom intru
-    - obrazky, vystupy
-- z analyzovat vnitrni architekturu a model
+- Jak to funguje na pozadi - z analyzovat vnitrni architekturu a model
   - conceptualni modely 
-    - cim, pim, psm
-    - jak ten model vlastne vypada
-    - abychom vedeli co se tam deje a pak to popsat z pohledu uzivatele
-    - mozna mapovani na ten pim protoze je dulezity
-  - pohleda na vnitrek
-  - je tam vic aplikaci
-  - services
-  - packages
+    - cim, pim, psm - obrazek hierarchie
+      cim Computational Independent Model
+        - epresents the remote ontology on the web 
+        - ontologie co ma tridy, associace a attributy.
+        - inhertance but most of them do
+        - it is the only source they can use to create schemas, schemas represent mapping to the ontology, because parts are mapped it can give guidance on how to add more.
+        - ontologie nemusi byt vzdycky visible
+        - concepts can point to another ontology
+        - poblish the ontology in external tool, publish it, and then model the schema of the application
+        - formats in rdfs, doain adn range classes - pim atd...
+        - following ufo - relators, because it can represent a property in both directions, and simpler ontologies will not ahve the reverse direction described
+        - he definition tells us that the CIM can be viewed as a PIM with an interpretation as a pointer to the original thing in the ontology. In practice, it is the IRI of the entity in the ontology
+    - pim
+      - is used as a copy of the cim layer, contain necessary netities that are copied into it.
+      - copying enables seemless workflow, and siplifieng the work flow.
+      - jak ten model vlastne vypada, popsani pimu na zaklade stepanovy prace
+      - the defined abstract structure
+      - popsat mapovani od stepana strana 38
+    - psm represents the general schema, contains genrators, metadata, reused specs.
+      - they state that pim is part of the specification with multiple psn
+      - it is not graph nor connected graph
+      - strana 37 obrazek
+  - pohled na architekturu aplikace
+    - musi tam byt backend a clientska aplikace
+    - uvnitr komponenty 
+      - editor, manager, packages, adapters (53)
   - zajima nas v pakcaged adapter a hlavne editor aplikace 
-  - a ten vstup chceme bereme jako wikidata - novy adapter
+    - a ten vstup chceme bereme jako wikidata - novy adapter
 
 ## information retrieval intro
 
@@ -71,6 +107,9 @@
   - proto mame dva stepy
   - reranking
   - chceme nejaky relevance x similarity
+    - asi dat az pozdeji
+    - relevance with reference to something
+    - cna be score and looking at the order of those things
 - zakladni veci basic text matching - sparse , na zaklade tech veci ze skopalovy prednasky
   - [pouzit tohle jako reference](https://arxiv.org/pdf/2211.14876) pro postup a taky [tohle](https://arxiv.org/pdf/2403.00784)
   - vector space model
@@ -83,7 +122,7 @@
   - partial matching
   - analyzers - english, stop words, tokenizers ...
   - problems that the text matching cannot solve - semantic similarity
-- language models - dense
+- language models - dense (paper on retrieval large scale clinical ontologies)
   - latent semantic indexing jako history
   - ze pracujeme hlavne s dense embeddingy
     - mozna co je to training loss, vstupy a vystupy
@@ -122,14 +161,14 @@
     - ze pouzivame neco jako bert, a pak koukame na distribuci slow v tech vecech, ktere se nejvic hodi pro ty slova co uz mame
     - dela to text expansion takze to zachyti vice veci
 - Indexing the embeddings 
+    - inverted index for words
     - knn and ann
     - hnsw index
-    - inverted index for words
-    - filtering?
-      - post, pre, during
-      - hash maps
+- zminit ze existuje pojem concept similarity, but the problem is that is it not directly related to search since, we compare two given concepts in the ontology, look into paper about wikidata concepts
+  - such as path based
+  - information concet
+  - content based
 - taky zminit ze jsou dalsi veci - jako, machine learning (learning to rank), a ty starsi modely, taky ze tam jsou varianty jako poly encoder (colbert, ale ze to bere hodne pameti, a ze zatim neni moc znam)
-
 
 ## The Wikidata ontology 
 
