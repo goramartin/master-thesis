@@ -14,5 +14,4 @@
             1. The Wikidata ontology shall be kept up to date with the regular updates of Wikidata.
             2. The utilization of the Wikidata ontology inside the Dataspecer will be sufficiently responsive.
             3. The Dataspecer will provide a user-friendly dialogs to search and browse the surroundings of classes of the Wikidata ontology as part of the data structure creation process.
-      - Requirement with immediate analysis?
-        - 
+      - Requirement with immediate analysis and solution design?
