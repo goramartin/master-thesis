@@ -34,7 +34,7 @@ Just not to forget: the best methods used pagerank, hits or number of instances 
    -  they want to find importance that is not based on node degree and how to use it in ranking
    -  they say the node is more important the more literals it has (which is also a degree), nodes connected to important nodes are better and few important rels are better then a lot of unimportant
    -  the aim was to do a sparql query in the end
-3. s0-[Ontology Understanding without Tears: The Summarization Approach](htthttps://www.semantic-web-journal.net/system/files/swj1452.pdf) (2016)
+3. s0-[Ontology Understanding without Tears: The Summarization Approach](https://www.semantic-web-journal.net/system/files/swj1452.pdf) (2016)
    - They want to highlight the most representative concepts of data sources.
    - They view RDFS KB as two graphs: a schema graph and instances graph.
    - The most important nodes have the heighest relevance: relative cardinality and in/out cardinality.

@@ -46,7 +46,7 @@
   - popis vytvareni datove stuktury podrobneji nez introduction
     - uzivate
     - uzivatel vybira vstupni ontologii pro cil vytvoreni datove struktury pro vymenovani dat o turistickych cilech
-    - cely procedure ma byt popsan na danem priklade -> mozna obrazky?
+    - cely procedure ma byt popsan` na danem priklade -> mozna obrazky?
     - vyhledavani korene
       - probiha textove hledani uvnitr cele ontologie
     - vyber vlastnosti ktere se pridavaji do datove struktury
