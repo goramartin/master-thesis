@@ -24,6 +24,20 @@ But they do provide a sense of what can be important in the ontologies.
   - ask for the context before query expansion
   - look at the papers lov, ranking by focus and populariy
 
+<br>
+
+- For diploma
+  - popularity:
+    - pagerank - swoogle
+    - occurences in other documents - falcons
+    - centrality - aktiverank
+    - importances - ontoQA
+    - boosting hihgly reused IRIs - LOV
+    - reverse-page rank - DWRank (hubs and authority based on link analysis - more interconnection the better)
+    - contxt driven - ontology concept search (pre language models)
+    - focus (cue validity based on number of domains of property) - ranking schemas by focus
+
+
 ### Finished
 
 1. [Swoogle: A Search and Metadata Engine for the Semantic Web](https://dl.acm.org/doi/10.1145/1031171.1031289) (2004)
@@ -41,7 +55,7 @@ But they do provide a sense of what can be important in the ontologies.
    - they do first query similarity based on documents
      -  boosting labels and names since it can get lost in a larger documents
   - then they do also popularity sorting
-    - based on the number of occurences in other documents
+    - based on the number of occurences of the objects in other documents, essentially it is linking by owl:sameAs
   - they indexed in lucene score(d, q) = query_sim * populariy, simple multiplier 
   - they devices also the weights on the fields
   - they generate human readable snippets for displaying results
@@ -65,20 +79,37 @@ But they do provide a sense of what can be important in the ontologies.
      - class, instance, properties and global metrics
      - such as population, instances per class, ratios of usages
    - the final score is aggregation of the scores for each found term in the ontology
+   - important metrics:
+     - class metrics
+       - class connectivity
+         - number of relationship instances of the class with instances of other classes
+       - class importance
+         - is defined as the number of instances that belong to the inheritance subtree rooted, i dont like it since the root have the most importance
+       - relationship utilizition
+         - the relationship utilization on instances ratio with respect to the defined properties
+     - property metrics
+       - property importance
+         - usage on instances 
    - also the score is multiplied by a popularity on a term
    - also discusses why it chose the tf idf
 6. [Linked Open Vocabularies (LOV): A gateway to reusable semantic vocabularies on the Web](https://www.semantic-web-journal.net/system/files/swj1178.pdf) (2017)
    - provides a vocabylary management
    - searching concepts based on domain
    - it uses tf idf on terms in a vocabulary with boosting while searching
+   - additionally, they use popularity measure for URIs, it gives higher score for terms that appear in many datasets 
 7. [ARRO: Novel Approach for Ranking Ontologies on the Semantic Web](https://www.semanticscholar.org/paper/2006-1-St-International-Symposium-on-Pervasive-and-Yu-Cao/dcb6af4aa7779db40a8bbc971cfdd86c1c6b7870) (2006)
    - ranking based on logic view - a relationships to other classes and ontologies
+     - a class contains three set
+       - properties aquired through domain and range description
+       - equivalent classes in the other ontologies
+       - other relationships with other classes with the more imporatnce to the hierarchy relations, such as subclass of or intersection of
    - it uses swoogle to retrieve the ontologies 
 8. [Ontology-rank - Ontology selection ranking model for knowledge reuse](https://www.sciencedirect.com/science/article/pii/S0957417410011310) (2011)
    - the paper i hate the most
    - semantic similarity between query and concepts in the ontology
    - they are trying to describe semantic similarity on relations to the query - i imagine it as (bob is friend of sara), they sort of of find the endpoints and relation, and the try to give a number to the relation ship
    - problem is that in my case i dont know the names
+   - also semantic similarity is cured by the language models nowadays
 9.  [OS-Rank - Ranking Ontology Based on Structure Analysis](https://ieeexplore.ieee.org/document/5362262) (2009)
     - the importance of classes in the ontology should not be described by matching the keywords but also structure and semantic rels in the ontology between the class and other classes
     - the metrics are
@@ -102,7 +133,9 @@ But they do provide a sense of what can be important in the ontologies.
     - i was not very satified with the paper, since it is missing a lot of details
 13. [DWRank - Learning Concept Ranking for Ontology Search](https://www.semantic-web-journal.net/system/files/swj883.pdf) (2016)
     - uses simialr metric to page rank
-    - it is trying to say what concepts are central to the ontology and combine it how well the overall connection is between other ontologies  
+    - it is trying to say what concepts are central to the ontology and combine it how well the overall connection is between other ontologies
+      - the more connections the better
+    - the initial combinatio
 
 ### To read
 
@@ -121,12 +154,15 @@ But they do provide a sense of what can be important in the ontologies.
   - cannot use this
 
 - [Ranking Schemas by Focus](https://www.researchgate.net/publication/353514217_Ranking_Schemas_by_Focus_A_Cognitively-Inspired_Approach) (2021)
+  - ranking of schemas
+  - focus - the state or quality of being relevant in storing and retrieving information
   - defines class importance based on cathegorization of properties on a node (domains). This could be usefull, the problem is how to combine it with the number of properties is wikidata. Also they say it works well with noisy schemas and compare it with TF-IDF, BM25, CMM and DEM.
   - they are trying to define cue validity - informativeness, how much the type is informative in the ontology 
   - the entity types focus, namely, what allows to identify the entity types that are maximally informative categories, which have a higher categorization relevance, or, more precisely, which maximize the number of properties and minimize the number of properties shared with other categories. These entity types being, to some extent, related to what expert users consider as “core entity types” or central entity types for a given domain
   - dont know if this is the best thing, since we dont have a lot of properties on types
 
 - [LOD search engine: A semantic search over linked data](https://link.springer.com/article/10.1007/s10844-021-00687-0) (2021)
+  - ranking based on the number of triples in a domain and the number of subjects/objects of triples
 
 - ELECTRE
   -  [A comparative application of multi criteria decision making in ontology ranking](https://link.springer.com/chapter/10.1007/978-3-030-20485-3_5) (2019)

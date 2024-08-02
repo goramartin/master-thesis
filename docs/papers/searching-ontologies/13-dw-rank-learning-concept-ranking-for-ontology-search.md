@@ -39,7 +39,7 @@ Then the user query is used to match labels of concepts and their index values a
 - ranking model
   - two features for ranking
     1. (HubScore) a concept is better the more centrail it is, the extent that the concept is related to the domain for which the ontology is formalized
-    2. (AuthScore) a concept is better it it is in an authoritative ontology
+    2. (AuthScore) a concept is better if it is in an authoritative ontology
   - A link analysis algorithm is used -> something like a page rank -> DualWalkRank
     - they perform link analysis independently on each ontology first and then on the whole corpus (inter-ontology links)
     - they differentiate between the type of a relationship and direction of the walk
